@@ -1,3 +1,5 @@
 node_modules/
 __pycache__/
 .DS_Store
+.ipynb_checkpoints/
+data/steam_real.csv

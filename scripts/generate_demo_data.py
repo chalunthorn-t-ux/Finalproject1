@@ -7,6 +7,7 @@
 """
 import csv
 import json
+import math
 import random
 from datetime import date, timedelta
 from pathlib import Path
@@ -165,6 +166,95 @@ for i in range(1, 1501):
 training.sort(key=lambda r: r["enroll_date"])
 training = dirty(training, ["lead_source", "satisfaction"], dup_count=10)
 
+
+# ---------------------------------------------------------------- 4) ตลาดเกม (สไตล์ Steam)
+# ค่าในคอลัมน์เป็นภาษาอังกฤษ เพื่อให้กราฟ matplotlib แสดงผลได้โดยไม่ต้องตั้งฟอนต์ไทย
+GENRES = {
+    # genre: (review bonus, popularity bonus, avg playtime h, multiplayer prob)
+    "Action": (0, 0.3, 12, 0.35), "Adventure": (1, 0.0, 10, 0.1), "RPG": (2, 0.4, 45, 0.25),
+    "Strategy": (1, 0.1, 40, 0.4), "Simulation": (-1, 0.2, 30, 0.2), "Casual": (-3, -0.4, 5, 0.1),
+    "Puzzle": (3, -0.6, 6, 0.05), "Roguelike": (6, 0.5, 25, 0.2), "Survival": (1, 0.7, 35, 0.8),
+    "Horror": (-1, 0.1, 6, 0.3), "Racing": (-2, -0.2, 15, 0.6), "Sports": (-8, -0.3, 20, 0.7),
+}
+GENRE_W = [0.2, 0.13, 0.1, 0.08, 0.1, 0.12, 0.07, 0.05, 0.05, 0.05, 0.03, 0.02]
+TIERS = {"Indie": (8.6, 0.8), "AA": (11.0, 0.15), "AAA": (13.2, 0.05)}  # (log-owners base, share)
+W1 = ["Shadow", "Neon", "Pixel", "Iron", "Crystal", "Lost", "Star", "Dark", "Tiny", "Wild", "Eternal", "Cyber",
+      "Dragon", "Void", "Silent", "Golden", "Rogue", "Frozen", "Solar", "Mystic", "Broken", "Hidden", "Last", "Steel"]
+W2 = ["Kingdom", "Legends", "Frontier", "Odyssey", "Dungeon", "Horizon", "Tactics", "Island", "Protocol", "Empire",
+      "Survivors", "Chronicles", "Racer", "Arena", "Village", "Hunter", "Factory", "Tower", "Ocean", "Colony", "League"]
+
+
+def price_range(p):
+    if p == 0:
+        return "Free"
+    for lim, lab in [(5, "< $5"), (10, "$5-10"), (20, "$10-20"), (40, "$20-40")]:
+        if p < lim:
+            return lab
+    return "$40+"
+
+
+games, used = [], set()
+for i in range(1, 2501):
+    # จำนวนเกมที่ออกใหม่บน Steam เพิ่มขึ้นทุกปี -> สุ่มปีแบบถ่วงน้ำหนัก
+    year = random.choices(range(2016, 2026), [5, 6, 7, 8, 9, 10, 11, 12, 13, 14])[0]
+    rel = rand_date(date(year, 1, 1), date(year, 12, 31))
+    genre = random.choices(list(GENRES), GENRE_W)[0]
+    rev_b, pop_b, play_h, mp_p = GENRES[genre]
+    tier = random.choices(list(TIERS), [t[1] for t in TIERS.values()])[0]
+    q = random.gauss(0, 1)  # คุณภาพแฝงของเกม
+    free = random.random() < {"Indie": 0.08, "AA": 0.12, "AAA": 0.15}[tier]
+    if free:
+        price = 0.0
+    elif tier == "AAA":
+        price = random.choice([49.99, 59.99, 59.99, 69.99])
+    elif tier == "AA":
+        price = random.choice([19.99, 24.99, 29.99, 39.99])
+    else:
+        price = random.choices([0.99, 2.99, 4.99, 9.99, 14.99, 19.99, 24.99], [0.08, 0.14, 0.2, 0.25, 0.18, 0.1, 0.05])[0]
+    early = tier == "Indie" and random.random() < 0.18
+    multiplayer = random.random() < mp_p
+    thai = random.random() < {"Indie": 0.06, "AA": 0.2, "AAA": 0.55}[tier]
+    # ราคาอินดี้ช่วง $10-20 มักถูกมองว่าคุ้ม -> รีวิวดีกว่าเล็กน้อย
+    sweet = 2 if tier == "Indie" and 9 < price < 21 else 0
+    review = 74 + 9 * q + rev_b + sweet - (4 if early else 0) - (6 if free else 0) + random.gauss(0, 5)
+    review = round(min(99, max(18, review)), 1)
+    log_own = TIERS[tier][0] + 1.1 * q + pop_b + (1.6 if free else 0) + (0.4 if multiplayer else 0) \
+        + (0.3 if thai else 0) + 0.06 * (2025 - year) + random.gauss(0, 1.3)
+    owners = int(min(8e7, max(200, math.exp(log_own))) // 100 * 100)
+    total_rev = max(1, int(owners * random.uniform(0.015, 0.04)))
+    positive = int(total_rev * review / 100)
+    playtime = round(max(0.3, random.lognormvariate(math.log(play_h), 0.6) * (1.3 if multiplayer else 1)), 1)
+    # รายได้ประมาณการ: ยอดผู้เล่น x ราคา x ส่วนลดเฉลี่ย x ส่วนแบ่งหลังหัก Steam 30%
+    revenue = owners * price * random.uniform(0.45, 0.65) * 0.7 if not free else owners * random.uniform(0.3, 2.5) * 0.7
+    name = f"{random.choice(W1)} {random.choice(W2)}"
+    while name in used:
+        name += random.choice([" II", " Remastered", ": Origins", " 2", " Deluxe"])
+    used.add(name)
+    games.append({
+        "app_id": 100000 + i * 37,
+        "name": name,
+        "release_date": rel.isoformat(),
+        "primary_genre": genre,
+        "developer_tier": tier,
+        "price_usd": price,
+        "price_range": price_range(price),
+        "is_free": "Free" if free else "Paid",
+        "early_access": "Yes" if early else "No",
+        "multiplayer": "Yes" if multiplayer else "No",
+        "thai_language": "Yes" if thai else "No",
+        "steam_deck": random.choices(["Verified", "Playable", "Unsupported"], [0.35, 0.4, 0.25])[0],
+        "owners_estimate": owners,
+        "positive_reviews": positive,
+        "negative_reviews": total_rev - positive,
+        "review_pct": review,
+        "avg_playtime_hours": playtime,
+        "peak_ccu": int(owners * random.uniform(0.0005, 0.004) * (2 if multiplayer else 1)),
+        "estimated_revenue_usd": int(revenue),
+        "success": "Hit" if review >= 80 and owners >= 100_000 else "Not hit",
+    })
+games.sort(key=lambda r: r["release_date"])
+games = dirty(games, ["steam_deck", "avg_playtime_hours", "thai_language"], missing_rate=0.008, dup_count=12)
+
 # ---------------------------------------------------------------- เขียนไฟล์
 DATASETS = {
     "sales": {
@@ -181,6 +271,11 @@ DATASETS = {
         "title": "การลงทะเบียนคอร์สอบรม (Training Enrollment)",
         "description": "การลงทะเบียน 1,500 รายการ ปี 2024–2025 เหมาะกับวิเคราะห์คอร์สยอดนิยม, ช่องทางการตลาด, รายได้ตามรูปแบบการเรียน",
         "rows": training,
+    },
+    "games": {
+        "title": "ตลาดเกม Steam (Game Market)",
+        "description": "เกม 2,500 เกม ปี 2016–2025: แนวเกม ราคา ระดับผู้พัฒนา ยอดผู้เล่น รีวิว รายได้ประมาณการ เหมาะกับวิเคราะห์แนวเกมที่น่าลงทุน ราคาที่เหมาะสม และปัจจัยที่ทำให้เกมฮิต",
+        "rows": games,
     },
 }
 

@@ -173,7 +173,7 @@
   // ตัวแปรเป้าหมายแบบ 2 ค่า (เช่น ลาออก/อยู่ต่อ) — เลือกจากชื่อก่อน, ไม่ใช้คอลัมน์เพศเป็นค่าเริ่มต้น
   function binaryTarget(cats) {
     const bin = cats.filter((c) => new Set(state.rows.map((r) => r[c]).filter((v) => v !== null)).size === 2);
-    const named = bin.find((c) => /(attrition|churn|left|status|complete|convert|target|label|default|ลาออก|สำเร็จ|สถานะ)/i.test(c));
+    const named = bin.find((c) => /(attrition|churn|left|status|complete|convert|target|label|default|success|hit|ลาออก|สำเร็จ|สถานะ)/i.test(c));
     return named || bin.find((c) => !/(gender|sex|เพศ)/i.test(c)) || null;
   }
   function minorityValue(col) {
@@ -194,6 +194,20 @@
     };
     const std = Math.sqrt(v.reduce((a, b) => a + (b - mean) ** 2, 0) / (n > 1 ? n - 1 : 1));
     return { n, sum, mean, min: v[0], max: v[n - 1], median: q(0.5), q1: q(0.25), q3: q(0.75), std };
+  }
+
+  // ข้อมูลเบ้ขวามาก (long tail) เช่น ยอดผู้เล่น รายได้
+  function isSkewed(col) {
+    const s = stats(state.rows.map((r) => r[col]));
+    return s.n > 0 && s.min >= 0 && s.median > 0 && s.mean > 2 * s.median;
+  }
+  // "สูงกว่า 26%" หรือ "มากกว่า 12.3 เท่า"
+  function diffText(a, b) {
+    if (!b) return "";
+    const r = a / b;
+    if (r >= 2) return `มากกว่า ${r.toFixed(1)} เท่า`;
+    if (r <= 0.5) return `น้อยกว่า ${(1 / r).toFixed(1)} เท่า`;
+    return `${r >= 1 ? "สูงกว่า" : "ต่ำกว่า"} ${pct(Math.abs(r - 1))}`;
   }
 
   function aggregate(values, agg) {
@@ -604,6 +618,17 @@
     return { labels: counts.map((_, i) => `${fmt(min + i * w)}–${fmt(min + (i + 1) * w)}`), counts };
   }
 
+  // histogram บนสเกล log10 สำหรับข้อมูล long tail
+  function logHistogram(values, bins = 20) {
+    const v = values.filter((x) => typeof x === "number" && x > 0);
+    if (!v.length) return { labels: [], counts: [] };
+    const lo = Math.log10(Math.min(...v)), hi = Math.log10(Math.max(...v));
+    const w = (hi - lo) / bins || 1;
+    const counts = new Array(bins).fill(0);
+    v.forEach((x) => counts[Math.min(bins - 1, Math.floor((Math.log10(x) - lo) / w))]++);
+    return { labels: counts.map((_, i) => `${fmt(10 ** (lo + i * w))}–${fmt(10 ** (lo + (i + 1) * w))}`), counts };
+  }
+
   // ------------------------------------------------------------------ dashboard
   function dashRows() {
     return state.rows.filter((r) => Object.entries(state.dashFilters).every(([c, v]) => !v || keyOf(r, c) === v));
@@ -712,8 +737,9 @@
     });
 
     if (measure) {
-      const h = histogram(rows.map((r) => r[measure]));
-      makeChart("dash-hist", addCard("dash-hist", `การกระจายของ ${measure} (Histogram)`), {
+      const skew = isSkewed(measure);
+      const h = skew ? logHistogram(rows.map((r) => r[measure])) : histogram(rows.map((r) => r[measure]));
+      makeChart("dash-hist", addCard("dash-hist", `การกระจายของ ${measure} (Histogram${skew ? ", log scale" : ""})`), {
         type: "bar",
         data: { labels: h.labels, datasets: [{ ...barDataset("จำนวน", h.counts, pal[0]), barPercentage: 1, categoryPercentage: 0.95, borderRadius: 2 }] },
         options: { plugins: { legend: { display: false } }, scales: { x: { ticks: { maxRotation: 45, autoSkip: true, maxTicksLimit: 8 } } } },
@@ -746,6 +772,7 @@
     const type = $("#bType").value, x = $("#bX").value, y = $("#bY").value, agg = y ? $("#bAgg").value : "count";
     const series = $("#bSeries").value, topN = Math.max(3, +$("#bTop").value || 15);
     const canvas = $("#builderChart");
+    const logY = $("#bLog").checked;
     if (!x) return;
     const pal = colors();
     const aggName = y ? `${$("#bAgg").selectedOptions[0].text} ${y}` : "จำนวน";
@@ -767,7 +794,14 @@
     }
 
     if (type === "scatter") {
-      if (state.types[x] !== "number" || !y) return toast("Scatter ต้องใช้แกน X และ Y เป็นตัวเลข");
+      if (!y) return toast("Scatter ต้องเลือกค่า Y เป็นตัวเลข");
+      if (state.types[x] !== "number") {
+        const nx = numericCols().find((c) => !isIdLike(c) && c !== y);
+        if (!nx) return toast("Scatter ต้องใช้แกน X และ Y เป็นตัวเลข");
+        $("#bX").value = nx;
+        return renderBuilder();
+      }
+      const logX = logY && isSkewed(x), logYY = logY && isSkewed(y);
       const pts = state.rows.filter((r) => r[x] !== null && r[y] !== null).slice(0, 3000).map((r) => ({ x: r[x], y: r[y] }));
       const r = pearson(state.rows.map((r) => r[x]), state.rows.map((r) => r[y]));
       return makeChart("builder", canvas, {
@@ -775,7 +809,7 @@
         data: { datasets: [{ label: `${y} vs ${x}`, data: pts, backgroundColor: pal[0] + "99", pointRadius: 4, pointHoverRadius: 6 }] },
         options: {
           plugins: { legend: { display: false }, title: { display: true, text: `${y} vs ${x}  (r = ${r.toFixed(2)})` }, tooltip: { mode: "nearest", intersect: true } },
-          scales: { x: { title: { display: true, text: x } }, y: { title: { display: true, text: y } } },
+          scales: { x: { type: logX ? "logarithmic" : "linear", title: { display: true, text: x + (logX ? " (log)" : "") } }, y: { type: logYY ? "logarithmic" : "linear", title: { display: true, text: y + (logYY ? " (log)" : "") } } },
         },
       });
     }
@@ -817,13 +851,13 @@
       data: { labels, datasets },
       options: {
         plugins: { legend: { display: !!series }, title: { display: true, text: `${aggName} ตาม ${x}${series ? ` แยกตาม ${series}` : ""}` } },
-        scales: { x: { stacked: !!series && type === "bar" }, y: { stacked: !!series && type === "bar", beginAtZero: true } },
+        scales: { x: { stacked: !!series && type === "bar" }, y: logY ? { type: "logarithmic" } : { stacked: !!series && type === "bar", beginAtZero: true } },
       },
     });
   }
 
   function initBuilder() {
-    ["#bType", "#bX", "#bY", "#bAgg", "#bSeries", "#bTop"].forEach((id) => $(id).addEventListener("change", renderBuilder));
+    ["#bType", "#bX", "#bY", "#bAgg", "#bSeries", "#bTop", "#bLog"].forEach((id) => $(id).addEventListener("change", renderBuilder));
     $("#bDownload").addEventListener("click", () => {
       if (!charts.builder) return;
       const a = el("a", { href: charts.builder.toBase64Image("image/png", 1), download: "chart.png" });
@@ -898,7 +932,7 @@
       const share = (v) => (agg === "avg" ? "" : ` (${pct(v / total)})`);
       const [top, second] = pairs;
       const last = pairs[pairs.length - 1];
-      add("เปรียบเทียบกลุ่ม", `<b>${esc(c)}</b>: "${esc(top[0])}" มี${what}สูงสุด ${fmt(top[1])}${share(top[1])} สูงกว่าอันดับ 2 "${esc(second[0])}" ${pct(top[1] / second[1] - 1)}` +
+      add("เปรียบเทียบกลุ่ม", `<b>${esc(c)}</b>: "${esc(top[0])}" มี${what}สูงสุด ${fmt(top[1])}${share(top[1])} — ${diffText(top[1], second[1])} เมื่อเทียบกับอันดับ 2 "${esc(second[0])}"` +
         (pairs.length > 2 ? ` — ต่ำสุดคือ "${esc(last[0])}" ${fmt(last[1])}${share(last[1])}` : ""));
     });
 
@@ -934,13 +968,27 @@
       findings.sort((a, b) => b.rate - a.rate);
       add("ตัวแปรเป้าหมาย", `อัตรา "${esc(target)}" ใน <b>${esc(binary)}</b> โดยรวม = ${pct(overall)}. กลุ่มที่สูงที่สุด: ` +
         findings.slice(0, 3).map((f) => `${esc(f.c)} = "${esc(f.g)}" (${pct(f.rate)}, n=${f.n})`).join(" · "));
+      const diffs = [];
       numericCols().filter((c) => !isIdLike(c)).forEach((c) => {
         const a = stats(rows.filter((r) => r[binary] === target).map((r) => r[c]));
         const b = stats(rows.filter((r) => r[binary] !== null && r[binary] !== target).map((r) => r[c]));
-        if (a.n && b.n && Math.abs(a.mean - b.mean) / (b.std || 1) > 0.3) {
-          add("ความแตกต่าง", `กลุ่ม "${esc(target)}" มีค่าเฉลี่ย <b>${esc(c)}</b> = ${fmt(a.mean)} เทียบกับ ${fmt(b.mean)} ในกลุ่มอื่น (${a.mean > b.mean ? "สูงกว่า" : "ต่ำกว่า"} ${pct(Math.abs(a.mean / b.mean - 1))})`);
-        }
+        const effect = a.n && b.n ? Math.abs(a.mean - b.mean) / (b.std || 1) : 0;
+        if (effect > 0.3) diffs.push({ c, a, b, effect, useMedian: isSkewed(c) });
       });
+      diffs.sort((x, y) => y.effect - x.effect).slice(0, 4).forEach(({ c, a, b, useMedian }) => {
+        const [va, vb, lab] = useMedian ? [a.median, b.median, "มัธยฐาน"] : [a.mean, b.mean, "ค่าเฉลี่ย"];
+        add("ความแตกต่าง", `กลุ่ม "${esc(target)}" มี${lab} <b>${esc(c)}</b> = ${fmt(va)} เทียบกับ ${fmt(vb)} ในกลุ่มอื่น (${diffText(va, vb)})`);
+      });
+    }
+
+    // ข้อมูลเบ้ (long tail) — ค่าเฉลี่ยถูกดึงด้วยค่าสูงสุดไม่กี่ตัว
+    if (measure) {
+      const s = stats(rows.map((r) => r[measure]));
+      if (s.n && s.median > 0 && s.mean > 2 * s.median) {
+        const sorted = rows.map((r) => r[measure]).filter((v) => v !== null).sort((a, b) => b - a);
+        const top = sorted.slice(0, Math.max(1, Math.round(sorted.length * 0.1))).reduce((a, b) => a + b, 0);
+        add("การกระจาย", `<b>${esc(measure)}</b> เบ้ขวามาก (long tail): ค่าเฉลี่ย ${fmt(s.mean)} แต่มัธยฐานเพียง ${fmt(s.median)} — 10% แรกครองสัดส่วน <b>${pct(top / s.sum)}</b> ของทั้งหมด ควรรายงานด้วยมัธยฐาน และใช้ log scale เวลาพล็อต`);
+      }
     }
 
     // 4) ความสัมพันธ์
@@ -956,12 +1004,18 @@
     // 5) คุณภาพข้อมูล
     const miss = state.columns.map((c) => [c, rows.filter((r) => r[c] === null).length]).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]);
     if (miss.length) add("คุณภาพข้อมูล", `มีค่าว่างใน ${miss.length} คอลัมน์: ` + miss.slice(0, 5).map(([c, n]) => `${esc(c)} (${n})`).join(", ") + ` — จัดการได้ในแท็บ "ทำความสะอาด"`);
+    const skewed = [];
     numericCols().filter((c) => !isIdLike(c)).forEach((c) => {
+      if (isSkewed(c)) return skewed.push(c);
       const s = stats(rows.map((r) => r[c]));
       const iqr = s.q3 - s.q1;
+      const lo = Math.max(s.min, s.q1 - 1.5 * iqr), hi = Math.min(s.max, s.q3 + 1.5 * iqr);
       const n = rows.filter((r) => r[c] !== null && (r[c] > s.q3 + 1.5 * iqr || r[c] < s.q1 - 1.5 * iqr)).length;
-      if (iqr > 0 && n / rows.length > 0.02) add("ค่าผิดปกติ", `<b>${esc(c)}</b> มี outlier ${n.toLocaleString()} ค่า (${pct(n / rows.length)}) นอกช่วง ${fmt(s.q1 - 1.5 * iqr)} – ${fmt(s.q3 + 1.5 * iqr)}`);
+      if (iqr > 0 && n / rows.length > 0.02 && out.filter((h) => h.includes("ค่าผิดปกติ")).length < 3) {
+        add("ค่าผิดปกติ", `<b>${esc(c)}</b> มี outlier ${n.toLocaleString()} ค่า (${pct(n / rows.length)}) นอกช่วง ${fmt(lo)} – ${fmt(hi)}`);
+      }
     });
+    if (skewed.length > 1) add("การกระจาย", `คอลัมน์ที่เบ้ขวามาก (ค่าเฉลี่ย > 2 เท่าของมัธยฐาน): ${skewed.map((c) => `<b>${esc(c)}</b>`).join(", ")} — ค่าสูงมากเป็นลักษณะปกติของข้อมูลแบบ long tail ไม่ใช่ข้อผิดพลาด จึงไม่ควรลบทิ้ง`);
 
     $("#insightList").innerHTML = out.join("") || '<div class="panel">ไม่พบ insight ที่ชัดเจน ลองเพิ่มคอลัมน์หมวดหมู่หรือตัวเลข</div>';
   }
