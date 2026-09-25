@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Analyst Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">📊 Data Analyst Studio</div>
+    <div class="dataset-info" id="datasetInfo">ยังไม่ได้โหลดข้อมูล</div>
+    <button class="btn ghost" id="themeToggle" title="สลับธีม">🌓</button>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button data-tab="home" class="active">🏠 เริ่มต้น</button>
+    <button data-tab="table">📋 ตารางข้อมูล</button>
+    <button data-tab="profile">🔍 โปรไฟล์ข้อมูล</button>
+    <button data-tab="clean">🧹 ทำความสะอาด</button>
+    <button data-tab="dashboard">📈 แดชบอร์ด</button>
+    <button data-tab="builder">🛠️ สร้างกราฟ</button>
+    <button data-tab="pivot">🧮 Pivot</button>
+    <button data-tab="insights">💡 Insights</button>
+    <button data-tab="sources">🌐 แหล่งข้อมูล</button>
+  </nav>
+
+  <main>
+    <!-- ============ เริ่มต้น ============ -->
+    <section id="tab-home" class="tab active">
+      <div class="hero">
+        <h1>เครื่องมือวิเคราะห์ข้อมูลสำหรับโปรเจคจบสาย Data Analyst</h1>
+        <p>โหลดข้อมูลเดโม่ หรืออัปโหลดไฟล์ CSV ของคุณเอง แล้วทำครบ workflow: สำรวจ → ทำความสะอาด → วิเคราะห์ → สร้างแดชบอร์ด → สรุป Insight</p>
+      </div>
+
+      <h2>1. เลือกชุดข้อมูลเดโม่</h2>
+      <div class="cards" id="demoCards"></div>
+
+      <h2>2. หรืออัปโหลดไฟล์ของคุณ</h2>
+      <label class="dropzone" id="dropzone">
+        <input type="file" id="fileInput" accept=".csv,.tsv,.txt" hidden />
+        <span>📁 ลากไฟล์ CSV มาวางที่นี่ หรือคลิกเพื่อเลือกไฟล์</span>
+        <small>ข้อมูลประมวลผลในเบราว์เซอร์ของคุณเท่านั้น ไม่ถูกส่งไปที่ใด</small>
+      </label>
+
+      <h2>Workflow ของโปรเจค</h2>
+      <ol class="steps">
+        <li><b>ตั้งคำถามธุรกิจ</b> — เช่น "ช่องทางไหนทำกำไรสูงสุด?" "ทำไมพนักงานลาออก?"</li>
+        <li><b>โปรไฟล์ข้อมูล</b> — ดูชนิดคอลัมน์ ค่าว่าง ค่าผิดปกติ</li>
+        <li><b>ทำความสะอาด</b> — ลบแถวซ้ำ จัดการค่าว่าง กรองข้อมูล</li>
+        <li><b>วิเคราะห์</b> — Pivot, กราฟ, ความสัมพันธ์ระหว่างตัวแปร</li>
+        <li><b>แดชบอร์ด + Insight</b> — สรุปผลและข้อเสนอแนะ แล้ว Export ไปใช้ในรายงาน</li>
+      </ol>
+    </section>
+
+    <!-- ============ ตาราง ============ -->
+    <section id="tab-table" class="tab">
+      <div class="toolbar">
+        <input type="search" id="tableSearch" placeholder="🔎 ค้นหาในทุกคอลัมน์..." />
+        <span id="tableCount" class="muted"></span>
+        <span class="spacer"></span>
+        <button class="btn" id="exportCsv">⬇️ Export CSV (ข้อมูลปัจจุบัน)</button>
+      </div>
+      <div class="table-wrap"><table id="dataTable"></table></div>
+      <div class="pager" id="pager"></div>
+    </section>
+
+    <!-- ============ โปรไฟล์ ============ -->
+    <section id="tab-profile" class="tab">
+      <div class="kpis" id="profileKpis"></div>
+      <div class="table-wrap"><table id="profileTable"></table></div>
+      <h2>ความสัมพันธ์ระหว่างตัวแปรตัวเลข (Correlation)</h2>
+      <p class="muted">ค่าใกล้ +1 = ไปทางเดียวกัน, ใกล้ −1 = สวนทางกัน, ใกล้ 0 = ไม่สัมพันธ์เชิงเส้น</p>
+      <div class="table-wrap"><table id="corrTable" class="corr"></table></div>
+    </section>
+
+    <!-- ============ ทำความสะอาด ============ -->
+    <section id="tab-clean" class="tab">
+      <div class="grid2">
+        <div class="panel">
+          <h3>แถวซ้ำ</h3>
+          <p id="dupInfo" class="muted"></p>
+          <button class="btn" id="removeDup">ลบแถวซ้ำ</button>
+        </div>
+        <div class="panel">
+          <h3>ค่าว่าง (Missing values)</h3>
+          <select id="missingCol"></select>
+          <select id="missingAction">
+            <option value="drop">ลบแถวที่ว่าง</option>
+            <option value="mean">เติมด้วยค่าเฉลี่ย (ตัวเลข)</option>
+            <option value="median">เติมด้วยค่ามัธยฐาน (ตัวเลข)</option>
+            <option value="mode">เติมด้วยค่าที่พบบ่อยที่สุด</option>
+            <option value="custom">เติมด้วยค่าที่กำหนด</option>
+          </select>
+          <input id="missingCustom" placeholder="ค่าที่ต้องการเติม" />
+          <button class="btn" id="applyMissing">ดำเนินการ</button>
+        </div>
+        <div class="panel">
+          <h3>กรองข้อมูล (Filter)</h3>
+          <select id="filterCol"></select>
+          <select id="filterOp">
+            <option value="eq">=</option><option value="neq">≠</option>
+            <option value="gt">&gt;</option><option value="lt">&lt;</option>
+            <option value="contains">มีคำว่า</option>
+          </select>
+          <input id="filterVal" placeholder="ค่า" />
+          <button class="btn" id="applyFilter">กรอง (เก็บแถวที่ตรงเงื่อนไข)</button>
+        </div>
+        <div class="panel">
+          <h3>ลบคอลัมน์ / คอลัมน์คำนวณ</h3>
+          <select id="dropCol"></select>
+          <button class="btn danger" id="applyDropCol">ลบคอลัมน์</button>
+          <hr />
+          <input id="calcName" placeholder="ชื่อคอลัมน์ใหม่ เช่น margin" />
+          <input id="calcExpr" placeholder="สูตร เช่น [profit] / [revenue] * 100" />
+          <button class="btn" id="applyCalc">เพิ่มคอลัมน์</button>
+        </div>
+      </div>
+      <div class="panel">
+        <h3>ประวัติการทำความสะอาด (Cleaning log)</h3>
+        <p class="muted">นำไปเขียนในบท "การเตรียมข้อมูล" ของรายงานได้เลย</p>
+        <ol id="cleanLog"></ol>
+        <button class="btn ghost" id="resetData">↩️ คืนค่าข้อมูลต้นฉบับ</button>
+      </div>
+    </section>
+
+    <!-- ============ แดชบอร์ด ============ -->
+    <section id="tab-dashboard" class="tab">
+      <div class="toolbar" id="dashFilters"></div>
+      <div class="kpis" id="dashKpis"></div>
+      <div class="chart-grid" id="dashCharts"></div>
+    </section>
+
+    <!-- ============ สร้างกราฟ ============ -->
+    <section id="tab-builder" class="tab">
+      <div class="toolbar">
+        <label>ประเภท <select id="bType">
+          <option value="bar">แท่ง (Bar)</option><option value="line">เส้น (Line)</option>
+          <option value="pie">วงกลม (Pie)</option><option value="doughnut">โดนัท</option>
+          <option value="scatter">กระจาย (Scatter)</option><option value="hist">Histogram</option>
+        </select></label>
+        <label>แกน X / กลุ่ม <select id="bX"></select></label>
+        <label>ค่า Y <select id="bY"></select></label>
+        <label>การรวม <select id="bAgg">
+          <option value="sum">ผลรวม</option><option value="avg">ค่าเฉลี่ย</option>
+          <option value="count">นับจำนวน</option><option value="min">ต่ำสุด</option><option value="max">สูงสุด</option>
+        </select></label>
+        <label>แยกสีตาม <select id="bSeries"></select></label>
+        <label>Top <input type="number" id="bTop" value="15" min="3" max="100" style="width:64px" /></label>
+        <button class="btn" id="bDownload">⬇️ PNG</button>
+      </div>
+      <div class="panel chart-big"><canvas id="builderChart"></canvas></div>
+    </section>
+
+    <!-- ============ Pivot ============ -->
+    <section id="tab-pivot" class="tab">
+      <div class="toolbar">
+        <label>แถว <select id="pRow"></select></label>
+        <label>คอลัมน์ <select id="pCol"></select></label>
+        <label>ค่า <select id="pVal"></select></label>
+        <label>การรวม <select id="pAgg">
+          <option value="sum">ผลรวม</option><option value="avg">ค่าเฉลี่ย</option>
+          <option value="count">นับจำนวน</option><option value="min">ต่ำสุด</option><option value="max">สูงสุด</option>
+        </select></label>
+        <label><input type="checkbox" id="pHeat" checked /> Heatmap</label>
+        <button class="btn" id="pExport">⬇️ Export Pivot</button>
+      </div>
+      <div class="table-wrap"><table id="pivotTable" class="pivot"></table></div>
+    </section>
+
+    <!-- ============ Insights ============ -->
+    <section id="tab-insights" class="tab">
+      <p class="muted">Insight ที่ระบบค้นพบอัตโนมัติจากข้อมูลปัจจุบัน — ใช้เป็นจุดเริ่มต้น แล้วตรวจสอบ/อธิบายเหตุผลเพิ่มเองในรายงาน</p>
+      <div id="insightList" class="insights"></div>
+    </section>
+
+    <!-- ============ แหล่งข้อมูล ============ -->
+    <section id="tab-sources" class="tab">
+      <p>แหล่งข้อมูลจริงที่นำมาใช้ทำโปรเจคได้ — ดาวน์โหลดเป็น CSV แล้วอัปโหลดในหน้า "เริ่มต้น"</p>
+      <input type="search" id="sourceSearch" placeholder="🔎 ค้นหาแหล่งข้อมูล เช่น ท่องเที่ยว, PM2.5, HR" />
+      <div id="sourceList"></div>
+      <h2>ไอเดียหัวข้อโปรเจค</h2>
+      <div class="cards" id="ideaList"></div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="data/demo-data.js"></script>
+  <script src="js/sources.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

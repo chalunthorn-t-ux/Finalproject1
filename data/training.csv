@@ -1,0 +1,1511 @@
+﻿enroll_id,enroll_date,course_category,course_name,learning_mode,customer_type,seats,price_per_seat,total_amount,lead_source,satisfaction,completed
+ENR01009,2025-01-28,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,3.9,สำเร็จ
+ENR01078,2024-02-14,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.7,สำเร็จ
+ENR00959,2025-03-15,Excel,Excel Dashboard,Online Live,องค์กร,5,4900,22050,LINE OA,4.4,สำเร็จ
+ENR00808,2024-07-14,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,3,5900,17700,Google Search,4.5,สำเร็จ
+ENR01032,2024-06-19,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,Facebook,5.0,สำเร็จ
+ENR01201,2024-01-21,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,LINE OA,4.5,สำเร็จ
+ENR00478,2025-09-20,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,LINE OA,4.1,สำเร็จ
+ENR00661,2025-06-21,Office,Word Professional,Onsite,บุคคลทั่วไป,2,2900,5800,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR01422,2025-08-24,Excel,Excel Basic,E-Learning,องค์กร,1,2800,2800,องค์กรส่งมา,4.0,ไม่สำเร็จ
+ENR01080,2024-09-28,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,Facebook,4.6,สำเร็จ
+ENR00471,2025-06-23,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,2,3900,7800,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR00628,2025-09-11,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Google Search,4.0,สำเร็จ
+ENR01458,2024-08-01,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Google Search,5,สำเร็จ
+ENR00873,2025-01-20,Excel,Excel Basic,Online Live,บุคคลทั่วไป,3,3500,10500,Google Search,4.3,สำเร็จ
+ENR00245,2025-01-20,AI Tools,ChatGPT for Work,E-Learning,องค์กร,1,3120,3120,องค์กรส่งมา,4.5,สำเร็จ
+ENR01374,2024-03-25,Office,PowerPoint Design,Onsite,องค์กร,1,3200,3200,Google Search,4.5,สำเร็จ
+ENR00086,2024-01-02,Office,PowerPoint Design,Onsite,องค์กร,1,3200,3200,องค์กรส่งมา,4.9,สำเร็จ
+ENR01146,2025-07-25,SQL,SQL Fundamentals,Onsite,องค์กร,5,4900,22050,องค์กรส่งมา,4.0,สำเร็จ
+ENR00315,2024-09-15,Python,Machine Learning,Online Live,บุคคลทั่วไป,3,8900,26700,LINE OA,4.6,สำเร็จ
+ENR00512,2024-08-26,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,3,4900,14700,Facebook,5,สำเร็จ
+ENR01472,2024-10-14,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR00730,2025-11-30,Excel,Excel Dashboard,E-Learning,องค์กร,3,3920,11760,องค์กรส่งมา,4.6,สำเร็จ
+ENR01187,2024-06-25,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,TikTok,4.0,ไม่สำเร็จ
+ENR01163,2024-06-01,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,TikTok,4.3,ไม่สำเร็จ
+ENR00593,2024-10-06,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,3.7,สำเร็จ
+ENR01467,2025-02-04,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR01356,2025-10-14,Office,Word Professional,Onsite,องค์กร,5,2900,13050,องค์กรส่งมา,4.3,สำเร็จ
+ENR00825,2025-09-16,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,Facebook,4.5,สำเร็จ
+ENR00662,2025-12-27,Excel,Excel Dashboard,E-Learning,องค์กร,10,3920,35280,องค์กรส่งมา,3.9,ไม่สำเร็จ
+ENR00006,2024-06-09,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,5,ไม่สำเร็จ
+ENR01393,2025-03-19,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR00665,2024-07-19,Excel,Excel Basic,Online Live,องค์กร,1,3500,3500,Google Search,4.4,สำเร็จ
+ENR00734,2024-07-16,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,2,5900,11800,Google Search,4.0,สำเร็จ
+ENR01337,2025-04-21,Power BI,Power BI Desktop,Onsite,องค์กร,10,5500,49500,Facebook,3.8,สำเร็จ
+ENR01122,2024-12-29,SQL,SQL for Data Analyst,Online Live,องค์กร,2,5500,11000,เพื่อนแนะนำ,3.4,สำเร็จ
+ENR00158,2024-07-15,Excel,Excel Basic,Onsite,องค์กร,1,3500,3500,องค์กรส่งมา,4.9,สำเร็จ
+ENR00576,2025-11-12,Office,PowerPoint Design,E-Learning,บุคคลทั่วไป,1,2560,2560,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR01434,2025-06-27,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,2,5900,11800,Facebook,4.0,สำเร็จ
+ENR01057,2024-05-22,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.3,ไม่สำเร็จ
+ENR01246,2025-08-12,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,Google Search,4.6,สำเร็จ
+ENR00491,2025-04-07,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,2,5500,11000,เพื่อนแนะนำ,3.9,ไม่สำเร็จ
+ENR01411,2025-07-01,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,2,3900,7800,TikTok,4.5,สำเร็จ
+ENR01375,2025-04-24,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,3.6,สำเร็จ
+ENR01443,2025-12-11,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,TikTok,4.2,ไม่สำเร็จ
+ENR00311,2024-01-05,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,LINE OA,4.2,สำเร็จ
+ENR00289,2024-10-21,Excel,Excel Basic,Onsite,บุคคลทั่วไป,3,3500,10500,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00066,2024-03-01,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,2,5500,11000,Facebook,4.1,สำเร็จ
+ENR00457,2024-06-09,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,Facebook,4.3,สำเร็จ
+ENR00821,2024-12-01,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Facebook,4.6,สำเร็จ
+ENR01123,2024-11-12,Excel,Excel Basic,Onsite,องค์กร,5,3500,15750,องค์กรส่งมา,5,สำเร็จ
+ENR01000,2024-09-05,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00517,2025-12-01,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,3,5500,16500,TikTok,5.0,สำเร็จ
+ENR01447,2025-11-07,Python,Machine Learning,Online Live,บุคคลทั่วไป,3,8900,26700,Facebook,4.0,สำเร็จ
+ENR01326,2025-11-23,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,3.9,สำเร็จ
+ENR00081,2024-05-07,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,Facebook,4.2,สำเร็จ
+ENR00378,2025-09-18,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,3,4500,13500,TikTok,4.8,สำเร็จ
+ENR00244,2024-09-20,Excel,Excel Dashboard,Online Live,องค์กร,5,4900,22050,องค์กรส่งมา,4.9,สำเร็จ
+ENR00721,2024-09-12,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR00784,2025-08-19,SQL,SQL Fundamentals,Online Live,องค์กร,5,4900,22050,Facebook,4.3,สำเร็จ
+ENR01167,2024-09-05,AI Tools,ChatGPT for Work,Online Live,องค์กร,10,3900,35100,องค์กรส่งมา,4.2,สำเร็จ
+ENR00183,2025-12-14,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,LINE OA,4.3,สำเร็จ
+ENR00338,2024-10-31,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,Facebook,5,สำเร็จ
+ENR01403,2024-08-30,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,TikTok,4.5,สำเร็จ
+ENR00279,2024-03-13,Power BI,Power BI Desktop,Onsite,องค์กร,1,5500,5500,TikTok,4.0,สำเร็จ
+ENR00714,2024-12-11,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,3,5500,16500,TikTok,4.7,สำเร็จ
+ENR01155,2025-04-15,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,LINE OA,4.2,สำเร็จ
+ENR00964,2025-06-10,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,2,3900,7800,LINE OA,4.8,สำเร็จ
+ENR00309,2024-06-15,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,3,3920,11760,Facebook,4.0,สำเร็จ
+ENR01321,2025-06-06,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00949,2025-10-08,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,TikTok,4.4,สำเร็จ
+ENR00596,2025-12-12,SQL,SQL for Data Analyst,Online Live,องค์กร,10,5500,49500,Facebook,4.3,สำเร็จ
+ENR01302,2024-03-24,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.6,สำเร็จ
+ENR00184,2025-06-15,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,4.0,สำเร็จ
+ENR00634,2024-05-26,Excel,Excel Advanced,Online Live,องค์กร,1,4500,4500,Facebook,4.1,ไม่สำเร็จ
+ENR00141,2025-04-25,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,3,3900,11700,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR01031,2025-10-13,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,3,4500,13500,Google Search,4.3,สำเร็จ
+ENR00304,2024-03-21,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,Facebook,3.5,ไม่สำเร็จ
+ENR00340,2025-01-05,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,3,5500,16500,Facebook,4.8,สำเร็จ
+ENR00528,2024-02-26,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,2,6900,13800,เพื่อนแนะนำ,4.9,สำเร็จ
+ENR01387,2025-07-02,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,TikTok,4.9,ไม่สำเร็จ
+ENR00595,2024-01-26,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,2,4400,8800,LINE OA,4.1,สำเร็จ
+ENR00365,2025-11-21,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,Google Search,4.5,ไม่สำเร็จ
+ENR00222,2025-04-04,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,2,3900,7800,Facebook,3.8,สำเร็จ
+ENR00867,2024-03-08,Excel,Excel Advanced,Online Live,องค์กร,1,4500,4500,องค์กรส่งมา,5,ไม่สำเร็จ
+ENR00473,2025-07-31,Excel,Excel Basic,Online Live,องค์กร,1,3500,3500,องค์กรส่งมา,4.7,สำเร็จ
+ENR01176,2024-03-05,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00816,2025-08-10,Excel,Excel Dashboard,Online Live,องค์กร,2,4900,9800,องค์กรส่งมา,4.9,ไม่สำเร็จ
+ENR00689,2024-05-05,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,LINE OA,4.3,สำเร็จ
+ENR00182,2025-04-27,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,1,3920,3920,Facebook,4.7,สำเร็จ
+ENR00901,2024-05-20,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,Google Search,3.9,สำเร็จ
+ENR00848,2024-07-22,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,3.9,ไม่สำเร็จ
+ENR00472,2024-09-08,Python,Python for Beginner,E-Learning,องค์กร,1,4720,4720,องค์กรส่งมา,4.7,สำเร็จ
+ENR00128,2025-10-03,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,Facebook,4.4,สำเร็จ
+ENR01199,2024-01-15,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,Facebook,4.5,สำเร็จ
+ENR01376,2025-03-03,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,TikTok,3.9,สำเร็จ
+ENR00624,2025-09-03,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,TikTok,4.4,สำเร็จ
+ENR00387,2024-04-03,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,3,5500,16500,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00605,2024-01-25,AI Tools,AI Automation,Online Live,องค์กร,5,5900,26550,องค์กรส่งมา,3.9,ไม่สำเร็จ
+ENR00386,2024-04-11,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,2,4900,9800,Facebook,4.6,สำเร็จ
+ENR00189,2025-12-05,Excel,Excel Advanced,Onsite,องค์กร,5,4500,20250,TikTok,4.4,สำเร็จ
+ENR00077,2024-10-07,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,2,5900,11800,Facebook,4.2,สำเร็จ
+ENR00987,2025-03-06,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,3.8,สำเร็จ
+ENR00357,2024-11-07,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,3,3200,9600,Facebook,4.8,สำเร็จ
+ENR00578,2024-04-13,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,LINE OA,4.5,สำเร็จ
+ENR00716,2025-03-14,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,Facebook,4.6,สำเร็จ
+ENR01277,2025-05-20,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,LINE OA,4.4,สำเร็จ
+ENR00303,2025-04-14,Python,Python for Beginner,Online Live,องค์กร,5,5900,26550,องค์กรส่งมา,3.4,สำเร็จ
+ENR00765,2025-11-04,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.1,สำเร็จ
+ENR00070,2024-05-31,SQL,SQL for Data Analyst,Online Live,องค์กร,1,5500,5500,LINE OA,4.6,สำเร็จ
+ENR00390,2025-04-06,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,Google Search,4.5,สำเร็จ
+ENR01206,2025-11-29,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,2,4720,9440,LINE OA,4.6,สำเร็จ
+ENR00794,2025-10-18,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,TikTok,4.2,สำเร็จ
+ENR00789,2024-06-01,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,2,5900,11800,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00057,2024-08-28,Excel,Excel Basic,Online Live,องค์กร,2,3500,7000,เพื่อนแนะนำ,5,สำเร็จ
+ENR01363,2024-11-13,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,3,4900,14700,TikTok,4.0,สำเร็จ
+ENR01291,2024-11-13,Python,Machine Learning,Onsite,องค์กร,2,8900,17800,องค์กรส่งมา,4.3,สำเร็จ
+ENR00826,2025-07-15,Python,Machine Learning,Online Live,บุคคลทั่วไป,2,8900,17800,Facebook,4.1,สำเร็จ
+ENR00571,2024-06-10,Excel,Excel Dashboard,Onsite,องค์กร,1,4900,4900,Google Search,4.6,สำเร็จ
+ENR00817,2025-05-28,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,3,4500,13500,TikTok,4.4,สำเร็จ
+ENR01489,2024-09-08,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,Facebook,4.1,สำเร็จ
+ENR01207,2024-10-19,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,3,4900,14700,TikTok,4.4,สำเร็จ
+ENR00381,2025-01-07,Power BI,Power BI Desktop,E-Learning,องค์กร,1,4400,4400,Facebook,3.9,สำเร็จ
+ENR00673,2024-12-02,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.8,สำเร็จ
+ENR00341,2024-08-19,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,3.9,สำเร็จ
+ENR00787,2025-09-01,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.4,สำเร็จ
+ENR00270,2025-10-27,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,LINE OA,4.8,สำเร็จ
+ENR00163,2024-10-22,Office,PowerPoint Design,E-Learning,บุคคลทั่วไป,1,2560,2560,Facebook,4.9,สำเร็จ
+ENR00904,2025-01-05,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00572,2024-07-23,Excel,Excel Basic,Online Live,องค์กร,5,3500,15750,TikTok,4.8,สำเร็จ
+ENR01107,2024-04-28,Power BI,DAX Formula,E-Learning,องค์กร,5,4720,21240,TikTok,4.3,สำเร็จ
+ENR00060,2025-02-20,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,TikTok,4.9,สำเร็จ
+ENR01287,2024-06-18,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,3.8,สำเร็จ
+ENR00111,2025-08-28,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,เพื่อนแนะนำ,4.1,ไม่สำเร็จ
+ENR00254,2024-07-12,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,Facebook,4.1,สำเร็จ
+ENR00786,2025-11-03,Python,Python for Beginner,E-Learning,องค์กร,5,4720,21240,องค์กรส่งมา,4.2,สำเร็จ
+ENR00638,2025-06-03,Excel,Excel Basic,E-Learning,องค์กร,1,2800,2800,TikTok,4.8,สำเร็จ
+ENR01446,2025-08-23,Python,Python for Beginner,Onsite,องค์กร,5,5900,26550,เพื่อนแนะนำ,5,สำเร็จ
+ENR01309,2025-01-05,Python,Machine Learning,E-Learning,บุคคลทั่วไป,2,7120,14240,LINE OA,5.0,สำเร็จ
+ENR01076,2024-12-10,Excel,Excel Dashboard,Online Live,องค์กร,5,4900,22050,,4.5,สำเร็จ
+ENR01267,2024-05-05,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,1,4720,4720,LINE OA,4.4,สำเร็จ
+ENR00209,2024-03-13,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,LINE OA,4.5,สำเร็จ
+ENR00850,2025-11-12,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,5,สำเร็จ
+ENR01265,2025-10-21,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,Facebook,4.1,ไม่สำเร็จ
+ENR01184,2025-11-24,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,1,3200,3200,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00441,2025-05-07,SQL,SQL for Data Analyst,Online Live,องค์กร,5,5500,24750,LINE OA,4.8,สำเร็จ
+ENR00452,2025-10-24,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,3,4900,14700,Google Search,4.5,สำเร็จ
+ENR00321,2025-04-22,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,,4.6,สำเร็จ
+ENR00225,2024-09-11,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,LINE OA,4.0,สำเร็จ
+ENR00455,2024-04-17,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,LINE OA,4.5,สำเร็จ
+ENR00218,2025-09-24,Python,Python Data Analysis,Onsite,องค์กร,5,6900,31050,องค์กรส่งมา,4.7,สำเร็จ
+ENR01461,2025-06-22,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,2,4900,9800,TikTok,4.1,สำเร็จ
+ENR00353,2025-03-30,AI Tools,ChatGPT for Work,Online Live,องค์กร,10,3900,35100,องค์กรส่งมา,4.1,สำเร็จ
+ENR01353,2024-08-25,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,5,สำเร็จ
+ENR00708,2024-01-10,SQL,SQL for Data Analyst,E-Learning,บุคคลทั่วไป,1,4400,4400,TikTok,4.7,ไม่สำเร็จ
+ENR01255,2024-06-25,Python,Machine Learning,Onsite,บุคคลทั่วไป,2,8900,17800,Facebook,3.8,สำเร็จ
+ENR00759,2024-09-29,Power BI,Power BI Desktop,Online Live,องค์กร,1,5500,5500,องค์กรส่งมา,5,สำเร็จ
+ENR01040,2024-10-24,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,Facebook,4.4,สำเร็จ
+ENR00644,2025-03-04,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,3,5900,17700,Google Search,4.2,สำเร็จ
+ENR00891,2025-03-07,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,Google Search,4.1,สำเร็จ
+ENR01059,2024-06-10,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,TikTok,4.1,สำเร็จ
+ENR00536,2024-06-27,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,Facebook,4.4,สำเร็จ
+ENR00418,2025-12-16,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,Google Search,4.7,สำเร็จ
+ENR01033,2025-01-22,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,2,4900,9800,,4.5,สำเร็จ
+ENR00250,2024-12-10,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00255,2025-06-24,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,LINE OA,4.2,สำเร็จ
+ENR01005,2024-05-15,SQL,SQL Fundamentals,Online Live,องค์กร,10,4900,44100,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR00049,2025-01-23,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,TikTok,5.0,สำเร็จ
+ENR00143,2024-11-20,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,Google Search,4.3,สำเร็จ
+ENR00877,2025-04-29,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,3.7,สำเร็จ
+ENR00606,2024-08-29,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00313,2025-11-07,Excel,Excel Dashboard,Online Live,องค์กร,5,4900,22050,LINE OA,4.4,สำเร็จ
+ENR01140,2024-07-24,Office,PowerPoint Design,E-Learning,องค์กร,1,2560,2560,องค์กรส่งมา,4.4,สำเร็จ
+ENR00193,2025-08-21,Office,PowerPoint Design,Onsite,องค์กร,5,3200,14400,องค์กรส่งมา,4.4,สำเร็จ
+ENR01156,2025-06-13,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,LINE OA,4.5,สำเร็จ
+ENR00771,2024-01-19,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,LINE OA,4.3,สำเร็จ
+ENR00483,2025-05-13,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,3,5900,17700,Google Search,4.7,สำเร็จ
+ENR01441,2025-02-05,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,Google Search,3.9,สำเร็จ
+ENR00129,2025-09-27,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,3.9,สำเร็จ
+ENR00421,2024-12-09,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,Facebook,3.6,สำเร็จ
+ENR00709,2024-02-24,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00150,2024-12-15,AI Tools,AI Automation,Onsite,องค์กร,3,5900,17700,Facebook,4.4,สำเร็จ
+ENR00446,2025-10-18,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Google Search,4.8,สำเร็จ
+ENR01046,2024-01-15,Excel,Excel Advanced,Onsite,องค์กร,10,4500,40500,Facebook,4.5,สำเร็จ
+ENR01210,2025-07-05,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,LINE OA,4.7,สำเร็จ
+ENR01480,2025-02-25,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,LINE OA,4.7,สำเร็จ
+ENR00033,2024-09-08,Office,Word Professional,Onsite,องค์กร,5,2900,13050,องค์กรส่งมา,,สำเร็จ
+ENR00477,2025-12-03,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,TikTok,4.6,สำเร็จ
+ENR00539,2024-05-30,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,2,6900,13800,LINE OA,3.6,สำเร็จ
+ENR00945,2025-02-13,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR01315,2024-04-24,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR01440,2025-03-10,Office,Word Professional,Online Live,บุคคลทั่วไป,2,2900,5800,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00732,2024-12-11,Office,Word Professional,E-Learning,บุคคลทั่วไป,1,2320,2320,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00748,2025-01-14,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,LINE OA,4.8,สำเร็จ
+ENR00400,2025-01-18,Excel,Excel Basic,Onsite,บุคคลทั่วไป,3,3500,10500,LINE OA,4.6,สำเร็จ
+ENR00290,2024-05-17,Python,Python for Beginner,E-Learning,องค์กร,3,4720,14160,องค์กรส่งมา,4.3,สำเร็จ
+ENR00456,2025-04-28,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.4,ไม่สำเร็จ
+ENR00414,2025-05-14,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,LINE OA,4.8,สำเร็จ
+ENR00607,2024-04-27,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,2,5500,11000,Facebook,4.4,สำเร็จ
+ENR00725,2024-10-28,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR01469,2025-11-23,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,4.3,สำเร็จ
+ENR01008,2025-06-01,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,2,3120,6240,Facebook,,สำเร็จ
+ENR01285,2024-11-16,Excel,Excel Basic,Online Live,องค์กร,1,3500,3500,LINE OA,4.4,สำเร็จ
+ENR01034,2024-12-12,Excel,Excel Basic,Onsite,องค์กร,10,3500,31500,องค์กรส่งมา,5,สำเร็จ
+ENR01459,2024-08-20,Python,Machine Learning,Online Live,องค์กร,2,8900,17800,Facebook,3.9,สำเร็จ
+ENR01211,2025-02-01,Python,Machine Learning,Online Live,องค์กร,5,8900,40050,Google Search,4.3,สำเร็จ
+ENR01101,2024-01-23,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,Facebook,4.5,สำเร็จ
+ENR00940,2025-08-31,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR01011,2024-07-01,Python,Python for Beginner,Online Live,องค์กร,5,5900,26550,องค์กรส่งมา,4.1,ไม่สำเร็จ
+ENR00629,2025-02-04,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,LINE OA,5.0,สำเร็จ
+ENR00782,2024-03-26,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,TikTok,4.7,สำเร็จ
+ENR00231,2025-10-07,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,3,5900,17700,TikTok,4.5,ไม่สำเร็จ
+ENR00754,2025-04-09,Python,Python Data Analysis,Onsite,องค์กร,1,6900,6900,เพื่อนแนะนำ,5.0,สำเร็จ
+ENR01190,2025-10-29,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,4.9,สำเร็จ
+ENR00300,2025-02-03,Python,Machine Learning,Online Live,องค์กร,5,8900,40050,องค์กรส่งมา,4.7,สำเร็จ
+ENR00352,2024-12-10,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,LINE OA,4.6,สำเร็จ
+ENR00167,2025-05-30,Excel,Excel Advanced,Onsite,องค์กร,1,4500,4500,LINE OA,4.3,สำเร็จ
+ENR01041,2025-02-07,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR01492,2025-08-17,SQL,SQL for Data Analyst,Onsite,องค์กร,5,5500,24750,Google Search,4.1,สำเร็จ
+ENR00763,2024-03-03,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00806,2024-01-14,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,3.9,สำเร็จ
+ENR00573,2025-07-01,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,เพื่อนแนะนำ,3.4,สำเร็จ
+ENR00358,2025-08-31,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,LINE OA,5,สำเร็จ
+ENR00247,2024-02-26,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Google Search,4.5,สำเร็จ
+ENR00710,2024-08-04,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,2,3900,7800,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR01365,2025-08-04,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,LINE OA,4.6,สำเร็จ
+ENR00083,2024-09-06,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR01341,2025-01-11,SQL,SQL for Data Analyst,E-Learning,บุคคลทั่วไป,1,4400,4400,TikTok,4.9,สำเร็จ
+ENR00350,2024-09-02,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,2,4400,8800,TikTok,3.7,สำเร็จ
+ENR01303,2025-01-29,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,Google Search,4.2,สำเร็จ
+ENR00772,2024-03-16,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,เพื่อนแนะนำ,5,สำเร็จ
+ENR00023,2025-12-28,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR01216,2025-01-22,SQL,SQL for Data Analyst,Online Live,องค์กร,5,5500,24750,องค์กรส่งมา,4.8,สำเร็จ
+ENR01060,2025-06-17,Office,Word Professional,Onsite,บุคคลทั่วไป,3,2900,8700,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00253,2025-09-10,Excel,Excel Basic,Onsite,องค์กร,5,3500,15750,องค์กรส่งมา,4.8,สำเร็จ
+ENR00042,2024-02-24,AI Tools,ChatGPT for Work,Online Live,องค์กร,5,3900,17550,LINE OA,3.6,สำเร็จ
+ENR00155,2025-08-06,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Google Search,4.6,สำเร็จ
+ENR00523,2024-06-11,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,Facebook,5,สำเร็จ
+ENR01404,2025-10-20,SQL,SQL for Data Analyst,E-Learning,บุคคลทั่วไป,1,4400,4400,TikTok,4.9,สำเร็จ
+ENR01196,2024-01-15,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,2,3920,7840,เพื่อนแนะนำ,5,สำเร็จ
+ENR01413,2025-12-03,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,Facebook,4.5,สำเร็จ
+ENR00885,2025-02-27,Excel,Excel Advanced,Onsite,องค์กร,1,4500,4500,Facebook,4.2,สำเร็จ
+ENR00194,2024-01-19,Office,PowerPoint Design,Onsite,องค์กร,5,3200,14400,TikTok,4.4,สำเร็จ
+ENR00795,2025-06-10,Python,Python Data Analysis,Onsite,องค์กร,5,6900,31050,องค์กรส่งมา,4.6,สำเร็จ
+ENR00917,2025-04-25,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,Google Search,4.9,สำเร็จ
+ENR00792,2025-03-06,Excel,Excel Dashboard,E-Learning,องค์กร,1,3920,3920,องค์กรส่งมา,5,สำเร็จ
+ENR01241,2025-05-23,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.3,ไม่สำเร็จ
+ENR00802,2025-10-05,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Google Search,3.9,สำเร็จ
+ENR01482,2024-06-12,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,Google Search,4.4,สำเร็จ
+ENR00327,2024-04-17,Office,Word Professional,Online Live,บุคคลทั่วไป,3,2900,8700,LINE OA,4.2,สำเร็จ
+ENR00783,2024-05-07,Python,Machine Learning,Online Live,องค์กร,10,8900,80100,Facebook,4.5,สำเร็จ
+ENR00402,2024-09-03,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Facebook,4.2,สำเร็จ
+ENR01106,2024-12-30,Office,PowerPoint Design,Online Live,องค์กร,5,3200,14400,LINE OA,4.3,สำเร็จ
+ENR01045,2025-02-05,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,4.4,สำเร็จ
+ENR01373,2024-09-12,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,1,3920,3920,Google Search,4.6,สำเร็จ
+ENR00139,2025-05-23,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,2,3120,6240,Google Search,4.9,สำเร็จ
+ENR00651,2024-02-12,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,2,4900,9800,LINE OA,4.5,ไม่สำเร็จ
+ENR00830,2024-11-22,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,4.6,สำเร็จ
+ENR01091,2024-07-16,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.2,สำเร็จ
+ENR00046,2025-10-17,Python,Machine Learning,Online Live,องค์กร,5,8900,40050,Google Search,4.4,สำเร็จ
+ENR00112,2025-03-30,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,3,5500,16500,Facebook,4.9,สำเร็จ
+ENR01083,2024-04-26,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,Google Search,4.5,สำเร็จ
+ENR00602,2025-03-19,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00039,2025-04-07,AI Tools,ChatGPT for Work,Onsite,องค์กร,1,3900,3900,องค์กรส่งมา,5,สำเร็จ
+ENR00811,2024-03-03,Power BI,Power BI Desktop,Onsite,องค์กร,1,5500,5500,องค์กรส่งมา,4.2,สำเร็จ
+ENR01027,2024-08-20,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,3,4500,13500,Google Search,4.9,สำเร็จ
+ENR00266,2024-01-21,Office,PowerPoint Design,Onsite,องค์กร,5,3200,14400,องค์กรส่งมา,4.8,สำเร็จ
+ENR00132,2025-08-16,AI Tools,AI Automation,Onsite,องค์กร,1,5900,5900,องค์กรส่งมา,4.4,สำเร็จ
+ENR00831,2024-04-01,Excel,Excel Basic,Onsite,องค์กร,1,3500,3500,องค์กรส่งมา,4.6,สำเร็จ
+ENR01098,2025-04-30,Office,PowerPoint Design,Online Live,องค์กร,10,3200,28800,องค์กรส่งมา,3.9,สำเร็จ
+ENR00757,2024-08-05,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,LINE OA,4.2,สำเร็จ
+ENR00268,2024-04-14,Power BI,DAX Formula,Onsite,องค์กร,1,5900,5900,เพื่อนแนะนำ,4.9,สำเร็จ
+ENR01085,2024-09-24,Python,Python for Beginner,Online Live,องค์กร,1,5900,5900,องค์กรส่งมา,4.1,สำเร็จ
+ENR00002,2024-08-04,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,4.2,สำเร็จ
+ENR01035,2025-12-24,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,3,3920,11760,TikTok,4.5,สำเร็จ
+ENR01465,2024-12-10,Office,Word Professional,Onsite,บุคคลทั่วไป,2,2900,5800,เพื่อนแนะนำ,3.9,สำเร็จ
+ENR00237,2025-09-22,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,TikTok,4.4,สำเร็จ
+ENR01232,2024-02-23,Power BI,Power BI Desktop,E-Learning,องค์กร,5,4400,19800,องค์กรส่งมา,4.0,สำเร็จ
+ENR01466,2024-02-10,Python,Python for Beginner,Onsite,องค์กร,5,5900,26550,องค์กรส่งมา,4.0,สำเร็จ
+ENR01297,2024-07-30,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,Google Search,4.4,สำเร็จ
+ENR00646,2024-11-20,Excel,Excel Basic,Onsite,องค์กร,10,3500,31500,องค์กรส่งมา,4.6,สำเร็จ
+ENR01144,2024-08-29,SQL,SQL Fundamentals,Online Live,องค์กร,10,4900,44100,องค์กรส่งมา,4.4,สำเร็จ
+ENR00076,2025-11-16,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,Google Search,4.6,สำเร็จ
+ENR00410,2024-01-02,Excel,Excel Basic,Online Live,บุคคลทั่วไป,2,3500,7000,TikTok,4.2,สำเร็จ
+ENR01016,2024-08-17,Python,Python for Beginner,Onsite,บุคคลทั่วไป,2,5900,11800,Google Search,4.3,สำเร็จ
+ENR00550,2024-12-04,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,2,4500,9000,Google Search,4.6,ไม่สำเร็จ
+ENR00419,2025-04-18,Excel,Excel Dashboard,Onsite,องค์กร,10,4900,44100,องค์กรส่งมา,4.4,สำเร็จ
+ENR00656,2024-08-22,Excel,Excel Basic,Onsite,บุคคลทั่วไป,3,3500,10500,Facebook,4.9,สำเร็จ
+ENR01164,2025-04-20,Power BI,Power BI Desktop,Onsite,องค์กร,1,5500,5500,องค์กรส่งมา,4.8,สำเร็จ
+ENR00326,2025-10-10,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,2,3900,7800,Google Search,4.1,สำเร็จ
+ENR00742,2024-11-09,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,Google Search,3.9,สำเร็จ
+ENR01298,2025-10-16,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,1,3200,3200,TikTok,3.9,สำเร็จ
+ENR01414,2025-12-23,Excel,Excel Basic,Online Live,บุคคลทั่วไป,2,3500,7000,TikTok,4.7,ไม่สำเร็จ
+ENR01308,2025-06-05,AI Tools,ChatGPT for Work,Onsite,องค์กร,1,3900,3900,องค์กรส่งมา,3.3,สำเร็จ
+ENR01318,2024-08-16,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,LINE OA,4.2,สำเร็จ
+ENR00074,2024-01-16,SQL,SQL Fundamentals,Onsite,องค์กร,3,4900,14700,TikTok,5,ไม่สำเร็จ
+ENR00583,2025-07-15,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,3,5900,17700,Google Search,4.4,สำเร็จ
+ENR00731,2025-11-05,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,4.6,สำเร็จ
+ENR00837,2024-10-13,Excel,Excel Advanced,Online Live,องค์กร,5,4500,20250,Google Search,4.6,สำเร็จ
+ENR00444,2025-02-05,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,3,3920,11760,TikTok,4.7,สำเร็จ
+ENR00458,2025-09-14,Office,PowerPoint Design,Onsite,องค์กร,10,3200,28800,Google Search,4.6,สำเร็จ
+ENR01305,2024-06-06,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,3,5500,16500,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00288,2024-12-26,Excel,Excel Advanced,E-Learning,องค์กร,5,3600,16200,องค์กรส่งมา,4.8,สำเร็จ
+ENR01372,2024-10-28,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,2,4900,9800,เพื่อนแนะนำ,4.9,สำเร็จ
+ENR00062,2025-04-12,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.2,ไม่สำเร็จ
+ENR00955,2025-02-24,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,1,3920,3920,TikTok,4.2,สำเร็จ
+ENR01113,2025-02-02,Excel,Excel Basic,Online Live,องค์กร,1,3500,3500,องค์กรส่งมา,4.1,สำเร็จ
+ENR01066,2025-02-06,Excel,Excel Basic,Online Live,องค์กร,5,3500,15750,เพื่อนแนะนำ,4.8,ไม่สำเร็จ
+ENR00178,2024-10-28,AI Tools,ChatGPT for Work,Online Live,องค์กร,1,3900,3900,TikTok,4.5,สำเร็จ
+ENR00487,2024-01-09,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,2,4900,9800,Facebook,4.4,สำเร็จ
+ENR01223,2024-12-30,Power BI,DAX Formula,Onsite,องค์กร,1,5900,5900,LINE OA,3.8,สำเร็จ
+ENR01331,2024-09-08,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,Facebook,4.5,สำเร็จ
+ENR01049,2024-08-13,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,Facebook,4.4,สำเร็จ
+ENR00114,2025-10-04,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,Facebook,4.5,สำเร็จ
+ENR01215,2025-11-08,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00198,2024-07-25,Excel,Excel Advanced,Online Live,องค์กร,3,4500,13500,องค์กรส่งมา,4.7,สำเร็จ
+ENR00650,2024-12-06,Office,Word Professional,E-Learning,องค์กร,1,2320,2320,Facebook,4.8,สำเร็จ
+ENR00519,2024-02-15,Excel,Excel Advanced,E-Learning,องค์กร,1,3600,3600,TikTok,4.3,สำเร็จ
+ENR01037,2024-01-22,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,Facebook,4.5,สำเร็จ
+ENR00967,2024-09-18,Office,PowerPoint Design,Onsite,องค์กร,5,3200,14400,องค์กรส่งมา,4.1,สำเร็จ
+ENR01063,2024-12-30,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR00568,2025-11-01,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,TikTok,4.1,สำเร็จ
+ENR00931,2025-10-26,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,1,3920,3920,Google Search,4.8,สำเร็จ
+ENR01293,2025-12-31,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Facebook,4.3,ไม่สำเร็จ
+ENR00838,2025-01-14,Excel,Excel Basic,Online Live,องค์กร,5,3500,15750,องค์กรส่งมา,4.5,สำเร็จ
+ENR00370,2025-12-26,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.8,สำเร็จ
+ENR00739,2024-05-30,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,LINE OA,5,ไม่สำเร็จ
+ENR01304,2024-05-08,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00411,2024-07-06,Excel,Excel Basic,Online Live,องค์กร,1,3500,3500,Google Search,4.2,สำเร็จ
+ENR00123,2025-11-15,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,Google Search,4.5,สำเร็จ
+ENR00306,2024-06-27,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,Facebook,4.4,สำเร็จ
+ENR01281,2024-04-18,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,3,3900,11700,LINE OA,4.7,สำเร็จ
+ENR00283,2025-01-11,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,2,4720,9440,LINE OA,4.5,ไม่สำเร็จ
+ENR01457,2024-10-11,Power BI,DAX Formula,Online Live,องค์กร,10,5900,53100,องค์กรส่งมา,4.5,สำเร็จ
+ENR01021,2025-08-29,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,2,4900,9800,Google Search,3.7,สำเร็จ
+ENR01228,2025-12-20,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,TikTok,3.8,สำเร็จ
+ENR01474,2025-12-31,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,2,4400,8800,Facebook,4.2,สำเร็จ
+ENR00943,2025-10-21,AI Tools,AI Automation,Onsite,องค์กร,10,5900,53100,Facebook,3.7,สำเร็จ
+ENR00102,2025-12-26,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.3,สำเร็จ
+ENR01330,2024-01-18,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.0,สำเร็จ
+ENR01062,2024-12-01,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.1,สำเร็จ
+ENR01382,2024-04-17,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,3,4720,14160,LINE OA,4.1,สำเร็จ
+ENR00938,2025-01-14,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,TikTok,4.0,สำเร็จ
+ENR00900,2025-12-06,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,1,3920,3920,LINE OA,4.0,ไม่สำเร็จ
+ENR00995,2025-01-12,Python,Python for Beginner,Online Live,บุคคลทั่วไป,2,5900,11800,Facebook,4.1,สำเร็จ
+ENR01188,2025-07-20,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,2,4500,9000,LINE OA,4.5,สำเร็จ
+ENR00614,2025-12-31,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,2,4900,9800,TikTok,4.6,สำเร็จ
+ENR01335,2024-04-02,Excel,Excel Basic,Online Live,บุคคลทั่วไป,3,3500,10500,Facebook,4.1,สำเร็จ
+ENR00252,2024-01-17,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.7,ไม่สำเร็จ
+ENR01453,2025-12-03,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,1,4720,4720,Facebook,4.2,สำเร็จ
+ENR00627,2025-05-07,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,3,4400,13200,LINE OA,4.0,สำเร็จ
+ENR01496,2024-02-09,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,Google Search,5,สำเร็จ
+ENR01397,2024-05-16,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,3,6900,20700,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR01094,2024-04-02,AI Tools,AI Automation,E-Learning,องค์กร,5,4720,21240,LINE OA,5,สำเร็จ
+ENR00080,2024-07-09,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,3,4900,14700,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR01386,2024-08-23,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,TikTok,4.4,สำเร็จ
+ENR00156,2024-05-17,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00545,2025-04-22,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,2,5520,11040,เพื่อนแนะนำ,5,สำเร็จ
+ENR00308,2025-09-24,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR00659,2025-08-31,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,Google Search,3.6,ไม่สำเร็จ
+ENR00640,2024-09-09,Excel,Excel Basic,Online Live,องค์กร,1,3500,3500,องค์กรส่งมา,5,สำเร็จ
+ENR01426,2024-04-16,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,LINE OA,4.1,สำเร็จ
+ENR00424,2025-11-13,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR01105,2024-04-11,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,LINE OA,4.2,สำเร็จ
+ENR01439,2024-01-30,Power BI,DAX Formula,Onsite,องค์กร,2,5900,11800,องค์กรส่งมา,,สำเร็จ
+ENR01179,2025-01-17,SQL,SQL for Data Analyst,Online Live,องค์กร,1,5500,5500,องค์กรส่งมา,4.3,สำเร็จ
+ENR01220,2024-02-22,AI Tools,ChatGPT for Work,Online Live,องค์กร,5,3900,17550,องค์กรส่งมา,4.7,ไม่สำเร็จ
+ENR00051,2024-12-29,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,3,4720,14160,Google Search,4.3,สำเร็จ
+ENR00912,2024-03-17,AI Tools,AI Automation,Online Live,องค์กร,3,5900,17700,องค์กรส่งมา,4.6,สำเร็จ
+ENR01268,2024-02-19,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,LINE OA,4.7,สำเร็จ
+ENR00992,2025-06-27,Excel,Excel Basic,E-Learning,องค์กร,10,2800,25200,Google Search,,สำเร็จ
+ENR00565,2024-04-20,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,Facebook,4.7,สำเร็จ
+ENR00797,2025-02-05,Power BI,Power BI Desktop,Onsite,องค์กร,5,5500,24750,องค์กรส่งมา,4.5,สำเร็จ
+ENR00068,2025-01-10,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,Google Search,5,สำเร็จ
+ENR00678,2024-10-19,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,Facebook,4.5,สำเร็จ
+ENR00043,2024-01-13,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,3,5520,16560,LINE OA,5,สำเร็จ
+ENR00032,2024-10-17,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,5,สำเร็จ
+ENR01127,2025-09-21,Excel,Excel Basic,Online Live,บุคคลทั่วไป,3,3500,10500,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00328,2024-09-12,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,Google Search,4.0,ไม่สำเร็จ
+ENR00096,2024-07-31,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.1,สำเร็จ
+ENR00671,2024-12-05,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,3,5500,16500,TikTok,4.3,สำเร็จ
+ENR00774,2024-12-22,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,,4.6,สำเร็จ
+ENR00690,2024-04-29,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,2,5900,11800,Google Search,5,สำเร็จ
+ENR00034,2024-08-01,Python,Python Data Analysis,Onsite,องค์กร,5,6900,31050,องค์กรส่งมา,5,สำเร็จ
+ENR00696,2025-12-26,Office,PowerPoint Design,E-Learning,บุคคลทั่วไป,1,2560,2560,Google Search,4.3,สำเร็จ
+ENR01149,2024-07-29,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,TikTok,3.7,สำเร็จ
+ENR00229,2025-04-21,SQL,SQL for Data Analyst,Onsite,องค์กร,1,5500,5500,เพื่อนแนะนำ,4.4,ไม่สำเร็จ
+ENR00595,2024-01-26,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,2,4400,8800,LINE OA,4.1,สำเร็จ
+ENR01417,2025-08-20,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,3.7,สำเร็จ
+ENR00936,2024-10-10,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,Facebook,4.3,สำเร็จ
+ENR00392,2024-08-03,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,2,2800,5600,Facebook,4.2,สำเร็จ
+ENR00145,2025-07-15,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,3,5900,17700,Facebook,4.4,สำเร็จ
+ENR01368,2024-11-20,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR00706,2025-11-07,Python,Machine Learning,Online Live,บุคคลทั่วไป,3,8900,26700,Google Search,5,สำเร็จ
+ENR01195,2024-10-09,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,2,3920,7840,Facebook,4.7,สำเร็จ
+ENR00773,2025-04-12,Python,Machine Learning,E-Learning,บุคคลทั่วไป,3,7120,21360,Google Search,4.2,สำเร็จ
+ENR00822,2024-07-06,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR01172,2024-07-30,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,3,5900,17700,TikTok,4.4,สำเร็จ
+ENR00024,2025-03-28,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR00142,2024-05-14,Power BI,Power BI Desktop,Onsite,องค์กร,1,5500,5500,Google Search,3.9,สำเร็จ
+ENR00803,2025-04-18,Power BI,DAX Formula,Online Live,องค์กร,5,5900,26550,องค์กรส่งมา,4.1,สำเร็จ
+ENR01276,2024-07-08,Office,PowerPoint Design,E-Learning,องค์กร,5,2560,11520,Google Search,4.7,สำเร็จ
+ENR00919,2024-10-06,SQL,SQL for Data Analyst,Online Live,องค์กร,2,5500,11000,องค์กรส่งมา,4.6,สำเร็จ
+ENR00310,2024-02-22,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,3,3600,10800,LINE OA,5.0,ไม่สำเร็จ
+ENR00273,2025-11-18,Python,Machine Learning,Online Live,บุคคลทั่วไป,3,8900,26700,Facebook,4.1,สำเร็จ
+ENR00093,2025-08-24,Power BI,Power BI Desktop,E-Learning,องค์กร,5,4400,19800,องค์กรส่งมา,4.9,สำเร็จ
+ENR01056,2025-01-30,Excel,Excel Basic,Onsite,องค์กร,1,3500,3500,LINE OA,4.7,สำเร็จ
+ENR00090,2025-03-22,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,เพื่อนแนะนำ,4.9,สำเร็จ
+ENR01071,2024-03-03,Excel,Excel Advanced,Onsite,องค์กร,3,4500,13500,เพื่อนแนะนำ,3.8,ไม่สำเร็จ
+ENR00834,2025-05-28,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,2,4720,9440,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00154,2024-01-23,Python,Machine Learning,Online Live,บุคคลทั่วไป,2,8900,17800,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00845,2025-03-03,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,LINE OA,3.3,สำเร็จ
+ENR00762,2025-03-20,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,4.5,สำเร็จ
+ENR00887,2024-11-30,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,Google Search,4.2,สำเร็จ
+ENR00809,2024-12-21,Excel,Excel Advanced,Onsite,องค์กร,1,4500,4500,TikTok,4.3,สำเร็จ
+ENR01096,2025-09-07,Excel,Excel Dashboard,Onsite,องค์กร,1,4900,4900,องค์กรส่งมา,4.4,สำเร็จ
+ENR01430,2025-08-24,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,Google Search,4.2,สำเร็จ
+ENR00278,2025-08-23,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,Facebook,4.8,สำเร็จ
+ENR00399,2025-02-12,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Facebook,4.1,สำเร็จ
+ENR00882,2024-03-03,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,LINE OA,4.4,ไม่สำเร็จ
+ENR01170,2024-04-17,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.9,ไม่สำเร็จ
+ENR00913,2024-01-02,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00621,2025-01-17,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,LINE OA,4.3,สำเร็จ
+ENR01342,2025-11-07,SQL,SQL for Data Analyst,Online Live,องค์กร,1,5500,5500,องค์กรส่งมา,4.2,สำเร็จ
+ENR00893,2024-03-29,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,Facebook,4.7,สำเร็จ
+ENR00812,2024-10-19,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,Facebook,5.0,สำเร็จ
+ENR01388,2024-02-22,Python,Machine Learning,E-Learning,องค์กร,5,7120,32040,LINE OA,4.1,สำเร็จ
+ENR01150,2025-01-14,Python,Python Data Analysis,Online Live,องค์กร,1,6900,6900,องค์กรส่งมา,4.6,สำเร็จ
+ENR00412,2025-06-07,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Facebook,4.8,สำเร็จ
+ENR00509,2024-01-18,Power BI,Power BI Desktop,Online Live,องค์กร,1,5500,5500,องค์กรส่งมา,4.5,สำเร็จ
+ENR01151,2025-09-22,Python,Python Data Analysis,Onsite,องค์กร,2,6900,13800,TikTok,3.6,ไม่สำเร็จ
+ENR01182,2025-05-12,SQL,SQL for Data Analyst,Online Live,องค์กร,3,5500,16500,TikTok,4.8,สำเร็จ
+ENR00648,2025-06-20,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,4.1,สำเร็จ
+ENR00746,2024-07-13,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,Google Search,4.7,สำเร็จ
+ENR00529,2025-10-11,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,TikTok,4.6,สำเร็จ
+ENR01332,2025-10-03,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,Facebook,4.5,สำเร็จ
+ENR00323,2025-05-06,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,TikTok,4.6,สำเร็จ
+ENR01007,2024-02-08,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,LINE OA,4.3,สำเร็จ
+ENR01361,2024-11-25,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,2,3920,7840,Google Search,3.9,ไม่สำเร็จ
+ENR01339,2025-07-13,Python,Python Data Analysis,Online Live,องค์กร,1,6900,6900,Google Search,4.3,สำเร็จ
+ENR01197,2024-02-26,Excel,Excel Basic,Onsite,องค์กร,5,3500,15750,องค์กรส่งมา,4.4,สำเร็จ
+ENR00480,2024-05-31,Python,Python for Beginner,Online Live,บุคคลทั่วไป,2,5900,11800,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00025,2024-10-20,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,TikTok,5,สำเร็จ
+ENR00047,2025-03-21,Excel,Excel Basic,Online Live,บุคคลทั่วไป,2,3500,7000,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00416,2024-03-31,Excel,Excel Dashboard,Onsite,องค์กร,1,4900,4900,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00942,2024-07-24,AI Tools,ChatGPT for Work,E-Learning,องค์กร,5,3120,14040,องค์กรส่งมา,3.9,สำเร็จ
+ENR01002,2025-06-01,Office,Word Professional,Online Live,บุคคลทั่วไป,3,2900,8700,Google Search,4.8,สำเร็จ
+ENR00263,2024-01-30,Power BI,DAX Formula,Online Live,องค์กร,10,5900,53100,องค์กรส่งมา,3.9,สำเร็จ
+ENR01099,2025-12-28,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,LINE OA,4.8,สำเร็จ
+ENR01081,2024-02-22,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.9,สำเร็จ
+ENR00345,2025-10-07,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,2,5500,11000,Facebook,4.8,ไม่สำเร็จ
+ENR01278,2025-06-29,Office,PowerPoint Design,Onsite,องค์กร,10,3200,28800,องค์กรส่งมา,4.5,สำเร็จ
+ENR00103,2024-12-03,SQL,SQL for Data Analyst,E-Learning,องค์กร,5,4400,19800,องค์กรส่งมา,4.2,สำเร็จ
+ENR01438,2025-10-15,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR01086,2025-12-15,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,Facebook,4.5,สำเร็จ
+ENR00249,2025-08-28,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,2,4900,9800,LINE OA,4.3,สำเร็จ
+ENR00815,2024-03-25,Excel,Excel Dashboard,E-Learning,องค์กร,1,3920,3920,องค์กรส่งมา,4.6,สำเร็จ
+ENR01274,2025-04-01,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,,3.1,สำเร็จ
+ENR01038,2024-04-01,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,4.4,สำเร็จ
+ENR00489,2025-12-11,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,TikTok,4.3,สำเร็จ
+ENR00135,2025-10-18,AI Tools,ChatGPT for Work,Online Live,องค์กร,1,3900,3900,องค์กรส่งมา,4.1,สำเร็จ
+ENR01355,2025-03-15,Python,Machine Learning,Onsite,องค์กร,1,8900,8900,องค์กรส่งมา,4.1,สำเร็จ
+ENR01481,2025-04-18,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,TikTok,4.1,ไม่สำเร็จ
+ENR01250,2024-10-13,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,Facebook,4.3,สำเร็จ
+ENR00683,2025-01-04,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,Google Search,4.3,สำเร็จ
+ENR00652,2024-01-21,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,3,5500,16500,Facebook,4.5,สำเร็จ
+ENR00954,2024-07-13,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,Facebook,4.0,สำเร็จ
+ENR00613,2025-12-08,Power BI,DAX Formula,E-Learning,องค์กร,5,4720,21240,Google Search,4.0,สำเร็จ
+ENR01391,2025-05-16,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,เพื่อนแนะนำ,4.7,ไม่สำเร็จ
+ENR00862,2025-12-24,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00869,2024-09-11,Excel,Excel Dashboard,Online Live,องค์กร,5,4900,22050,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00752,2025-01-01,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,TikTok,4.5,สำเร็จ
+ENR00401,2024-10-21,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.5,สำเร็จ
+ENR00055,2025-05-27,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,Google Search,4.0,สำเร็จ
+ENR00119,2024-03-20,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,3,4900,14700,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00766,2024-04-18,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,LINE OA,4.8,สำเร็จ
+ENR00165,2024-10-18,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,TikTok,4.3,สำเร็จ
+ENR01484,2024-11-01,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,TikTok,4.4,สำเร็จ
+ENR01117,2025-05-16,Python,Machine Learning,E-Learning,บุคคลทั่วไป,1,7120,7120,Facebook,5,สำเร็จ
+ENR00100,2025-10-21,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,4.2,สำเร็จ
+ENR00620,2025-09-19,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.4,สำเร็จ
+ENR01338,2024-12-23,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,2,5520,11040,LINE OA,5,สำเร็จ
+ENR00036,2025-07-30,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00841,2025-02-16,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,LINE OA,4.2,สำเร็จ
+ENR01214,2025-10-20,Python,Python for Beginner,Onsite,องค์กร,1,5900,5900,Facebook,4.7,สำเร็จ
+ENR01258,2024-12-15,Power BI,Power BI Desktop,E-Learning,องค์กร,5,4400,19800,องค์กรส่งมา,4.5,สำเร็จ
+ENR00391,2024-09-26,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,Google Search,4.2,สำเร็จ
+ENR00542,2025-04-17,AI Tools,AI Automation,Onsite,องค์กร,10,5900,53100,องค์กรส่งมา,4.7,สำเร็จ
+ENR00969,2024-01-24,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00356,2024-06-15,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00120,2025-06-26,Python,Python for Beginner,Onsite,บุคคลทั่วไป,2,5900,11800,Facebook,3.6,สำเร็จ
+ENR01233,2025-09-13,Python,Python for Beginner,E-Learning,องค์กร,1,4720,4720,องค์กรส่งมา,4.6,สำเร็จ
+ENR00664,2024-05-14,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,Facebook,4.2,สำเร็จ
+ENR00946,2025-11-16,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,Facebook,4.7,สำเร็จ
+ENR00492,2025-12-18,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,3,5900,17700,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00324,2024-09-20,Python,Python Data Analysis,Online Live,องค์กร,10,6900,62100,Google Search,4.6,สำเร็จ
+ENR01452,2025-06-23,Excel,Excel Dashboard,E-Learning,องค์กร,1,3920,3920,Google Search,3.8,สำเร็จ
+ENR00998,2024-07-06,AI Tools,ChatGPT for Work,E-Learning,องค์กร,10,3120,28080,Facebook,4.9,สำเร็จ
+ENR00684,2025-01-02,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,2,5900,11800,Google Search,4.5,สำเร็จ
+ENR00632,2024-12-13,AI Tools,AI Automation,Online Live,องค์กร,1,5900,5900,องค์กรส่งมา,4.6,สำเร็จ
+ENR00907,2024-02-15,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,Facebook,4.2,สำเร็จ
+ENR00140,2025-04-27,SQL,SQL Fundamentals,Onsite,องค์กร,1,4900,4900,องค์กรส่งมา,4.5,สำเร็จ
+ENR00918,2024-09-08,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,4.8,สำเร็จ
+ENR00084,2025-12-10,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,TikTok,4.7,สำเร็จ
+ENR01471,2024-03-29,Power BI,DAX Formula,Online Live,องค์กร,5,5900,26550,TikTok,4.2,สำเร็จ
+ENR01495,2024-03-30,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,2,5900,11800,LINE OA,4.7,ไม่สำเร็จ
+ENR01064,2024-03-06,Python,Python for Beginner,E-Learning,องค์กร,2,4720,9440,LINE OA,4.5,สำเร็จ
+ENR00215,2024-01-26,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00125,2025-10-06,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,4.1,สำเร็จ
+ENR00490,2024-03-11,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,Google Search,4.6,สำเร็จ
+ENR00879,2025-11-05,Excel,Excel Basic,Online Live,องค์กร,1,3500,3500,LINE OA,4.1,สำเร็จ
+ENR00206,2025-04-25,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,Facebook,4.4,สำเร็จ
+ENR00058,2025-08-27,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,TikTok,4.4,สำเร็จ
+ENR01381,2024-07-03,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR01180,2024-03-21,Power BI,DAX Formula,Onsite,องค์กร,2,5900,11800,องค์กรส่งมา,5,สำเร็จ
+ENR00026,2025-05-27,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,3,5500,16500,Facebook,4.1,สำเร็จ
+ENR01128,2024-07-18,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,2,5500,11000,LINE OA,,สำเร็จ
+ENR00552,2025-04-06,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,LINE OA,4.5,สำเร็จ
+ENR01022,2025-02-14,Python,Machine Learning,Online Live,บุคคลทั่วไป,3,8900,26700,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00415,2025-10-11,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,LINE OA,3.7,สำเร็จ
+ENR00110,2024-01-13,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,1,3200,3200,LINE OA,5,สำเร็จ
+ENR00092,2024-10-25,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00694,2024-08-16,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00524,2025-12-01,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,Google Search,5,สำเร็จ
+ENR00494,2025-11-28,SQL,SQL Fundamentals,Onsite,องค์กร,5,4900,22050,เพื่อนแนะนำ,5,สำเร็จ
+ENR00527,2024-04-28,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,TikTok,4.3,สำเร็จ
+ENR01185,2024-11-19,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,3,5900,17700,เพื่อนแนะนำ,4.9,สำเร็จ
+ENR00679,2025-01-12,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.5,สำเร็จ
+ENR00775,2024-03-04,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,Facebook,3.8,สำเร็จ
+ENR01257,2025-01-06,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,5,สำเร็จ
+ENR01256,2025-07-14,SQL,SQL Fundamentals,Onsite,องค์กร,2,4900,9800,LINE OA,4.6,สำเร็จ
+ENR01160,2024-08-30,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Facebook,4.3,สำเร็จ
+ENR01359,2024-02-04,Power BI,Power BI Desktop,Onsite,องค์กร,5,5500,24750,องค์กรส่งมา,4.6,สำเร็จ
+ENR00035,2025-09-21,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.2,สำเร็จ
+ENR00895,2025-06-18,Python,Machine Learning,Onsite,องค์กร,1,8900,8900,องค์กรส่งมา,3.9,สำเร็จ
+ENR01139,2024-08-11,Power BI,DAX Formula,E-Learning,องค์กร,1,4720,4720,องค์กรส่งมา,4.6,สำเร็จ
+ENR00257,2025-10-30,AI Tools,ChatGPT for Work,Onsite,องค์กร,1,3900,3900,Facebook,4.1,สำเร็จ
+ENR01264,2024-03-30,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,1,3920,3920,Facebook,4.1,สำเร็จ
+ENR01351,2025-07-25,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,TikTok,4.3,ไม่สำเร็จ
+ENR00448,2024-12-16,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,5,สำเร็จ
+ENR00380,2024-12-10,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,Facebook,5,สำเร็จ
+ENR01134,2024-06-17,Office,Word Professional,Online Live,บุคคลทั่วไป,3,2900,8700,LINE OA,4.7,สำเร็จ
+ENR01186,2024-04-11,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,TikTok,3.3,สำเร็จ
+ENR00575,2025-03-18,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,3,5900,17700,Facebook,4.1,สำเร็จ
+ENR00312,2024-09-22,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,Google Search,4.2,สำเร็จ
+ENR01053,2024-04-14,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,3,5500,16500,LINE OA,4.6,สำเร็จ
+ENR00641,2024-06-21,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.6,สำเร็จ
+ENR01383,2024-09-13,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,4.1,สำเร็จ
+ENR00587,2024-08-05,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Facebook,3.9,สำเร็จ
+ENR00276,2024-01-12,Python,Machine Learning,Online Live,บุคคลทั่วไป,3,8900,26700,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR00170,2025-04-27,SQL,SQL for Data Analyst,E-Learning,บุคคลทั่วไป,1,4400,4400,TikTok,4.9,สำเร็จ
+ENR01421,2025-10-22,Power BI,Power BI Desktop,Online Live,องค์กร,1,5500,5500,องค์กรส่งมา,4.3,สำเร็จ
+ENR00594,2025-01-19,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,2,5900,11800,Google Search,4.5,ไม่สำเร็จ
+ENR00999,2025-02-07,SQL,SQL for Data Analyst,Onsite,องค์กร,1,5500,5500,องค์กรส่งมา,3.3,สำเร็จ
+ENR01088,2025-06-06,SQL,SQL for Data Analyst,Online Live,องค์กร,1,5500,5500,องค์กรส่งมา,4.7,สำเร็จ
+ENR01248,2024-11-24,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00889,2025-05-06,Power BI,Power BI Desktop,Online Live,องค์กร,5,5500,24750,องค์กรส่งมา,4.9,สำเร็จ
+ENR00144,2025-06-24,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,Facebook,3.5,สำเร็จ
+ENR01349,2024-12-12,Python,Machine Learning,Online Live,องค์กร,10,8900,80100,องค์กรส่งมา,4.9,สำเร็จ
+ENR00175,2025-10-20,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,LINE OA,3.5,สำเร็จ
+ENR00925,2025-08-04,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,2,3920,7840,LINE OA,4.8,สำเร็จ
+ENR00994,2024-10-10,SQL,SQL Fundamentals,Online Live,องค์กร,5,4900,22050,องค์กรส่งมา,4.4,สำเร็จ
+ENR00122,2024-05-23,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,TikTok,4.3,สำเร็จ
+ENR01234,2024-08-26,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,2,4500,9000,Google Search,4.9,สำเร็จ
+ENR01488,2024-11-12,Python,Machine Learning,Online Live,องค์กร,3,8900,26700,LINE OA,5,สำเร็จ
+ENR00636,2024-02-21,Office,PowerPoint Design,Online Live,องค์กร,10,3200,28800,องค์กรส่งมา,4.6,สำเร็จ
+ENR01477,2025-01-26,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,เพื่อนแนะนำ,5,สำเร็จ
+ENR00958,2025-11-23,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,TikTok,4.6,สำเร็จ
+ENR00243,2025-07-05,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,3.9,สำเร็จ
+ENR00592,2025-06-30,AI Tools,AI Automation,Onsite,องค์กร,1,5900,5900,องค์กรส่งมา,4.6,สำเร็จ
+ENR00138,2024-02-09,AI Tools,AI Automation,Onsite,องค์กร,5,5900,26550,องค์กรส่งมา,4.2,สำเร็จ
+ENR01169,2025-06-05,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,LINE OA,4.7,สำเร็จ
+ENR00109,2024-02-22,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,3,5900,17700,Google Search,4.4,สำเร็จ
+ENR00997,2025-02-23,AI Tools,ChatGPT for Work,Online Live,องค์กร,1,3900,3900,องค์กรส่งมา,4.4,สำเร็จ
+ENR01259,2025-09-17,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,Google Search,4.0,สำเร็จ
+ENR01061,2025-02-11,SQL,SQL for Data Analyst,Onsite,องค์กร,10,5500,49500,องค์กรส่งมา,3.6,สำเร็จ
+ENR00924,2024-02-28,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,LINE OA,3.4,ไม่สำเร็จ
+ENR01095,2025-03-04,Excel,Excel Basic,E-Learning,องค์กร,1,2800,2800,องค์กรส่งมา,4.4,สำเร็จ
+ENR00413,2025-06-23,Python,Python Data Analysis,Onsite,องค์กร,5,6900,31050,องค์กรส่งมา,4.5,สำเร็จ
+ENR00063,2025-09-17,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,4.1,สำเร็จ
+ENR01296,2025-08-29,Python,Machine Learning,E-Learning,บุคคลทั่วไป,2,7120,14240,Google Search,4.2,สำเร็จ
+ENR00740,2025-05-23,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,2,4900,9800,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00855,2025-11-14,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,TikTok,4.8,สำเร็จ
+ENR01394,2024-05-21,SQL,SQL Fundamentals,Onsite,องค์กร,1,4900,4900,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR01087,2025-09-04,AI Tools,AI Automation,E-Learning,องค์กร,5,4720,21240,องค์กรส่งมา,4.5,สำเร็จ
+ENR00977,2024-07-11,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,3.3,สำเร็จ
+ENR01082,2024-07-20,Excel,Excel Basic,Online Live,องค์กร,5,3500,15750,Facebook,4.9,สำเร็จ
+ENR01014,2025-05-03,SQL,SQL Fundamentals,Onsite,องค์กร,1,4900,4900,Google Search,4.1,สำเร็จ
+ENR01401,2024-01-30,Office,Word Professional,Onsite,องค์กร,3,2900,8700,องค์กรส่งมา,4.5,สำเร็จ
+ENR00285,2024-03-14,Python,Machine Learning,E-Learning,องค์กร,5,7120,32040,Google Search,5,สำเร็จ
+ENR00675,2025-06-19,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.9,สำเร็จ
+ENR00187,2025-09-07,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,3,3900,11700,Google Search,4.6,สำเร็จ
+ENR00818,2025-11-21,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,3,5900,17700,Google Search,3.5,ไม่สำเร็จ
+ENR01231,2024-12-02,Office,Word Professional,Onsite,บุคคลทั่วไป,3,2900,8700,LINE OA,4.1,สำเร็จ
+ENR01273,2025-03-21,Python,Python for Beginner,E-Learning,องค์กร,10,4720,42480,องค์กรส่งมา,4.5,สำเร็จ
+ENR01252,2024-07-24,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,3.8,ไม่สำเร็จ
+ENR01202,2024-05-24,Python,Python for Beginner,E-Learning,องค์กร,10,4720,42480,TikTok,4.9,สำเร็จ
+ENR01203,2025-05-11,Python,Machine Learning,Online Live,บุคคลทั่วไป,2,8900,17800,Google Search,4.3,ไม่สำเร็จ
+ENR00600,2025-04-28,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,1,3920,3920,Google Search,4.3,สำเร็จ
+ENR00712,2025-03-07,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,LINE OA,4.4,สำเร็จ
+ENR00728,2024-04-15,AI Tools,AI Automation,Online Live,องค์กร,1,5900,5900,องค์กรส่งมา,4.3,สำเร็จ
+ENR00349,2024-05-07,Python,Python for Beginner,E-Learning,องค์กร,10,4720,42480,Facebook,4.7,สำเร็จ
+ENR00567,2024-04-11,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,LINE OA,4.4,สำเร็จ
+ENR00676,2025-05-27,AI Tools,AI Automation,Online Live,องค์กร,10,5900,53100,องค์กรส่งมา,4.3,สำเร็จ
+ENR00159,2025-10-01,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00056,2025-03-15,Python,Python Data Analysis,Onsite,องค์กร,2,6900,13800,TikTok,4.4,สำเร็จ
+ENR00488,2024-03-31,Power BI,Power BI Desktop,Onsite,องค์กร,10,5500,49500,องค์กรส่งมา,5,สำเร็จ
+ENR00881,2025-10-21,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR01213,2025-06-25,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,3.9,สำเร็จ
+ENR01294,2024-11-13,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,เพื่อนแนะนำ,3.9,สำเร็จ
+ENR00425,2024-01-09,Excel,Excel Basic,Onsite,องค์กร,1,3500,3500,องค์กรส่งมา,4.7,สำเร็จ
+ENR00442,2025-10-06,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,LINE OA,4.4,สำเร็จ
+ENR00933,2025-06-04,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,Facebook,4.2,สำเร็จ
+ENR01478,2025-11-03,Python,Machine Learning,Onsite,องค์กร,10,8900,80100,องค์กรส่งมา,4.8,ไม่สำเร็จ
+ENR00348,2025-01-02,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00604,2024-01-25,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR00286,2025-12-02,Python,Machine Learning,Onsite,องค์กร,1,8900,8900,Facebook,4.7,ไม่สำเร็จ
+ENR00872,2025-04-07,SQL,SQL Fundamentals,Onsite,องค์กร,3,4900,14700,องค์กรส่งมา,5,สำเร็จ
+ENR01407,2024-05-01,Power BI,DAX Formula,Online Live,องค์กร,5,5900,26550,องค์กรส่งมา,4.2,สำเร็จ
+ENR00037,2024-08-05,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,TikTok,4.1,สำเร็จ
+ENR00048,2025-05-16,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,TikTok,4.6,สำเร็จ
+ENR00010,2025-04-05,Power BI,Power BI Desktop,Online Live,องค์กร,2,5500,11000,องค์กรส่งมา,4.0,ไม่สำเร็จ
+ENR00130,2025-06-06,Excel,Excel Advanced,Online Live,องค์กร,3,4500,13500,Google Search,4.4,ไม่สำเร็จ
+ENR00210,2025-11-23,Excel,Excel Dashboard,E-Learning,องค์กร,5,3920,17640,องค์กรส่งมา,4.8,สำเร็จ
+ENR00950,2025-09-13,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,2,3920,7840,Google Search,4.8,สำเร็จ
+ENR00840,2024-02-29,Excel,Excel Dashboard,Onsite,องค์กร,2,4900,9800,TikTok,5,สำเร็จ
+ENR00384,2025-09-15,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,4.2,สำเร็จ
+ENR00667,2025-01-13,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,3,5500,16500,Facebook,4.0,สำเร็จ
+ENR00674,2024-11-07,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,LINE OA,3.6,สำเร็จ
+ENR01352,2024-08-13,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Google Search,4.4,สำเร็จ
+ENR00770,2025-07-07,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,4.6,สำเร็จ
+ENR01470,2025-09-09,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,3,3900,11700,LINE OA,4.0,สำเร็จ
+ENR00843,2025-08-16,Power BI,Power BI Desktop,Online Live,องค์กร,1,5500,5500,องค์กรส่งมา,4.3,สำเร็จ
+ENR01343,2024-08-12,AI Tools,AI Automation,Online Live,องค์กร,10,5900,53100,องค์กรส่งมา,5,สำเร็จ
+ENR00015,2024-10-27,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,3,6900,20700,TikTok,5.0,สำเร็จ
+ENR00598,2025-07-25,Excel,Excel Dashboard,Online Live,องค์กร,1,4900,4900,องค์กรส่งมา,3.9,ไม่สำเร็จ
+ENR01222,2025-05-07,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Facebook,4.1,สำเร็จ
+ENR01018,2024-09-07,Excel,Excel Dashboard,Onsite,องค์กร,10,4900,44100,Facebook,3.7,ไม่สำเร็จ
+ENR01299,2025-10-04,Python,Python Data Analysis,Online Live,องค์กร,5,6900,31050,องค์กรส่งมา,4.8,สำเร็จ
+ENR00134,2024-09-12,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,,4.4,สำเร็จ
+ENR00979,2025-12-04,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,2,6900,13800,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00870,2025-05-30,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,2,6900,13800,Google Search,4.7,สำเร็จ
+ENR00325,2025-03-29,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,เพื่อนแนะนำ,3.9,สำเร็จ
+ENR00909,2024-06-22,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,TikTok,4.3,สำเร็จ
+ENR01178,2025-10-24,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,TikTok,4.4,สำเร็จ
+ENR01166,2024-12-04,Python,Python Data Analysis,E-Learning,องค์กร,1,5520,5520,TikTok,4.7,สำเร็จ
+ENR01023,2025-07-25,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,3,3920,11760,TikTok,4.7,สำเร็จ
+ENR00722,2024-07-21,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR01205,2024-02-09,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,Google Search,4.6,สำเร็จ
+ENR00764,2025-05-14,Power BI,DAX Formula,Online Live,องค์กร,2,5900,11800,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR01358,2025-11-14,Office,Word Professional,Online Live,องค์กร,5,2900,13050,TikTok,4.6,สำเร็จ
+ENR00990,2024-08-06,SQL,SQL for Data Analyst,Onsite,องค์กร,1,5500,5500,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR01120,2025-08-26,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,TikTok,5,สำเร็จ
+ENR00506,2025-12-20,Python,Machine Learning,E-Learning,บุคคลทั่วไป,1,7120,7120,LINE OA,4.3,สำเร็จ
+ENR01462,2024-07-09,Python,Python Data Analysis,Onsite,องค์กร,5,6900,31050,องค์กรส่งมา,4.4,สำเร็จ
+ENR01333,2025-04-17,Python,Python for Beginner,Onsite,องค์กร,1,5900,5900,องค์กรส่งมา,4.1,สำเร็จ
+ENR01316,2025-04-09,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,2,6900,13800,Facebook,4.2,สำเร็จ
+ENR00903,2025-03-03,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,LINE OA,4.8,สำเร็จ
+ENR00332,2024-09-07,Excel,Excel Basic,Onsite,องค์กร,5,3500,15750,LINE OA,3.9,สำเร็จ
+ENR00359,2024-10-12,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,TikTok,,สำเร็จ
+ENR00926,2024-09-18,Excel,Excel Dashboard,Online Live,องค์กร,5,4900,22050,องค์กรส่งมา,4.6,สำเร็จ
+ENR00692,2024-04-09,Python,Python Data Analysis,E-Learning,องค์กร,2,5520,11040,Facebook,4.3,สำเร็จ
+ENR00833,2025-01-31,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR00362,2025-08-01,Power BI,Power BI Desktop,Online Live,องค์กร,5,5500,24750,องค์กรส่งมา,4.5,สำเร็จ
+ENR00963,2025-12-01,Excel,Excel Advanced,Onsite,องค์กร,3,4500,13500,องค์กรส่งมา,3.9,สำเร็จ
+ENR00073,2025-11-23,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Facebook,3.7,ไม่สำเร็จ
+ENR01006,2024-09-18,Excel,Excel Basic,Online Live,องค์กร,3,3500,10500,องค์กรส่งมา,3.6,สำเร็จ
+ENR01137,2024-05-06,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.3,สำเร็จ
+ENR00908,2025-10-01,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,2,4900,9800,เพื่อนแนะนำ,4.9,สำเร็จ
+ENR00294,2024-08-16,Excel,Excel Dashboard,Onsite,องค์กร,10,4900,44100,Facebook,4.4,สำเร็จ
+ENR00369,2024-09-10,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,LINE OA,4.2,สำเร็จ
+ENR00532,2024-11-22,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,Google Search,4.5,สำเร็จ
+ENR01380,2025-02-22,Python,Python for Beginner,Onsite,องค์กร,5,5900,26550,องค์กรส่งมา,4.2,สำเร็จ
+ENR00373,2024-11-22,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,LINE OA,4.2,ไม่สำเร็จ
+ENR00643,2025-09-05,Python,Machine Learning,E-Learning,องค์กร,5,7120,32040,TikTok,4.2,สำเร็จ
+ENR00633,2024-09-22,Excel,Excel Advanced,Onsite,องค์กร,1,4500,4500,เพื่อนแนะนำ,4.4,ไม่สำเร็จ
+ENR01272,2025-11-02,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,3,5500,16500,LINE OA,4.0,ไม่สำเร็จ
+ENR00351,2024-03-02,Python,Machine Learning,Onsite,องค์กร,5,8900,40050,เพื่อนแนะนำ,5.0,สำเร็จ
+ENR00372,2025-09-22,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.5,สำเร็จ
+ENR00645,2024-08-13,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,LINE OA,4.5,สำเร็จ
+ENR00354,2025-03-17,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,3,6900,20700,Google Search,4.1,ไม่สำเร็จ
+ENR01307,2024-10-10,Power BI,Power BI Desktop,Onsite,องค์กร,2,5500,11000,องค์กรส่งมา,5,สำเร็จ
+ENR00852,2025-09-05,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,4.3,สำเร็จ
+ENR01157,2025-11-20,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,2,4900,9800,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR00505,2025-08-08,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,3,5900,17700,Google Search,4.8,สำเร็จ
+ENR01109,2024-02-27,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,3.7,สำเร็จ
+ENR00208,2024-02-04,Excel,Excel Dashboard,Online Live,องค์กร,10,4900,44100,องค์กรส่งมา,4.6,สำเร็จ
+ENR00016,2024-10-19,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,3,5500,16500,LINE OA,3.4,สำเร็จ
+ENR00847,2025-06-09,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,2,3900,7800,Google Search,4.0,สำเร็จ
+ENR00355,2025-03-23,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,4.9,สำเร็จ
+ENR00741,2024-12-10,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,3,4500,13500,Google Search,4.2,สำเร็จ
+ENR01209,2024-08-08,SQL,SQL Fundamentals,E-Learning,องค์กร,1,3920,3920,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00991,2025-11-22,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,Facebook,4.6,สำเร็จ
+ENR00508,2025-07-09,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,TikTok,3.9,สำเร็จ
+ENR00975,2024-12-02,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,TikTok,4.8,สำเร็จ
+ENR00001,2024-03-06,SQL,SQL Fundamentals,Onsite,องค์กร,1,4900,4900,องค์กรส่งมา,4.8,สำเร็จ
+ENR00618,2025-01-26,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,TikTok,4.0,สำเร็จ
+ENR01168,2024-05-30,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Facebook,4.7,สำเร็จ
+ENR01385,2024-05-20,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,,สำเร็จ
+ENR01001,2025-06-22,SQL,SQL for Data Analyst,Online Live,องค์กร,5,5500,24750,Facebook,4.5,สำเร็จ
+ENR01340,2024-01-30,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,Facebook,4.5,สำเร็จ
+ENR00398,2025-04-11,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,Facebook,4.0,สำเร็จ
+ENR00507,2024-08-13,Office,Word Professional,Onsite,องค์กร,5,2900,13050,องค์กรส่งมา,5,สำเร็จ
+ENR01147,2025-09-12,Excel,Excel Advanced,Onsite,องค์กร,2,4500,9000,องค์กรส่งมา,4.6,สำเร็จ
+ENR00224,2025-09-05,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,LINE OA,4.1,สำเร็จ
+ENR01229,2025-11-19,Power BI,Power BI Desktop,Onsite,องค์กร,10,5500,49500,องค์กรส่งมา,4.2,สำเร็จ
+ENR01148,2024-01-17,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,เพื่อนแนะนำ,3.7,สำเร็จ
+ENR01487,2025-12-24,Power BI,DAX Formula,Online Live,องค์กร,1,5900,5900,องค์กรส่งมา,4.7,สำเร็จ
+ENR00930,2025-04-06,Office,PowerPoint Design,Onsite,องค์กร,5,3200,14400,LINE OA,4.5,สำเร็จ
+ENR00233,2024-05-06,SQL,SQL Fundamentals,Onsite,องค์กร,5,4900,22050,องค์กรส่งมา,4.4,ไม่สำเร็จ
+ENR00639,2025-03-01,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,3,3900,11700,Facebook,4.2,สำเร็จ
+ENR01020,2024-05-13,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,2,3600,7200,Facebook,4.5,สำเร็จ
+ENR00176,2024-05-28,Excel,Excel Dashboard,Onsite,องค์กร,10,4900,44100,LINE OA,4.6,สำเร็จ
+ENR01136,2025-06-18,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,TikTok,4.7,สำเร็จ
+ENR00761,2024-05-15,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,3.6,สำเร็จ
+ENR00574,2025-04-20,Excel,Excel Advanced,Online Live,องค์กร,5,4500,20250,องค์กรส่งมา,4.3,สำเร็จ
+ENR00745,2025-06-24,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,2,4900,9800,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00137,2025-06-03,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,3,5900,17700,TikTok,5,สำเร็จ
+ENR01290,2025-01-20,Python,Python for Beginner,Onsite,องค์กร,1,5900,5900,TikTok,4.0,สำเร็จ
+ENR00085,2024-04-03,Python,Python for Beginner,Onsite,องค์กร,5,5900,26550,Google Search,4.4,สำเร็จ
+ENR00430,2025-02-15,Excel,Excel Dashboard,Online Live,องค์กร,5,4900,22050,องค์กรส่งมา,4.7,สำเร็จ
+ENR01092,2024-01-12,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR01198,2025-11-08,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,2,3200,6400,Facebook,4.1,สำเร็จ
+ENR00196,2025-02-17,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,LINE OA,4.4,สำเร็จ
+ENR00839,2025-08-02,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,3,5500,16500,Google Search,4.0,สำเร็จ
+ENR00553,2025-02-26,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,LINE OA,4.4,สำเร็จ
+ENR01334,2025-10-10,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,Google Search,4.3,สำเร็จ
+ENR00262,2025-05-25,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Google Search,3.9,สำเร็จ
+ENR00238,2025-03-23,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,2,5500,11000,Google Search,4.3,สำเร็จ
+ENR00921,2024-12-09,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,Google Search,3.9,ไม่สำเร็จ
+ENR01039,2024-04-25,SQL,SQL Fundamentals,Onsite,องค์กร,10,4900,44100,TikTok,4.2,สำเร็จ
+ENR00377,2025-09-26,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,5,สำเร็จ
+ENR00484,2025-05-29,Excel,Excel Advanced,Onsite,องค์กร,5,4500,20250,องค์กรส่งมา,4.0,สำเร็จ
+ENR01118,2025-12-12,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,TikTok,4.9,สำเร็จ
+ENR00219,2024-02-27,Excel,Excel Advanced,Onsite,องค์กร,1,4500,4500,Google Search,4.5,ไม่สำเร็จ
+ENR00041,2025-09-23,Excel,Excel Basic,Online Live,องค์กร,5,3500,15750,TikTok,4.8,สำเร็จ
+ENR00857,2024-02-24,Power BI,DAX Formula,E-Learning,องค์กร,10,4720,42480,องค์กรส่งมา,4.2,สำเร็จ
+ENR00079,2025-01-21,SQL,SQL Fundamentals,E-Learning,องค์กร,5,3920,17640,LINE OA,4.7,ไม่สำเร็จ
+ENR00551,2024-09-10,Python,Python Data Analysis,Online Live,องค์กร,5,6900,31050,องค์กรส่งมา,3.8,สำเร็จ
+ENR00910,2024-03-16,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,,5.0,สำเร็จ
+ENR01311,2025-02-08,Excel,Excel Basic,Online Live,บุคคลทั่วไป,2,3500,7000,Google Search,4.2,สำเร็จ
+ENR01284,2024-12-07,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,Google Search,4.1,สำเร็จ
+ENR01043,2024-02-22,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,2,4400,8800,Facebook,4.1,ไม่สำเร็จ
+ENR00479,2025-10-05,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Google Search,4.2,สำเร็จ
+ENR00951,2025-06-14,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,LINE OA,3.6,สำเร็จ
+ENR01089,2025-01-16,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,4.9,สำเร็จ
+ENR01238,2024-11-05,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,LINE OA,5,สำเร็จ
+ENR00004,2024-09-09,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Google Search,4.7,สำเร็จ
+ENR01251,2024-04-24,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,TikTok,4.7,สำเร็จ
+ENR00486,2024-09-05,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,LINE OA,5,ไม่สำเร็จ
+ENR01075,2024-12-04,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,TikTok,4.8,สำเร็จ
+ENR01126,2025-10-15,Excel,Excel Basic,Onsite,องค์กร,1,3500,3500,TikTok,4.4,สำเร็จ
+ENR00088,2025-11-17,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.1,สำเร็จ
+ENR00111,2025-08-28,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,เพื่อนแนะนำ,4.1,ไม่สำเร็จ
+ENR00622,2025-11-05,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,Google Search,5,สำเร็จ
+ENR01425,2025-12-17,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,3.9,สำเร็จ
+ENR00397,2024-11-08,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,2,5500,11000,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR01479,2025-08-31,Excel,Excel Basic,Onsite,องค์กร,1,3500,3500,LINE OA,4.1,สำเร็จ
+ENR01119,2024-04-02,Excel,Excel Basic,Onsite,องค์กร,10,3500,31500,องค์กรส่งมา,4.0,สำเร็จ
+ENR01073,2024-06-04,Python,Machine Learning,Online Live,องค์กร,1,8900,8900,องค์กรส่งมา,4.3,สำเร็จ
+ENR01014,2025-05-03,SQL,SQL Fundamentals,Onsite,องค์กร,1,4900,4900,Google Search,4.1,สำเร็จ
+ENR01102,2024-07-31,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,TikTok,3.9,สำเร็จ
+ENR00109,2024-02-22,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,3,5900,17700,Google Search,4.4,สำเร็จ
+ENR00192,2024-10-26,Python,Machine Learning,E-Learning,องค์กร,5,7120,32040,Google Search,4.6,สำเร็จ
+ENR01310,2025-09-28,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00038,2024-06-18,Power BI,Power BI Desktop,Onsite,องค์กร,1,5500,5500,,3.7,สำเร็จ
+ENR00470,2025-05-30,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.4,สำเร็จ
+ENR00337,2025-12-19,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,TikTok,5.0,สำเร็จ
+ENR00535,2024-07-03,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,2,5500,11000,Facebook,4.1,สำเร็จ
+ENR00941,2024-04-12,Python,Machine Learning,Online Live,องค์กร,5,8900,40050,องค์กรส่งมา,4.2,สำเร็จ
+ENR01192,2025-08-05,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,Google Search,4.4,สำเร็จ
+ENR00547,2025-02-27,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Google Search,4.8,สำเร็จ
+ENR00894,2024-08-20,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,Facebook,4.0,สำเร็จ
+ENR00333,2024-03-15,Excel,Excel Dashboard,E-Learning,องค์กร,5,3920,17640,Google Search,3.8,สำเร็จ
+ENR00166,2025-02-04,Excel,Excel Advanced,E-Learning,องค์กร,10,3600,32400,LINE OA,4.6,สำเร็จ
+ENR00474,2024-12-26,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,LINE OA,4.6,สำเร็จ
+ENR00776,2024-12-13,SQL,SQL for Data Analyst,Online Live,องค์กร,1,5500,5500,เพื่อนแนะนำ,4.9,ไม่สำเร็จ
+ENR00052,2024-12-25,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.3,สำเร็จ
+ENR00952,2024-09-27,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,5,ไม่สำเร็จ
+ENR00932,2024-06-08,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00281,2025-05-02,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Google Search,4.8,สำเร็จ
+ENR00075,2024-06-21,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00072,2024-02-22,Python,Machine Learning,Online Live,บุคคลทั่วไป,2,8900,17800,LINE OA,3.4,สำเร็จ
+ENR00875,2025-10-09,Excel,Excel Dashboard,Online Live,องค์กร,1,4900,4900,องค์กรส่งมา,4.5,สำเร็จ
+ENR00715,2025-10-25,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,Google Search,3.8,สำเร็จ
+ENR01017,2025-06-24,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,2,3900,7800,TikTok,5,ไม่สำเร็จ
+ENR01108,2024-08-19,Excel,Excel Advanced,Online Live,องค์กร,3,4500,13500,LINE OA,4.0,สำเร็จ
+ENR00453,2025-09-19,Excel,Excel Dashboard,Onsite,องค์กร,3,4900,14700,องค์กรส่งมา,4.4,สำเร็จ
+ENR00962,2025-11-30,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.3,สำเร็จ
+ENR00334,2025-04-02,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,2,4900,9800,TikTok,4.3,สำเร็จ
+ENR01444,2024-01-19,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,3,3920,11760,Facebook,4.2,สำเร็จ
+ENR00172,2025-10-11,Office,Word Professional,Online Live,องค์กร,10,2900,26100,LINE OA,4.4,สำเร็จ
+ENR00171,2024-01-03,Excel,Excel Basic,E-Learning,องค์กร,1,2800,2800,LINE OA,4.4,สำเร็จ
+ENR01221,2024-09-24,Excel,Excel Basic,Online Live,องค์กร,5,3500,15750,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR00929,2025-11-24,SQL,SQL for Data Analyst,Onsite,องค์กร,5,5500,24750,องค์กรส่งมา,3.8,สำเร็จ
+ENR00371,2024-06-23,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,LINE OA,3.9,สำเร็จ
+ENR00902,2024-11-05,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,1,3920,3920,TikTok,4.2,สำเร็จ
+ENR00580,2025-05-09,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,Facebook,4.7,สำเร็จ
+ENR00968,2024-11-24,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,3,4900,14700,LINE OA,4.3,สำเร็จ
+ENR01068,2025-07-12,AI Tools,AI Automation,Onsite,องค์กร,10,5900,53100,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR00061,2024-07-28,Python,Python Data Analysis,Onsite,องค์กร,3,6900,20700,LINE OA,3.8,สำเร็จ
+ENR00280,2025-11-20,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,LINE OA,3.8,สำเร็จ
+ENR00363,2025-09-30,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,Facebook,4.4,สำเร็จ
+ENR00202,2024-12-27,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,5,สำเร็จ
+ENR00059,2025-11-15,Power BI,DAX Formula,Onsite,องค์กร,10,5900,53100,องค์กรส่งมา,4.9,สำเร็จ
+ENR00560,2024-03-23,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,2,5500,11000,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR00898,2025-11-06,Power BI,DAX Formula,Onsite,องค์กร,10,5900,53100,TikTok,3.9,สำเร็จ
+ENR01493,2024-01-26,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,3,5500,16500,Google Search,4.7,สำเร็จ
+ENR01004,2025-11-12,Office,Word Professional,E-Learning,บุคคลทั่วไป,3,2320,6960,LINE OA,4.1,ไม่สำเร็จ
+ENR00858,2025-06-04,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,2,3120,6240,TikTok,4.7,สำเร็จ
+ENR01442,2025-05-01,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,Facebook,4.2,สำเร็จ
+ENR01130,2024-05-19,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,TikTok,4.8,สำเร็จ
+ENR00367,2024-03-25,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,Google Search,4.3,สำเร็จ
+ENR00113,2025-03-05,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,5,สำเร็จ
+ENR00755,2025-01-23,Excel,Excel Basic,Online Live,องค์กร,10,3500,31500,TikTok,4.8,สำเร็จ
+ENR00504,2025-09-18,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,3,3920,11760,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR01093,2024-04-23,SQL,SQL Fundamentals,Online Live,องค์กร,1,4900,4900,องค์กรส่งมา,4.1,สำเร็จ
+ENR00230,2025-03-22,Power BI,Power BI Desktop,E-Learning,องค์กร,5,4400,19800,องค์กรส่งมา,3.9,สำเร็จ
+ENR01362,2025-05-05,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.7,สำเร็จ
+ENR01243,2024-05-30,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Facebook,4.4,สำเร็จ
+ENR01112,2024-03-08,Office,PowerPoint Design,Online Live,องค์กร,5,3200,14400,องค์กรส่งมา,4.0,สำเร็จ
+ENR00296,2025-09-10,Python,Python for Beginner,Onsite,บุคคลทั่วไป,3,5900,17700,Facebook,4.0,สำเร็จ
+ENR01048,2025-09-22,Excel,Excel Advanced,Onsite,องค์กร,2,4500,9000,องค์กรส่งมา,4.3,สำเร็จ
+ENR01499,2025-06-19,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,Google Search,4.3,สำเร็จ
+ENR00976,2025-06-23,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,TikTok,4.5,สำเร็จ
+ENR01162,2025-06-12,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,LINE OA,4.2,สำเร็จ
+ENR01003,2025-02-19,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR01069,2025-06-27,Power BI,Power BI Desktop,Onsite,องค์กร,5,5500,24750,TikTok,5,สำเร็จ
+ENR00864,2025-11-29,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,Google Search,4.9,สำเร็จ
+ENR00305,2024-10-15,Excel,Excel Basic,E-Learning,องค์กร,1,2800,2800,Google Search,4.6,สำเร็จ
+ENR00791,2025-08-30,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,2,3600,7200,Google Search,3.6,สำเร็จ
+ENR00670,2025-05-30,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,2,4500,9000,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00097,2024-07-29,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,3.9,ไม่สำเร็จ
+ENR01051,2024-09-03,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,TikTok,3.8,สำเร็จ
+ENR00136,2025-08-18,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.2,สำเร็จ
+ENR00146,2024-11-24,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,2,4500,9000,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR00177,2024-06-22,Python,Machine Learning,E-Learning,บุคคลทั่วไป,3,7120,21360,Google Search,4.3,ไม่สำเร็จ
+ENR00246,2024-03-27,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,Google Search,4.9,สำเร็จ
+ENR00986,2025-10-21,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,LINE OA,4.5,สำเร็จ
+ENR00691,2025-07-05,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00703,2024-08-11,Python,Machine Learning,Online Live,บุคคลทั่วไป,2,8900,17800,TikTok,4.3,สำเร็จ
+ENR00657,2024-08-25,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR00346,2024-11-03,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR01208,2024-08-27,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,TikTok,4.3,สำเร็จ
+ENR00680,2024-10-01,Python,Python for Beginner,Online Live,องค์กร,1,5900,5900,Google Search,5.0,สำเร็จ
+ENR00162,2025-12-19,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,TikTok,4.3,สำเร็จ
+ENR01399,2025-09-26,SQL,SQL for Data Analyst,Online Live,องค์กร,5,5500,24750,องค์กรส่งมา,4.1,ไม่สำเร็จ
+ENR00258,2025-11-19,AI Tools,AI Automation,Online Live,องค์กร,10,5900,53100,องค์กรส่งมา,4.7,สำเร็จ
+ENR00906,2024-06-02,Python,Python Data Analysis,Onsite,องค์กร,10,6900,62100,LINE OA,4.4,สำเร็จ
+ENR00264,2024-11-20,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,2,4720,9440,TikTok,5.0,ไม่สำเร็จ
+ENR00121,2024-04-26,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,Facebook,4.1,สำเร็จ
+ENR00234,2025-10-13,Python,Machine Learning,Online Live,บุคคลทั่วไป,2,8900,17800,Google Search,,สำเร็จ
+ENR00361,2025-09-07,Office,Word Professional,Online Live,บุคคลทั่วไป,3,2900,8700,เพื่อนแนะนำ,3.7,สำเร็จ
+ENR00148,2024-09-25,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,TikTok,4.1,สำเร็จ
+ENR00388,2024-01-21,Python,Python Data Analysis,Online Live,องค์กร,5,6900,31050,องค์กรส่งมา,4.8,สำเร็จ
+ENR01456,2024-10-24,Python,Machine Learning,Online Live,บุคคลทั่วไป,3,8900,26700,TikTok,3.8,สำเร็จ
+ENR00045,2025-12-01,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR00022,2025-08-14,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,2,5900,11800,TikTok,3.8,สำเร็จ
+ENR00099,2024-07-13,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,3,4500,13500,Facebook,5,สำเร็จ
+ENR00974,2024-12-27,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,Facebook,4.2,ไม่สำเร็จ
+ENR00018,2025-03-09,Python,Python Data Analysis,Onsite,องค์กร,1,6900,6900,องค์กรส่งมา,3.9,สำเร็จ
+ENR00339,2025-06-17,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Facebook,4.9,สำเร็จ
+ENR01314,2025-08-20,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Google Search,4.6,สำเร็จ
+ENR00292,2024-10-03,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,,สำเร็จ
+ENR00727,2024-04-25,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Google Search,4.2,สำเร็จ
+ENR00810,2024-08-09,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,3.4,สำเร็จ
+ENR01019,2024-01-13,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,Google Search,4.4,สำเร็จ
+ENR00883,2025-12-06,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,LINE OA,4.7,สำเร็จ
+ENR00681,2025-06-14,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,TikTok,4.8,สำเร็จ
+ENR01435,2025-07-31,Power BI,DAX Formula,E-Learning,องค์กร,1,4720,4720,องค์กรส่งมา,4.7,สำเร็จ
+ENR00899,2025-09-12,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,3,4900,14700,เพื่อนแนะนำ,4.7,ไม่สำเร็จ
+ENR00543,2024-06-10,Python,Machine Learning,Onsite,องค์กร,10,8900,80100,องค์กรส่งมา,4.8,ไม่สำเร็จ
+ENR00654,2024-03-06,Python,Python for Beginner,Onsite,องค์กร,5,5900,26550,เพื่อนแนะนำ,5,ไม่สำเร็จ
+ENR01271,2025-06-17,AI Tools,AI Automation,Online Live,องค์กร,1,5900,5900,องค์กรส่งมา,5,ไม่สำเร็จ
+ENR00513,2025-12-02,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,Facebook,3.9,สำเร็จ
+ENR01055,2024-08-22,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,Facebook,4.2,สำเร็จ
+ENR00649,2025-09-13,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,LINE OA,3.8,สำเร็จ
+ENR00475,2024-04-25,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,1,3200,3200,Google Search,3.7,สำเร็จ
+ENR00030,2025-08-11,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,TikTok,4.6,สำเร็จ
+ENR00589,2025-05-11,Excel,Excel Advanced,Onsite,องค์กร,10,4500,40500,TikTok,4.8,สำเร็จ
+ENR01483,2025-08-22,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,2,4900,9800,Google Search,3.6,สำเร็จ
+ENR00091,2025-08-13,Excel,Excel Advanced,Onsite,องค์กร,10,4500,40500,องค์กรส่งมา,4.2,สำเร็จ
+ENR00071,2025-07-02,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,1,3920,3920,Facebook,4.0,สำเร็จ
+ENR00476,2024-07-05,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,4.2,สำเร็จ
+ENR00753,2025-08-11,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,LINE OA,4.0,ไม่สำเร็จ
+ENR01173,2024-02-14,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,Google Search,4.7,สำเร็จ
+ENR00432,2025-10-15,Excel,Excel Dashboard,E-Learning,องค์กร,1,3920,3920,องค์กรส่งมา,4.5,ไม่สำเร็จ
+ENR00939,2025-10-31,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR01336,2025-05-10,Excel,Excel Advanced,Onsite,องค์กร,10,4500,40500,องค์กรส่งมา,3.6,สำเร็จ
+ENR00562,2025-09-06,Python,Python Data Analysis,E-Learning,องค์กร,1,5520,5520,Facebook,4.2,สำเร็จ
+ENR00320,2024-10-31,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,2,5900,11800,TikTok,4.2,สำเร็จ
+ENR00533,2024-04-25,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,3,4500,13500,Facebook,4.2,สำเร็จ
+ENR00235,2024-06-26,SQL,SQL for Data Analyst,Onsite,องค์กร,5,5500,24750,Google Search,3.4,สำเร็จ
+ENR00922,2024-09-28,AI Tools,ChatGPT for Work,E-Learning,องค์กร,3,3120,9360,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00481,2024-11-20,Power BI,DAX Formula,E-Learning,องค์กร,1,4720,4720,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00588,2025-02-04,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,TikTok,4.2,สำเร็จ
+ENR01392,2025-01-29,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,TikTok,4.5,สำเร็จ
+ENR01320,2025-02-07,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00750,2025-02-15,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,3,4500,13500,LINE OA,4.6,สำเร็จ
+ENR01418,2025-12-04,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,2,4400,8800,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR00747,2025-03-03,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR00449,2024-02-27,Python,Machine Learning,Onsite,บุคคลทั่วไป,2,8900,17800,TikTok,4.5,สำเร็จ
+ENR00993,2025-04-23,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,2,4500,9000,TikTok,4.7,สำเร็จ
+ENR00124,2025-11-15,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,TikTok,5.0,สำเร็จ
+ENR00314,2025-07-13,Python,Python for Beginner,Onsite,องค์กร,10,5900,53100,องค์กรส่งมา,4.5,สำเร็จ
+ENR00531,2024-01-14,Power BI,DAX Formula,Onsite,องค์กร,1,5900,5900,องค์กรส่งมา,4.1,สำเร็จ
+ENR00199,2025-01-01,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,3,4720,14160,Facebook,4.3,สำเร็จ
+ENR00989,2024-06-11,Python,Python for Beginner,Online Live,องค์กร,5,5900,26550,องค์กรส่งมา,3.8,สำเร็จ
+ENR01384,2024-04-17,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,5.0,สำเร็จ
+ENR00485,2024-05-13,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,LINE OA,4.0,สำเร็จ
+ENR01074,2024-03-03,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,2,4720,9440,TikTok,5,สำเร็จ
+ENR00082,2025-04-27,Python,Machine Learning,E-Learning,บุคคลทั่วไป,3,7120,21360,Google Search,4.2,สำเร็จ
+ENR01491,2025-03-10,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.4,สำเร็จ
+ENR00157,2025-10-21,SQL,SQL for Data Analyst,E-Learning,องค์กร,3,4400,13200,TikTok,4.6,สำเร็จ
+ENR00927,2025-04-07,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Facebook,4.5,สำเร็จ
+ENR00948,2024-02-12,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,LINE OA,3.9,สำเร็จ
+ENR01024,2025-09-25,Python,Machine Learning,E-Learning,บุคคลทั่วไป,1,7120,7120,LINE OA,4.8,สำเร็จ
+ENR00028,2024-04-17,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Google Search,4.9,สำเร็จ
+ENR01366,2024-05-12,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,LINE OA,4.3,สำเร็จ
+ENR00586,2024-08-31,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.9,สำเร็จ
+ENR00497,2024-03-18,Excel,Excel Basic,Online Live,บุคคลทั่วไป,3,3500,10500,TikTok,4.4,สำเร็จ
+ENR00693,2025-05-01,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,Facebook,4.1,สำเร็จ
+ENR00131,2025-03-16,AI Tools,AI Automation,Online Live,องค์กร,1,5900,5900,องค์กรส่งมา,4.3,สำเร็จ
+ENR00242,2024-05-11,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.2,สำเร็จ
+ENR00871,2024-03-25,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,LINE OA,3.8,สำเร็จ
+ENR00466,2025-05-01,Python,Python for Beginner,Onsite,องค์กร,10,5900,53100,องค์กรส่งมา,4.4,สำเร็จ
+ENR00700,2024-09-22,Power BI,DAX Formula,Online Live,องค์กร,1,5900,5900,องค์กรส่งมา,5,สำเร็จ
+ENR01097,2025-02-23,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.7,สำเร็จ
+ENR01476,2024-12-23,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,3,5900,17700,Google Search,4.0,สำเร็จ
+ENR00395,2024-09-26,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,TikTok,5,สำเร็จ
+ENR01254,2025-03-30,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,4.2,สำเร็จ
+ENR00916,2025-05-31,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Google Search,3.9,สำเร็จ
+ENR00669,2025-01-12,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,Google Search,4.5,สำเร็จ
+ENR01265,2025-10-21,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,Facebook,4.1,ไม่สำเร็จ
+ENR00813,2024-02-18,Excel,Excel Advanced,Onsite,องค์กร,5,4500,20250,องค์กรส่งมา,3.9,ไม่สำเร็จ
+ENR00790,2024-07-28,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.2,สำเร็จ
+ENR01090,2025-10-18,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.5,สำเร็จ
+ENR00581,2025-08-15,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,3,4400,13200,Facebook,3.9,สำเร็จ
+ENR00720,2025-03-09,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,1,3200,3200,TikTok,4.2,สำเร็จ
+ENR00396,2025-03-31,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,3,3120,9360,LINE OA,4.9,สำเร็จ
+ENR00248,2025-12-07,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.5,สำเร็จ
+ENR00461,2024-06-12,Python,Python for Beginner,Onsite,บุคคลทั่วไป,3,5900,17700,LINE OA,4.6,สำเร็จ
+ENR00427,2025-03-15,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,Google Search,4.8,สำเร็จ
+ENR00439,2025-04-10,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,2,5900,11800,Google Search,4.0,สำเร็จ
+ENR00459,2025-10-30,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,LINE OA,4.3,สำเร็จ
+ENR01485,2024-06-04,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.1,สำเร็จ
+ENR00106,2024-09-08,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,LINE OA,4.3,สำเร็จ
+ENR00463,2024-10-22,Excel,Excel Basic,Onsite,องค์กร,5,3500,15750,องค์กรส่งมา,5.0,สำเร็จ
+ENR00544,2024-11-09,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,3,5500,16500,TikTok,4.3,สำเร็จ
+ENR00197,2024-01-24,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,4.6,สำเร็จ
+ENR01174,2025-03-25,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,TikTok,4.4,ไม่สำเร็จ
+ENR00336,2024-02-26,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,Google Search,4.3,สำเร็จ
+ENR00835,2024-12-22,Excel,Excel Basic,Online Live,บุคคลทั่วไป,3,3500,10500,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR01079,2025-06-08,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,4.1,สำเร็จ
+ENR00705,2025-04-15,Excel,Excel Basic,E-Learning,องค์กร,1,2800,2800,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR01500,2024-01-15,AI Tools,ChatGPT for Work,Onsite,องค์กร,1,3900,3900,Google Search,5,สำเร็จ
+ENR00203,2025-09-26,Power BI,Power BI Desktop,Onsite,องค์กร,5,5500,24750,Google Search,4.3,ไม่สำเร็จ
+ENR01327,2025-06-18,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,5,สำเร็จ
+ENR00844,2025-07-25,Python,Machine Learning,E-Learning,บุคคลทั่วไป,1,7120,7120,เพื่อนแนะนำ,5.0,สำเร็จ
+ENR00272,2025-02-09,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,TikTok,5,ไม่สำเร็จ
+ENR00443,2024-06-17,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,TikTok,4.5,สำเร็จ
+ENR01249,2024-10-27,SQL,SQL for Data Analyst,Onsite,องค์กร,1,5500,5500,องค์กรส่งมา,4.3,ไม่สำเร็จ
+ENR01494,2024-03-28,Excel,Excel Advanced,Online Live,องค์กร,1,4500,4500,องค์กรส่งมา,4.2,สำเร็จ
+ENR00610,2024-04-19,SQL,SQL for Data Analyst,E-Learning,บุคคลทั่วไป,2,4400,8800,LINE OA,4.1,ไม่สำเร็จ
+ENR01436,2024-09-10,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Google Search,4.7,สำเร็จ
+ENR00302,2024-01-31,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,1,4720,4720,TikTok,3.9,สำเร็จ
+ENR00098,2025-08-22,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Google Search,5,สำเร็จ
+ENR01245,2025-09-08,Python,Python for Beginner,Online Live,บุคคลทั่วไป,3,5900,17700,เพื่อนแนะนำ,4.4,ไม่สำเร็จ
+ENR00886,2024-05-30,Python,Machine Learning,Onsite,องค์กร,1,8900,8900,องค์กรส่งมา,3.9,สำเร็จ
+ENR00094,2025-08-23,Python,Machine Learning,E-Learning,บุคคลทั่วไป,2,7120,14240,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR01153,2025-07-19,SQL,SQL Fundamentals,Onsite,องค์กร,10,4900,44100,,4.3,สำเร็จ
+ENR01227,2024-09-14,Power BI,DAX Formula,Online Live,องค์กร,1,5900,5900,องค์กรส่งมา,4.0,ไม่สำเร็จ
+ENR00981,2024-05-12,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Google Search,4.4,ไม่สำเร็จ
+ENR01416,2025-02-19,Python,Machine Learning,Onsite,บุคคลทั่วไป,3,8900,26700,Google Search,4.5,สำเร็จ
+ENR01279,2024-05-29,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.3,สำเร็จ
+ENR01490,2025-09-22,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00923,2024-10-20,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,Google Search,4.2,สำเร็จ
+ENR00956,2025-03-28,Excel,Excel Basic,Onsite,องค์กร,10,3500,31500,องค์กรส่งมา,4.3,สำเร็จ
+ENR00293,2025-07-18,Power BI,Power BI Desktop,Online Live,องค์กร,10,5500,49500,องค์กรส่งมา,3.9,สำเร็จ
+ENR00331,2025-03-24,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,เพื่อนแนะนำ,4.9,สำเร็จ
+ENR00214,2024-12-27,Excel,Excel Dashboard,Onsite,องค์กร,1,4900,4900,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00027,2024-10-01,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,TikTok,4.1,สำเร็จ
+ENR00935,2025-05-21,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.1,สำเร็จ
+ENR01230,2025-02-18,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR01378,2025-01-28,Power BI,Power BI Desktop,E-Learning,องค์กร,5,4400,19800,Facebook,4.5,สำเร็จ
+ENR00118,2025-08-21,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,LINE OA,3.7,สำเร็จ
+ENR01390,2024-09-19,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,Facebook,4.6,สำเร็จ
+ENR00277,2025-02-28,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00366,2024-02-07,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,3,5900,17700,Facebook,4.8,สำเร็จ
+ENR00880,2025-02-01,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,LINE OA,4.1,สำเร็จ
+ENR00609,2024-03-24,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,2,4720,9440,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00698,2025-02-02,SQL,SQL Fundamentals,E-Learning,องค์กร,2,3920,7840,องค์กรส่งมา,3.7,สำเร็จ
+ENR01138,2025-03-31,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,4.1,สำเร็จ
+ENR00007,2024-06-11,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,LINE OA,4.6,สำเร็จ
+ENR01289,2024-06-26,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR01158,2025-10-23,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,4.7,สำเร็จ
+ENR00677,2024-05-08,Excel,Excel Dashboard,Onsite,องค์กร,1,4900,4900,LINE OA,5.0,สำเร็จ
+ENR00275,2025-12-02,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.3,สำเร็จ
+ENR00672,2024-07-19,SQL,SQL for Data Analyst,Onsite,องค์กร,10,5500,49500,องค์กรส่งมา,4.2,สำเร็จ
+ENR01357,2025-08-11,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,4.8,สำเร็จ
+ENR01261,2024-12-19,Excel,Excel Advanced,Onsite,องค์กร,1,4500,4500,องค์กรส่งมา,4.3,สำเร็จ
+ENR00226,2024-07-20,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.7,สำเร็จ
+ENR00428,2024-12-18,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,เพื่อนแนะนำ,3.6,สำเร็จ
+ENR00078,2024-05-03,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.4,ไม่สำเร็จ
+ENR00493,2025-11-21,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,Google Search,4.0,สำเร็จ
+ENR00658,2025-12-29,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,3.7,สำเร็จ
+ENR00481,2024-11-20,Power BI,DAX Formula,E-Learning,องค์กร,1,4720,4720,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR01463,2025-02-22,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.2,ไม่สำเร็จ
+ENR00853,2025-02-27,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,Facebook,5.0,สำเร็จ
+ENR00436,2024-06-27,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,1,4720,4720,Facebook,4.5,สำเร็จ
+ENR01135,2024-11-01,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.0,สำเร็จ
+ENR00823,2025-04-24,Excel,Excel Dashboard,Onsite,องค์กร,10,4900,44100,Google Search,4.5,สำเร็จ
+ENR00417,2025-09-22,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,Facebook,4.8,สำเร็จ
+ENR01029,2024-08-10,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,LINE OA,4.6,สำเร็จ
+ENR01346,2024-10-17,Python,Machine Learning,E-Learning,บุคคลทั่วไป,1,7120,7120,Google Search,3.5,สำเร็จ
+ENR00701,2024-11-15,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,Google Search,4.4,สำเร็จ
+ENR00291,2025-07-02,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR00526,2024-05-22,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,4.8,สำเร็จ
+ENR01236,2024-06-02,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,LINE OA,4.7,สำเร็จ
+ENR00221,2025-03-04,Excel,Excel Basic,Onsite,องค์กร,1,3500,3500,,4.4,สำเร็จ
+ENR01448,2024-01-07,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,LINE OA,5,สำเร็จ
+ENR00561,2024-12-19,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,LINE OA,4.7,ไม่สำเร็จ
+ENR01406,2024-12-11,Excel,Excel Advanced,Onsite,องค์กร,5,4500,20250,องค์กรส่งมา,4.1,สำเร็จ
+ENR00012,2024-03-24,Excel,Excel Basic,Online Live,องค์กร,1,3500,3500,องค์กรส่งมา,4.5,สำเร็จ
+ENR01141,2024-03-10,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,4.2,สำเร็จ
+ENR00013,2024-09-07,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.6,สำเร็จ
+ENR00468,2024-11-23,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,2,4720,9440,Facebook,4.0,สำเร็จ
+ENR01224,2024-07-04,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,2,5500,11000,เพื่อนแนะนำ,4.4,ไม่สำเร็จ
+ENR00608,2025-12-04,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,4.3,สำเร็จ
+ENR00570,2024-12-21,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,เพื่อนแนะนำ,4.7,ไม่สำเร็จ
+ENR00972,2024-02-23,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.0,สำเร็จ
+ENR00322,2025-07-10,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,Facebook,4.9,สำเร็จ
+ENR00511,2024-06-09,Office,Word Professional,E-Learning,บุคคลทั่วไป,1,2320,2320,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR01193,2024-01-18,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,2,4900,9800,Google Search,5,สำเร็จ
+ENR00005,2024-03-15,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,LINE OA,4.4,สำเร็จ
+ENR00195,2024-03-12,Python,Machine Learning,Online Live,บุคคลทั่วไป,3,8900,26700,LINE OA,4.7,สำเร็จ
+ENR00347,2025-08-08,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,Facebook,4.1,สำเร็จ
+ENR00819,2024-03-01,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,3.9,สำเร็จ
+ENR01348,2024-12-22,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,3,2800,8400,Google Search,4.4,ไม่สำเร็จ
+ENR01408,2024-08-11,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,4.3,ไม่สำเร็จ
+ENR00846,2024-01-27,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,3,4500,13500,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR01344,2025-10-06,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,3.8,สำเร็จ
+ENR00647,2024-09-22,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,TikTok,4.4,สำเร็จ
+ENR00642,2025-07-18,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,TikTok,4.4,สำเร็จ
+ENR00160,2024-03-18,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Facebook,4.5,สำเร็จ
+ENR00859,2025-09-14,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,LINE OA,4.4,สำเร็จ
+ENR01084,2024-05-25,Excel,Excel Advanced,Online Live,องค์กร,5,4500,20250,Facebook,3.8,สำเร็จ
+ENR00433,2025-06-04,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,TikTok,4.0,สำเร็จ
+ENR01328,2024-06-02,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,TikTok,4.4,สำเร็จ
+ENR00515,2025-12-13,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,TikTok,4.8,สำเร็จ
+ENR00236,2025-12-28,SQL,SQL Fundamentals,Onsite,องค์กร,1,4900,4900,LINE OA,4.8,สำเร็จ
+ENR00623,2025-04-26,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,LINE OA,3.9,สำเร็จ
+ENR00179,2024-03-31,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.3,สำเร็จ
+ENR01367,2025-06-28,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,LINE OA,4.6,ไม่สำเร็จ
+ENR00298,2025-11-02,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,2,5500,11000,LINE OA,4.0,สำเร็จ
+ENR00915,2024-09-02,Power BI,Power BI Desktop,Online Live,องค์กร,1,5500,5500,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR01183,2024-07-23,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,LINE OA,4.6,สำเร็จ
+ENR00454,2025-10-31,Python,Machine Learning,E-Learning,บุคคลทั่วไป,1,7120,7120,Facebook,4.6,ไม่สำเร็จ
+ENR00630,2024-09-21,Python,Python for Beginner,Onsite,องค์กร,10,5900,53100,องค์กรส่งมา,4.6,สำเร็จ
+ENR00307,2025-04-10,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.7,สำเร็จ
+ENR00003,2024-04-12,Excel,Excel Basic,Onsite,องค์กร,5,3500,15750,องค์กรส่งมา,4.7,ไม่สำเร็จ
+ENR00383,2024-01-19,Excel,Excel Advanced,Online Live,องค์กร,5,4500,20250,Facebook,4.7,สำเร็จ
+ENR00259,2024-02-09,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,4.0,สำเร็จ
+ENR00180,2025-04-05,Office,Word Professional,Online Live,องค์กร,1,2900,2900,Facebook,4.7,สำเร็จ
+ENR00464,2025-03-23,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,Google Search,5,สำเร็จ
+ENR01054,2024-05-01,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,2,5520,11040,TikTok,4.6,สำเร็จ
+ENR00431,2025-03-08,SQL,SQL for Data Analyst,Onsite,องค์กร,2,5500,11000,องค์กรส่งมา,5.0,สำเร็จ
+ENR01260,2025-03-17,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,2,5500,11000,Google Search,4.4,สำเร็จ
+ENR00186,2024-08-13,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00617,2025-03-06,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,LINE OA,4.5,สำเร็จ
+ENR00404,2025-09-10,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,2,5500,11000,Facebook,4.1,สำเร็จ
+ENR01116,2025-05-11,SQL,SQL for Data Analyst,E-Learning,บุคคลทั่วไป,1,4400,4400,TikTok,4.8,สำเร็จ
+ENR00503,2025-02-12,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,Google Search,4.4,สำเร็จ
+ENR00635,2024-09-06,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,TikTok,3.5,สำเร็จ
+ENR01437,2025-10-25,Office,Word Professional,Onsite,บุคคลทั่วไป,3,2900,8700,TikTok,4.6,สำเร็จ
+ENR00069,2024-01-03,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,LINE OA,4.9,สำเร็จ
+ENR00549,2025-06-07,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,LINE OA,3.9,สำเร็จ
+ENR01423,2025-08-31,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,1,3200,3200,Facebook,4.6,สำเร็จ
+ENR00905,2024-05-03,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,Google Search,4.6,สำเร็จ
+ENR00597,2024-07-17,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR01015,2025-02-07,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,Facebook,4.6,สำเร็จ
+ENR00435,2024-11-03,Python,Machine Learning,Onsite,บุคคลทั่วไป,2,8900,17800,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00625,2024-08-24,Excel,Excel Advanced,Onsite,องค์กร,5,4500,20250,องค์กรส่งมา,4.9,สำเร็จ
+ENR00884,2025-09-13,Excel,Excel Basic,Online Live,องค์กร,1,3500,3500,องค์กรส่งมา,4.0,สำเร็จ
+ENR00911,2025-06-28,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,2,3900,7800,Facebook,4.6,สำเร็จ
+ENR01371,2024-05-24,SQL,SQL Fundamentals,Onsite,องค์กร,1,4900,4900,เพื่อนแนะนำ,5,สำเร็จ
+ENR00934,2025-04-05,Excel,Excel Dashboard,E-Learning,องค์กร,5,3920,17640,องค์กรส่งมา,4.1,สำเร็จ
+ENR00465,2025-08-07,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,Facebook,4.5,สำเร็จ
+ENR00462,2024-03-09,Python,Python Data Analysis,E-Learning,องค์กร,3,5520,16560,LINE OA,3.9,สำเร็จ
+ENR00616,2024-02-29,Python,Machine Learning,Onsite,บุคคลทั่วไป,2,8900,17800,เพื่อนแนะนำ,4.5,ไม่สำเร็จ
+ENR00525,2024-09-06,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,2,4900,9800,Google Search,4.9,สำเร็จ
+ENR00389,2024-07-09,Excel,Excel Dashboard,Online Live,องค์กร,5,4900,22050,เพื่อนแนะนำ,5,สำเร็จ
+ENR00031,2024-09-11,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,TikTok,5,ไม่สำเร็จ
+ENR00447,2024-03-15,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,TikTok,4.9,สำเร็จ
+ENR01455,2024-04-21,Python,Python Data Analysis,Online Live,องค์กร,1,6900,6900,องค์กรส่งมา,5,สำเร็จ
+ENR00982,2025-12-19,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,TikTok,4.4,สำเร็จ
+ENR01165,2025-07-10,Excel,Excel Basic,E-Learning,องค์กร,1,2800,2800,Facebook,4.7,สำเร็จ
+ENR00126,2024-03-09,Power BI,DAX Formula,Online Live,องค์กร,1,5900,5900,,4.3,สำเร็จ
+ENR01369,2024-02-07,Office,PowerPoint Design,Onsite,องค์กร,2,3200,6400,LINE OA,3.9,ไม่สำเร็จ
+ENR00204,2025-11-13,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Google Search,,สำเร็จ
+ENR00368,2025-01-20,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,LINE OA,4.9,สำเร็จ
+ENR00699,2024-08-17,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00744,2024-11-11,SQL,SQL Fundamentals,Onsite,องค์กร,10,4900,44100,Facebook,4.2,สำเร็จ
+ENR00611,2025-08-30,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,Facebook,4.3,สำเร็จ
+ENR00303,2025-04-14,Python,Python for Beginner,Online Live,องค์กร,5,5900,26550,องค์กรส่งมา,3.4,สำเร็จ
+ENR01028,2024-11-19,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00738,2025-01-20,Python,Python for Beginner,Onsite,องค์กร,5,5900,26550,องค์กรส่งมา,3.7,สำเร็จ
+ENR00343,2024-06-01,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.7,สำเร็จ
+ENR00805,2025-10-24,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Facebook,5,สำเร็จ
+ENR00779,2025-07-03,SQL,SQL for Data Analyst,E-Learning,บุคคลทั่วไป,3,4400,13200,LINE OA,4.6,สำเร็จ
+ENR00437,2025-07-23,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,2,4900,9800,TikTok,4.3,สำเร็จ
+ENR01427,2025-04-07,Python,Machine Learning,Online Live,บุคคลทั่วไป,3,8900,26700,Facebook,4.2,สำเร็จ
+ENR00582,2025-05-16,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.1,สำเร็จ
+ENR00769,2025-07-04,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,2,2800,5600,TikTok,5,สำเร็จ
+ENR00375,2025-07-18,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,4.4,สำเร็จ
+ENR00213,2025-05-05,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,3.7,สำเร็จ
+ENR00498,2025-10-07,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,TikTok,4.1,สำเร็จ
+ENR01288,2025-09-25,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,5,สำเร็จ
+ENR00585,2024-10-26,Power BI,Power BI Desktop,Onsite,องค์กร,5,5500,24750,องค์กรส่งมา,3.6,สำเร็จ
+ENR00269,2024-03-21,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,4.4,สำเร็จ
+ENR01350,2025-11-01,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Facebook,4.8,สำเร็จ
+ENR00522,2025-04-28,Excel,Excel Dashboard,Onsite,องค์กร,1,4900,4900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00342,2025-01-08,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,,3.9,สำเร็จ
+ENR00914,2025-02-06,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,3,4500,13500,TikTok,4.3,ไม่สำเร็จ
+ENR00947,2025-07-07,AI Tools,AI Automation,Online Live,องค์กร,1,5900,5900,Google Search,4.8,สำเร็จ
+ENR01217,2024-05-05,AI Tools,AI Automation,Online Live,องค์กร,10,5900,53100,Facebook,4.7,สำเร็จ
+ENR00360,2024-08-15,Power BI,Power BI Desktop,Online Live,องค์กร,1,5500,5500,,4.3,สำเร็จ
+ENR00344,2025-11-04,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,LINE OA,4.6,สำเร็จ
+ENR00865,2024-05-04,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.2,สำเร็จ
+ENR00095,2025-09-05,Excel,Excel Basic,Onsite,องค์กร,1,3500,3500,องค์กรส่งมา,4.5,สำเร็จ
+ENR01377,2025-04-28,AI Tools,AI Automation,Online Live,องค์กร,5,5900,26550,LINE OA,4.4,สำเร็จ
+ENR01253,2025-04-06,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,Facebook,4.3,สำเร็จ
+ENR00287,2025-02-06,AI Tools,ChatGPT for Work,E-Learning,องค์กร,5,3120,14040,องค์กรส่งมา,5,สำเร็จ
+ENR00379,2025-11-21,Python,Machine Learning,Onsite,องค์กร,2,8900,17800,องค์กรส่งมา,5,สำเร็จ
+ENR00205,2024-05-24,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,TikTok,5,สำเร็จ
+ENR00191,2024-08-15,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,LINE OA,4.4,สำเร็จ
+ENR00518,2024-01-22,Office,PowerPoint Design,Online Live,องค์กร,2,3200,6400,Google Search,4.1,สำเร็จ
+ENR00566,2024-11-24,Excel,Excel Basic,Onsite,องค์กร,1,3500,3500,Google Search,4.3,สำเร็จ
+ENR00520,2024-07-01,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00707,2024-06-07,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR00516,2024-07-29,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,Facebook,4.1,สำเร็จ
+ENR01129,2025-02-11,Excel,Excel Advanced,Onsite,องค์กร,1,4500,4500,องค์กรส่งมา,4.4,สำเร็จ
+ENR00240,2024-08-07,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,LINE OA,4.7,สำเร็จ
+ENR00937,2024-11-09,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,3,5500,16500,Facebook,4.2,ไม่สำเร็จ
+ENR01475,2024-11-09,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,TikTok,4.4,สำเร็จ
+ENR00207,2025-04-19,Python,Machine Learning,E-Learning,บุคคลทั่วไป,2,7120,14240,Facebook,4.4,สำเร็จ
+ENR00438,2025-02-25,Power BI,Power BI Desktop,Onsite,องค์กร,5,5500,24750,LINE OA,4.6,สำเร็จ
+ENR00849,2025-10-28,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,2,5500,11000,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR01036,2025-05-03,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,1,3920,3920,LINE OA,3.9,สำเร็จ
+ENR00890,2025-06-10,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,4.8,สำเร็จ
+ENR01402,2025-08-22,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,Google Search,4.7,สำเร็จ
+ENR00603,2024-10-03,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,2,3920,7840,Google Search,3.5,สำเร็จ
+ENR00054,2024-07-22,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,3,3900,11700,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR01300,2024-11-25,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,4.3,สำเร็จ
+ENR01431,2025-03-22,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR00426,2025-12-02,SQL,SQL for Data Analyst,E-Learning,บุคคลทั่วไป,1,4400,4400,LINE OA,4.6,สำเร็จ
+ENR00577,2025-09-18,Excel,Excel Dashboard,Onsite,องค์กร,2,4900,9800,องค์กรส่งมา,4.5,ไม่สำเร็จ
+ENR01191,2025-07-08,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,TikTok,4.5,สำเร็จ
+ENR00105,2025-12-12,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,2,3920,7840,TikTok,4.1,สำเร็จ
+ENR00556,2025-01-16,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.1,สำเร็จ
+ENR00685,2025-09-20,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,TikTok,4.6,สำเร็จ
+ENR00537,2024-04-15,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00563,2024-01-15,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00965,2025-12-29,SQL,SQL for Data Analyst,E-Learning,องค์กร,1,4400,4400,องค์กรส่งมา,3.9,สำเร็จ
+ENR00335,2025-08-10,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,2,4720,9440,Facebook,3.8,ไม่สำเร็จ
+ENR00897,2024-08-30,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,3,5900,17700,TikTok,4.7,สำเร็จ
+ENR01025,2024-08-19,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,TikTok,5,ไม่สำเร็จ
+ENR00297,2024-12-03,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00814,2024-03-18,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00785,2024-08-26,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,Google Search,4.1,สำเร็จ
+ENR00190,2025-05-27,Office,Word Professional,E-Learning,บุคคลทั่วไป,2,2320,4640,LINE OA,5,สำเร็จ
+ENR01010,2024-05-11,AI Tools,AI Automation,Onsite,องค์กร,5,5900,26550,TikTok,4.9,ไม่สำเร็จ
+ENR01159,2025-09-10,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,TikTok,3.8,สำเร็จ
+ENR01204,2024-10-02,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,LINE OA,4.5,ไม่สำเร็จ
+ENR01042,2025-08-07,Python,Machine Learning,Onsite,บุคคลทั่วไป,2,8900,17800,Google Search,4.6,ไม่สำเร็จ
+ENR01473,2024-10-27,Power BI,Power BI Desktop,Onsite,องค์กร,2,5500,11000,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00149,2024-03-25,Office,Word Professional,Onsite,บุคคลทั่วไป,2,2900,5800,Facebook,4.8,สำเร็จ
+ENR00829,2025-05-03,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.3,สำเร็จ
+ENR00227,2024-03-25,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,4.0,สำเร็จ
+ENR00778,2024-12-19,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00299,2024-10-18,Office,PowerPoint Design,E-Learning,บุคคลทั่วไป,1,2560,2560,LINE OA,4.6,สำเร็จ
+ENR01370,2024-05-07,Python,Python for Beginner,Onsite,องค์กร,5,5900,26550,องค์กรส่งมา,4.6,ไม่สำเร็จ
+ENR00749,2025-11-21,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,TikTok,4.5,สำเร็จ
+ENR00983,2024-10-22,Power BI,Power BI Desktop,E-Learning,องค์กร,5,4400,19800,Google Search,4.7,สำเร็จ
+ENR00087,2024-01-28,Power BI,Power BI Desktop,Onsite,องค์กร,10,5500,49500,Facebook,4.2,สำเร็จ
+ENR01219,2025-02-25,SQL,SQL for Data Analyst,Online Live,องค์กร,5,5500,24750,องค์กรส่งมา,3.8,สำเร็จ
+ENR00420,2025-10-04,Python,Machine Learning,Onsite,บุคคลทั่วไป,2,8900,17800,Google Search,4.4,สำเร็จ
+ENR01420,2025-01-22,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR00500,2024-12-26,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,3,3200,9600,Facebook,4.5,สำเร็จ
+ENR01323,2024-08-31,SQL,SQL Fundamentals,E-Learning,องค์กร,1,3920,3920,องค์กรส่งมา,4.4,สำเร็จ
+ENR01131,2025-10-12,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Facebook,4.6,สำเร็จ
+ENR00316,2024-08-09,Excel,Excel Dashboard,Onsite,องค์กร,10,4900,44100,องค์กรส่งมา,4.2,สำเร็จ
+ENR00460,2024-12-12,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,LINE OA,5.0,ไม่สำเร็จ
+ENR00686,2024-02-08,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,LINE OA,4.9,สำเร็จ
+ENR01323,2024-08-31,SQL,SQL Fundamentals,E-Learning,องค์กร,1,3920,3920,องค์กรส่งมา,4.4,สำเร็จ
+ENR01133,2025-12-23,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,3.9,สำเร็จ
+ENR00014,2024-05-19,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,Facebook,4.7,สำเร็จ
+ENR00241,2024-04-26,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,2,5500,11000,TikTok,4.2,สำเร็จ
+ENR00723,2025-09-27,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,Google Search,4.3,สำเร็จ
+ENR00017,2024-02-28,Office,Word Professional,E-Learning,องค์กร,5,2320,10440,Facebook,4.4,ไม่สำเร็จ
+ENR01194,2025-07-05,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,LINE OA,5,สำเร็จ
+ENR00510,2025-06-12,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,,สำเร็จ
+ENR00751,2024-10-31,SQL,SQL Fundamentals,Online Live,บุคคลทั่วไป,1,4900,4900,LINE OA,4.2,สำเร็จ
+ENR01242,2025-03-13,Excel,Excel Dashboard,Onsite,องค์กร,1,4900,4900,องค์กรส่งมา,3.2,สำเร็จ
+ENR01269,2025-10-07,Power BI,DAX Formula,Onsite,องค์กร,1,5900,5900,Facebook,3.9,สำเร็จ
+ENR01345,2025-07-06,Office,Word Professional,Online Live,องค์กร,1,2900,2900,Facebook,4.4,สำเร็จ
+ENR00660,2024-07-22,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,2,4500,9000,Google Search,4.7,สำเร็จ
+ENR00317,2025-04-11,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,3,3200,9600,LINE OA,3.3,สำเร็จ
+ENR00053,2025-12-06,Office,Word Professional,E-Learning,บุคคลทั่วไป,1,2320,2320,Google Search,3.9,สำเร็จ
+ENR01132,2025-09-24,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,TikTok,3.8,สำเร็จ
+ENR01364,2025-02-19,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.7,ไม่สำเร็จ
+ENR00743,2025-06-11,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,2,4900,9800,Facebook,4.1,สำเร็จ
+ENR01317,2025-10-29,Office,Word Professional,Onsite,บุคคลทั่วไป,2,2900,5800,LINE OA,4.3,สำเร็จ
+ENR00807,2024-09-18,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,LINE OA,4.9,สำเร็จ
+ENR00044,2024-02-10,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,2,3600,7200,TikTok,4.1,สำเร็จ
+ENR00601,2025-07-23,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Google Search,4.5,สำเร็จ
+ENR00557,2025-08-15,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,Facebook,4.3,ไม่สำเร็จ
+ENR01313,2025-04-06,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,3,3920,11760,Facebook,5.0,สำเร็จ
+ENR00804,2025-06-21,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,3,5900,17700,Facebook,,สำเร็จ
+ENR01047,2024-03-03,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00697,2025-08-04,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.7,สำเร็จ
+ENR00423,2025-05-03,AI Tools,ChatGPT for Work,E-Learning,องค์กร,1,3120,3120,องค์กรส่งมา,4.4,สำเร็จ
+ENR00239,2024-07-17,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,Facebook,4.8,สำเร็จ
+ENR00434,2025-06-06,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,Facebook,4.7,สำเร็จ
+ENR00758,2024-02-20,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,3.9,ไม่สำเร็จ
+ENR01266,2025-10-22,Python,Python for Beginner,Online Live,องค์กร,1,5900,5900,องค์กรส่งมา,4.5,สำเร็จ
+ENR00029,2024-03-24,Office,Word Professional,E-Learning,องค์กร,3,2320,6960,LINE OA,4.1,สำเร็จ
+ENR01152,2025-09-09,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Facebook,4.1,สำเร็จ
+ENR01486,2024-06-09,Excel,Excel Dashboard,Onsite,องค์กร,1,4900,4900,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR00874,2025-08-17,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,TikTok,4.8,สำเร็จ
+ENR01065,2024-09-09,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Google Search,4.2,สำเร็จ
+ENR00161,2025-09-15,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,Facebook,4.9,ไม่สำเร็จ
+ENR00591,2024-01-12,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,3.4,สำเร็จ
+ENR00019,2024-09-27,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,Facebook,4.7,ไม่สำเร็จ
+ENR00319,2025-12-11,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,TikTok,4.2,สำเร็จ
+ENR00211,2024-12-08,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,2,5900,11800,Google Search,4.1,สำเร็จ
+ENR00153,2024-11-19,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Facebook,4.1,สำเร็จ
+ENR00216,2024-10-03,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,3,3900,11700,TikTok,4.9,สำเร็จ
+ENR00876,2024-09-01,SQL,SQL Fundamentals,E-Learning,องค์กร,1,3920,3920,เพื่อนแนะนำ,3.8,สำเร็จ
+ENR01171,2024-11-21,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,Facebook,4.3,สำเร็จ
+ENR01497,2024-03-22,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,3,2800,8400,Google Search,5,สำเร็จ
+ENR01464,2025-05-03,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,TikTok,4.5,สำเร็จ
+ENR00445,2025-12-30,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,TikTok,3.8,สำเร็จ
+ENR01058,2025-10-16,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,3,6900,20700,TikTok,4.8,สำเร็จ
+ENR01175,2024-03-02,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,2,5500,11000,LINE OA,4.6,สำเร็จ
+ENR00065,2025-11-21,Excel,Excel Advanced,Online Live,องค์กร,1,4500,4500,องค์กรส่งมา,4.9,สำเร็จ
+ENR01395,2025-02-06,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,3.9,สำเร็จ
+ENR00824,2025-01-02,SQL,SQL for Data Analyst,Onsite,องค์กร,5,5500,24750,,4.6,สำเร็จ
+ENR01306,2024-09-02,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR01472,2024-10-14,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR00450,2024-07-16,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Google Search,,สำเร็จ
+ENR00408,2024-10-25,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.9,สำเร็จ
+ENR01322,2024-07-23,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,LINE OA,4.0,สำเร็จ
+ENR00896,2025-01-13,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,1,4720,4720,Google Search,4.7,สำเร็จ
+ENR01329,2024-12-12,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,5,สำเร็จ
+ENR00970,2024-01-19,Excel,Excel Dashboard,E-Learning,องค์กร,1,3920,3920,องค์กรส่งมา,4.6,สำเร็จ
+ENR00200,2025-12-10,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,LINE OA,4.1,สำเร็จ
+ENR00988,2025-02-20,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR00944,2024-12-28,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,Facebook,4.2,สำเร็จ
+ENR00888,2024-05-05,AI Tools,ChatGPT for Work,Online Live,องค์กร,1,3900,3900,องค์กรส่งมา,4.6,สำเร็จ
+ENR01398,2024-12-04,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,TikTok,4.4,ไม่สำเร็จ
+ENR00251,2025-01-26,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,3.5,สำเร็จ
+ENR00718,2025-03-03,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,LINE OA,5,สำเร็จ
+ENR00330,2024-02-03,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,Facebook,4.1,สำเร็จ
+ENR01121,2025-06-06,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,Google Search,4.3,สำเร็จ
+ENR01189,2024-07-31,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,3,4720,14160,Facebook,4.7,สำเร็จ
+ENR00868,2024-08-22,Excel,Excel Dashboard,Online Live,องค์กร,3,4900,14700,เพื่อนแนะนำ,4.7,ไม่สำเร็จ
+ENR01072,2025-04-11,Excel,Excel Basic,Onsite,บุคคลทั่วไป,3,3500,10500,Facebook,3.7,สำเร็จ
+ENR01070,2025-02-14,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,LINE OA,4.0,สำเร็จ
+ENR01044,2024-12-03,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,3.5,ไม่สำเร็จ
+ENR01451,2024-02-21,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,3.7,สำเร็จ
+ENR01460,2024-04-27,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,5,สำเร็จ
+ENR00836,2024-06-20,Python,Python for Beginner,Online Live,บุคคลทั่วไป,3,5900,17700,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00284,2025-10-21,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR01347,2025-05-17,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,3,2800,8400,Google Search,4.6,สำเร็จ
+ENR00274,2024-08-19,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,TikTok,3.6,สำเร็จ
+ENR00631,2025-04-09,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,Facebook,4.7,สำเร็จ
+ENR00115,2025-01-05,Python,Python for Beginner,Onsite,บุคคลทั่วไป,2,5900,11800,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR00548,2024-05-16,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.8,สำเร็จ
+ENR01239,2024-03-19,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,Facebook,3.8,สำเร็จ
+ENR00467,2025-09-22,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,Facebook,3.8,สำเร็จ
+ENR01415,2024-02-16,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,2,5500,11000,LINE OA,4.3,สำเร็จ
+ENR00860,2025-07-23,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,TikTok,3.9,สำเร็จ
+ENR00232,2025-10-27,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,1,3600,3600,LINE OA,4.4,ไม่สำเร็จ
+ENR00799,2024-01-24,Power BI,Power BI Desktop,Onsite,องค์กร,3,5500,16500,องค์กรส่งมา,3.8,สำเร็จ
+ENR00482,2025-10-06,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.4,สำเร็จ
+ENR00866,2025-04-18,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR01324,2024-10-29,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,3,3120,9360,Google Search,4.4,ไม่สำเร็จ
+ENR00212,2024-04-23,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Facebook,4.4,สำเร็จ
+ENR00973,2025-09-07,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,3,5900,17700,LINE OA,4.3,สำเร็จ
+ENR00737,2024-01-05,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,3,3200,9600,LINE OA,4.7,สำเร็จ
+ENR00495,2025-07-27,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,4.2,สำเร็จ
+ENR00117,2024-07-25,Power BI,Power BI Desktop,Online Live,องค์กร,10,5500,49500,TikTok,4.7,สำเร็จ
+ENR01111,2025-08-17,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,Google Search,4.2,สำเร็จ
+ENR01181,2025-02-17,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,1,3200,3200,Facebook,4.9,สำเร็จ
+ENR00704,2024-07-13,Python,Python for Beginner,Onsite,องค์กร,10,5900,53100,องค์กรส่งมา,4.5,สำเร็จ
+ENR00064,2025-10-18,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,Google Search,4.4,สำเร็จ
+ENR00726,2024-05-29,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,Facebook,4.1,สำเร็จ
+ENR00168,2025-10-22,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,3,5520,16560,Google Search,4.7,สำเร็จ
+ENR00599,2025-02-06,Office,Word Professional,Onsite,องค์กร,1,2900,2900,LINE OA,4.4,สำเร็จ
+ENR00220,2025-04-14,Excel,Excel Advanced,Onsite,องค์กร,10,4500,40500,องค์กรส่งมา,3.9,สำเร็จ
+ENR00719,2025-09-30,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00781,2025-11-26,Excel,Excel Dashboard,Online Live,องค์กร,1,4900,4900,Google Search,4.7,สำเร็จ
+ENR01419,2025-06-16,Excel,Excel Dashboard,Online Live,องค์กร,5,4900,22050,องค์กรส่งมา,4.2,ไม่สำเร็จ
+ENR00619,2024-09-16,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,Facebook,4.6,สำเร็จ
+ENR00127,2024-02-23,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,TikTok,4.1,สำเร็จ
+ENR00687,2025-06-07,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,2,5500,11000,TikTok,4.6,สำเร็จ
+ENR01433,2025-01-04,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,Facebook,4.8,สำเร็จ
+ENR01115,2025-06-22,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.3,สำเร็จ
+ENR00788,2024-09-15,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,3,5900,17700,LINE OA,3.8,สำเร็จ
+ENR01067,2025-12-11,Excel,Excel Advanced,Onsite,องค์กร,1,4500,4500,องค์กรส่งมา,4.3,สำเร็จ
+ENR01379,2024-08-03,SQL,SQL Fundamentals,Online Live,องค์กร,1,4900,4900,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00538,2024-11-26,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,LINE OA,4.7,สำเร็จ
+ENR00009,2025-06-16,AI Tools,AI Automation,Onsite,องค์กร,1,5900,5900,องค์กรส่งมา,4.2,สำเร็จ
+ENR01454,2024-12-05,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,Facebook,4.3,สำเร็จ
+ENR00261,2024-01-17,SQL,SQL Fundamentals,Onsite,องค์กร,5,4900,22050,Google Search,5.0,สำเร็จ
+ENR00405,2024-07-09,Python,Machine Learning,Online Live,บุคคลทั่วไป,2,8900,17800,TikTok,4.5,สำเร็จ
+ENR00050,2024-07-16,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Facebook,4.1,สำเร็จ
+ENR00147,2024-04-29,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,2,3120,6240,LINE OA,4.1,สำเร็จ
+ENR00555,2025-08-17,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,Facebook,4.4,สำเร็จ
+ENR01270,2024-04-07,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,3,6900,20700,Google Search,5,สำเร็จ
+ENR00104,2025-01-11,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,3,4720,14160,Facebook,4.0,สำเร็จ
+ENR00861,2025-09-07,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,3,6900,20700,LINE OA,4.2,สำเร็จ
+ENR00800,2025-08-28,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Facebook,4.4,สำเร็จ
+ENR00223,2025-02-21,Excel,Excel Dashboard,E-Learning,องค์กร,3,3920,11760,Google Search,4.6,สำเร็จ
+ENR00980,2025-12-01,SQL,SQL Fundamentals,E-Learning,องค์กร,5,3920,17640,TikTok,4.1,สำเร็จ
+ENR00173,2025-11-25,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,Google Search,5,สำเร็จ
+ENR00842,2025-11-15,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,2,4900,9800,TikTok,3.5,สำเร็จ
+ENR00385,2025-12-19,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,2,3900,7800,TikTok,3.7,สำเร็จ
+ENR00429,2025-09-01,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR01312,2025-07-31,Excel,Excel Advanced,Online Live,องค์กร,5,4500,20250,เพื่อนแนะนำ,3.5,สำเร็จ
+ENR00827,2025-12-05,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,1,5500,5500,Google Search,4.2,สำเร็จ
+ENR00403,2024-08-29,Excel,Excel Basic,Onsite,องค์กร,2,3500,7000,Google Search,4.1,สำเร็จ
+ENR01225,2024-06-04,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,Google Search,4.6,สำเร็จ
+ENR01449,2024-11-17,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,Facebook,4.0,สำเร็จ
+ENR00534,2024-03-08,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,Google Search,4.1,สำเร็จ
+ENR00768,2024-07-12,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,Facebook,4.5,ไม่สำเร็จ
+ENR00151,2025-07-04,Office,PowerPoint Design,Online Live,องค์กร,1,3200,3200,องค์กรส่งมา,4.7,สำเร็จ
+ENR01429,2025-05-10,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,1,4500,4500,เพื่อนแนะนำ,3.8,สำเร็จ
+ENR00767,2024-01-26,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,3,4900,14700,Facebook,5,สำเร็จ
+ENR00996,2025-08-30,Python,Python for Beginner,Onsite,องค์กร,10,5900,53100,LINE OA,4.5,สำเร็จ
+ENR00540,2025-06-24,AI Tools,AI Automation,E-Learning,บุคคลทั่วไป,3,4720,14160,TikTok,4.9,สำเร็จ
+ENR00892,2024-03-06,Office,PowerPoint Design,Online Live,องค์กร,5,3200,14400,องค์กรส่งมา,3.9,สำเร็จ
+ENR00265,2025-01-18,Excel,Excel Basic,Online Live,องค์กร,1,3500,3500,องค์กรส่งมา,4.3,สำเร็จ
+ENR00832,2025-08-24,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,Google Search,4.4,สำเร็จ
+ENR00702,2024-07-10,Excel,Excel Basic,E-Learning,องค์กร,2,2800,5600,TikTok,4.9,สำเร็จ
+ENR00579,2024-11-02,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,2,6900,13800,Facebook,4.7,สำเร็จ
+ENR00971,2025-12-25,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,Google Search,3.5,สำเร็จ
+ENR01405,2024-12-22,AI Tools,ChatGPT for Work,Onsite,บุคคลทั่วไป,1,3900,3900,LINE OA,5,สำเร็จ
+ENR00985,2025-10-19,Excel,Excel Advanced,Online Live,องค์กร,5,4500,20250,LINE OA,3.9,สำเร็จ
+ENR01262,2024-03-03,Python,Python for Beginner,Online Live,บุคคลทั่วไป,1,5900,5900,Google Search,5,ไม่สำเร็จ
+ENR01396,2025-03-27,AI Tools,ChatGPT for Work,Onsite,องค์กร,1,3900,3900,เพื่อนแนะนำ,4.1,สำเร็จ
+ENR00295,2024-04-24,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.8,สำเร็จ
+ENR01498,2024-11-07,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR01012,2024-11-08,Python,Python Data Analysis,E-Learning,องค์กร,2,5520,11040,LINE OA,4.5,สำเร็จ
+ENR00546,2025-05-24,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,LINE OA,5,สำเร็จ
+ENR01450,2024-09-13,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,TikTok,3.5,สำเร็จ
+ENR00717,2024-07-03,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,Google Search,4.1,สำเร็จ
+ENR01103,2024-03-16,Excel,Excel Advanced,E-Learning,บุคคลทั่วไป,3,3600,10800,TikTok,4.3,สำเร็จ
+ENR00217,2024-01-15,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR01104,2024-05-12,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,TikTok,4.7,สำเร็จ
+ENR00615,2025-08-19,Excel,Excel Advanced,Onsite,องค์กร,10,4500,40500,เพื่อนแนะนำ,5,สำเร็จ
+ENR00185,2024-03-26,Python,Python Data Analysis,Onsite,บุคคลทั่วไป,1,6900,6900,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00851,2025-10-21,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Google Search,4.9,สำเร็จ
+ENR00188,2025-05-10,Excel,Excel Basic,Onsite,บุคคลทั่วไป,2,3500,7000,LINE OA,4.7,สำเร็จ
+ENR00961,2025-02-19,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,2,5900,11800,เพื่อนแนะนำ,5,สำเร็จ
+ENR01325,2024-12-05,Python,Machine Learning,Onsite,บุคคลทั่วไป,2,8900,17800,Facebook,4.0,สำเร็จ
+ENR01145,2025-10-15,SQL,SQL Fundamentals,Online Live,องค์กร,10,4900,44100,องค์กรส่งมา,5,ไม่สำเร็จ
+ENR01226,2024-12-21,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,TikTok,5,สำเร็จ
+ENR00637,2024-03-22,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00116,2024-05-12,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,Facebook,4.8,สำเร็จ
+ENR00801,2025-07-13,AI Tools,AI Automation,Onsite,องค์กร,5,5900,26550,TikTok,5,สำเร็จ
+ENR00394,2025-03-08,SQL,SQL Fundamentals,E-Learning,บุคคลทั่วไป,3,3920,11760,LINE OA,4.6,ไม่สำเร็จ
+ENR01050,2024-06-30,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,LINE OA,3.5,สำเร็จ
+ENR01280,2025-05-23,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.6,สำเร็จ
+ENR00008,2024-04-12,Excel,Excel Basic,Online Live,บุคคลทั่วไป,2,3500,7000,LINE OA,4.9,สำเร็จ
+ENR00863,2025-12-16,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,3,5900,17700,Facebook,4.4,สำเร็จ
+ENR01026,2024-12-18,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.6,ไม่สำเร็จ
+ENR00169,2025-06-25,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Facebook,4.6,สำเร็จ
+ENR01292,2024-11-05,SQL,SQL for Data Analyst,E-Learning,องค์กร,10,4400,39600,องค์กรส่งมา,5,สำเร็จ
+ENR00854,2024-11-14,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,Facebook,4.5,สำเร็จ
+ENR01301,2025-11-22,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,,4.1,สำเร็จ
+ENR00502,2024-11-29,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,Google Search,4.8,สำเร็จ
+ENR00820,2024-07-09,Python,Python for Beginner,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.3,สำเร็จ
+ENR00530,2024-08-12,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,3,4900,14700,Google Search,4.9,สำเร็จ
+ENR00501,2025-06-05,Excel,Excel Advanced,Online Live,องค์กร,3,4500,13500,TikTok,4.2,สำเร็จ
+ENR00514,2024-03-11,Python,Python Data Analysis,Onsite,องค์กร,5,6900,31050,องค์กรส่งมา,4.0,สำเร็จ
+ENR01161,2025-06-15,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,LINE OA,4.4,ไม่สำเร็จ
+ENR01244,2025-12-01,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,Google Search,4.7,สำเร็จ
+ENR01468,2025-12-03,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,3,4900,14700,TikTok,5,สำเร็จ
+ENR00101,2024-01-21,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,2,5900,11800,TikTok,5,สำเร็จ
+ENR00724,2024-06-26,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,3,3200,9600,TikTok,3.5,สำเร็จ
+ENR00856,2024-10-04,Office,Word Professional,Onsite,องค์กร,5,2900,13050,องค์กรส่งมา,4.1,สำเร็จ
+ENR01100,2025-09-14,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,3,4500,13500,Facebook,4.0,สำเร็จ
+ENR00282,2024-10-21,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR01360,2025-03-15,Python,Python Data Analysis,E-Learning,องค์กร,1,5520,5520,องค์กรส่งมา,4.4,สำเร็จ
+ENR00978,2025-12-09,Excel,Excel Dashboard,Onsite,องค์กร,1,4900,4900,LINE OA,4.1,สำเร็จ
+ENR00960,2024-05-07,SQL,SQL Fundamentals,E-Learning,องค์กร,1,3920,3920,LINE OA,4.3,สำเร็จ
+ENR01218,2025-10-15,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.6,สำเร็จ
+ENR01389,2025-01-17,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,TikTok,5,สำเร็จ
+ENR00393,2025-06-11,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,Facebook,4.4,สำเร็จ
+ENR01237,2025-06-07,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,2,6900,13800,,3.8,สำเร็จ
+ENR01212,2024-01-29,Power BI,DAX Formula,E-Learning,บุคคลทั่วไป,1,4720,4720,Google Search,4.5,สำเร็จ
+ENR01125,2025-02-11,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,LINE OA,3.5,สำเร็จ
+ENR00655,2024-03-21,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,3.8,สำเร็จ
+ENR00798,2024-03-26,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,Google Search,4.8,สำเร็จ
+ENR00756,2025-11-16,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR00558,2024-03-27,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,3,5500,16500,LINE OA,4.3,สำเร็จ
+ENR01410,2024-12-10,SQL,SQL Fundamentals,Online Live,องค์กร,1,4900,4900,องค์กรส่งมา,4.3,สำเร็จ
+ENR01013,2025-06-29,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,TikTok,5,สำเร็จ
+ENR00668,2024-10-20,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR00451,2025-07-10,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Google Search,4.0,สำเร็จ
+ENR00760,2024-01-01,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.5,สำเร็จ
+ENR00318,2024-07-12,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Facebook,4.2,สำเร็จ
+ENR00201,2025-08-05,Power BI,Power BI Desktop,Onsite,องค์กร,5,5500,24750,องค์กรส่งมา,4.8,สำเร็จ
+ENR00364,2024-06-26,Power BI,Power BI Desktop,Onsite,องค์กร,5,5500,24750,องค์กรส่งมา,5.0,ไม่สำเร็จ
+ENR00736,2024-06-13,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,5,ไม่สำเร็จ
+ENR01409,2024-02-13,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00729,2025-10-02,Python,Python Data Analysis,Online Live,บุคคลทั่วไป,1,6900,6900,LINE OA,4.2,สำเร็จ
+ENR01154,2024-07-25,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Facebook,4.3,สำเร็จ
+ENR00682,2024-08-28,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,3.9,สำเร็จ
+ENR00067,2025-05-15,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,3.9,สำเร็จ
+ENR00271,2025-03-14,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,เพื่อนแนะนำ,3.8,สำเร็จ
+ENR00422,2025-12-17,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,LINE OA,4.9,สำเร็จ
+ENR00590,2024-06-29,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,2,4900,9800,TikTok,5,สำเร็จ
+ENR00376,2025-10-10,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,เพื่อนแนะนำ,4.8,สำเร็จ
+ENR01110,2024-09-07,Excel,Excel Advanced,Onsite,องค์กร,10,4500,40500,TikTok,3.7,สำเร็จ
+ENR01282,2025-09-14,SQL,SQL for Data Analyst,Online Live,บุคคลทั่วไป,3,5500,16500,เพื่อนแนะนำ,4.6,สำเร็จ
+ENR00711,2024-06-23,AI Tools,AI Automation,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.3,สำเร็จ
+ENR00695,2025-01-04,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,3,4500,13500,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR01052,2024-12-08,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,Facebook,4.1,สำเร็จ
+ENR00878,2025-12-28,Excel,Excel Basic,E-Learning,บุคคลทั่วไป,1,2800,2800,LINE OA,5.0,สำเร็จ
+ENR00653,2025-10-24,Python,Python for Beginner,Online Live,องค์กร,1,5900,5900,องค์กรส่งมา,5,ไม่สำเร็จ
+ENR01124,2024-12-23,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,3,3920,11760,เพื่อนแนะนำ,4.9,สำเร็จ
+ENR00089,2025-02-03,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,Facebook,4.6,สำเร็จ
+ENR00011,2024-05-19,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,Google Search,4.5,สำเร็จ
+ENR00953,2025-03-29,SQL,SQL Fundamentals,Online Live,องค์กร,1,4900,4900,องค์กรส่งมา,5,สำเร็จ
+ENR00329,2024-06-18,Excel,Excel Basic,E-Learning,องค์กร,5,2800,12600,TikTok,4.8,สำเร็จ
+ENR01400,2025-09-15,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Facebook,4.3,สำเร็จ
+ENR01428,2025-11-07,SQL,SQL Fundamentals,E-Learning,องค์กร,1,3920,3920,องค์กรส่งมา,4.3,สำเร็จ
+ENR00733,2025-12-11,Excel,Excel Basic,Online Live,องค์กร,5,3500,15750,องค์กรส่งมา,5,สำเร็จ
+ENR00499,2024-05-18,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,Facebook,4.6,สำเร็จ
+ENR00440,2025-06-26,Power BI,DAX Formula,E-Learning,องค์กร,5,4720,21240,TikTok,4.5,สำเร็จ
+ENR00228,2025-10-22,Power BI,DAX Formula,Online Live,บุคคลทั่วไป,1,5900,5900,LINE OA,4.5,สำเร็จ
+ENR00793,2024-05-21,Python,Machine Learning,Online Live,บุคคลทั่วไป,1,8900,8900,Google Search,5,ไม่สำเร็จ
+ENR00407,2025-06-20,SQL,SQL for Data Analyst,Onsite,องค์กร,5,5500,24750,องค์กรส่งมา,4.7,สำเร็จ
+ENR01263,2024-02-15,Excel,Excel Basic,Onsite,องค์กร,10,3500,31500,องค์กรส่งมา,4.7,สำเร็จ
+ENR00957,2025-02-02,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,เพื่อนแนะนำ,3.8,สำเร็จ
+ENR01319,2025-10-18,AI Tools,AI Automation,Onsite,องค์กร,2,5900,11800,องค์กรส่งมา,4.1,สำเร็จ
+ENR00256,2024-09-09,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,TikTok,4.9,สำเร็จ
+ENR00663,2025-03-08,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00409,2024-04-05,SQL,SQL Fundamentals,Online Live,องค์กร,5,4900,22050,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00796,2024-02-29,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,LINE OA,4.0,ไม่สำเร็จ
+ENR00569,2024-03-26,Python,Python for Beginner,E-Learning,บุคคลทั่วไป,1,4720,4720,LINE OA,4.8,สำเร็จ
+ENR00584,2025-09-23,Office,PowerPoint Design,Onsite,บุคคลทั่วไป,1,3200,3200,TikTok,4.5,ไม่สำเร็จ
+ENR00475,2024-04-25,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,1,3200,3200,Google Search,3.7,สำเร็จ
+ENR01177,2025-05-17,Office,Word Professional,Online Live,บุคคลทั่วไป,3,2900,8700,เพื่อนแนะนำ,3.5,สำเร็จ
+ENR00406,2025-04-24,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,1,5900,5900,TikTok,3.9,ไม่สำเร็จ
+ENR00040,2025-05-02,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,TikTok,4.6,สำเร็จ
+ENR00920,2024-06-28,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,LINE OA,4.3,สำเร็จ
+ENR00108,2024-04-20,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,3,4500,13500,LINE OA,4.8,สำเร็จ
+ENR00260,2025-05-12,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,2,5500,11000,Google Search,4.3,สำเร็จ
+ENR01275,2024-02-01,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,Google Search,4.3,สำเร็จ
+ENR01295,2024-06-23,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,เพื่อนแนะนำ,4.2,สำเร็จ
+ENR00828,2024-02-14,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,3,5900,17700,Google Search,4.6,สำเร็จ
+ENR01283,2024-10-10,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,1,3200,3200,LINE OA,4.7,สำเร็จ
+ENR01432,2025-08-16,Python,Python for Beginner,Onsite,บุคคลทั่วไป,2,5900,11800,Facebook,4.8,สำเร็จ
+ENR00382,2025-12-01,AI Tools,AI Automation,Online Live,บุคคลทั่วไป,3,5900,17700,Google Search,4.7,ไม่สำเร็จ
+ENR00626,2024-04-16,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,3,5500,16500,Google Search,4.3,สำเร็จ
+ENR01240,2025-04-21,AI Tools,ChatGPT for Work,Online Live,บุคคลทั่วไป,1,3900,3900,Facebook,3.9,สำเร็จ
+ENR00181,2024-07-24,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Facebook,5,สำเร็จ
+ENR00521,2025-05-11,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00496,2025-01-05,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,TikTok,,สำเร็จ
+ENR01354,2024-01-02,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,2,4400,8800,เพื่อนแนะนำ,3.5,สำเร็จ
+ENR00713,2024-06-21,SQL,SQL for Data Analyst,Onsite,บุคคลทั่วไป,2,5500,11000,TikTok,4.8,สำเร็จ
+ENR00612,2024-07-20,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,1,5500,5500,TikTok,4.1,สำเร็จ
+ENR01412,2024-07-16,Python,Python Data Analysis,E-Learning,บุคคลทั่วไป,1,5520,5520,เพื่อนแนะนำ,4.0,สำเร็จ
+ENR00164,2024-04-04,Python,Python for Beginner,Online Live,องค์กร,1,5900,5900,Facebook,4.1,สำเร็จ
+ENR01445,2024-02-24,SQL,SQL Fundamentals,Onsite,บุคคลทั่วไป,3,4900,14700,Google Search,3.9,สำเร็จ
+ENR00469,2024-06-06,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.7,สำเร็จ
+ENR01247,2024-11-29,Office,Word Professional,Onsite,บุคคลทั่วไป,1,2900,2900,เพื่อนแนะนำ,4.3,สำเร็จ
+ENR00966,2025-12-28,Excel,Excel Basic,Onsite,บุคคลทั่วไป,1,3500,3500,TikTok,5,ไม่สำเร็จ
+ENR00564,2025-02-03,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,TikTok,5,สำเร็จ
+ENR01424,2024-12-19,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,Facebook,4.0,สำเร็จ
+ENR00152,2024-10-12,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR00301,2024-10-19,Python,Python for Beginner,Online Live,บุคคลทั่วไป,2,5900,11800,Google Search,3.9,สำเร็จ
+ENR00174,2025-06-20,Power BI,Power BI Desktop,E-Learning,บุคคลทั่วไป,1,4400,4400,LINE OA,4.7,สำเร็จ
+ENR00554,2025-01-20,AI Tools,ChatGPT for Work,Onsite,องค์กร,10,3900,35100,TikTok,4.5,สำเร็จ
+ENR01077,2024-03-08,Power BI,Power BI Desktop,Onsite,บุคคลทั่วไป,1,5500,5500,Facebook,4.3,สำเร็จ
+ENR00021,2024-07-09,Excel,Excel Advanced,Onsite,บุคคลทั่วไป,2,4500,9000,เพื่อนแนะนำ,5.0,สำเร็จ
+ENR00928,2024-08-01,Excel,Excel Basic,Online Live,บุคคลทั่วไป,1,3500,3500,เพื่อนแนะนำ,4.9,ไม่สำเร็จ
+ENR00541,2025-07-21,Python,Python for Beginner,Onsite,องค์กร,1,5900,5900,Google Search,4.7,ไม่สำเร็จ
+ENR01143,2025-04-13,Excel,Excel Basic,E-Learning,องค์กร,5,2800,12600,TikTok,4.9,สำเร็จ
+ENR00735,2024-12-01,Office,PowerPoint Design,Online Live,บุคคลทั่วไป,1,3200,3200,เพื่อนแนะนำ,4.4,สำเร็จ
+ENR01200,2025-10-03,Excel,Excel Advanced,Onsite,องค์กร,10,4500,40500,องค์กรส่งมา,4.8,สำเร็จ
+ENR01114,2024-06-13,SQL,SQL for Data Analyst,Onsite,องค์กร,2,5500,11000,องค์กรส่งมา,3.6,สำเร็จ
+ENR00984,2025-02-20,Excel,Excel Basic,Onsite,องค์กร,10,3500,31500,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR01142,2025-03-05,Python,Python for Beginner,Online Live,องค์กร,10,5900,53100,TikTok,4.4,ไม่สำเร็จ
+ENR01235,2024-11-21,Excel,Excel Advanced,E-Learning,องค์กร,1,3600,3600,เพื่อนแนะนำ,4.9,สำเร็จ
+ENR00780,2024-08-24,SQL,SQL for Data Analyst,Online Live,องค์กร,5,5500,24750,Google Search,4.8,สำเร็จ
+ENR00666,2024-06-17,Excel,Excel Dashboard,Online Live,บุคคลทั่วไป,3,4900,14700,เพื่อนแนะนำ,4.5,ไม่สำเร็จ
+ENR01030,2025-11-08,Office,Word Professional,Online Live,บุคคลทั่วไป,1,2900,2900,Google Search,4.7,ไม่สำเร็จ
+ENR00020,2025-10-19,Excel,Excel Dashboard,Onsite,บุคคลทั่วไป,1,4900,4900,เพื่อนแนะนำ,4.5,สำเร็จ
+ENR00688,2025-03-28,Excel,Excel Advanced,Online Live,บุคคลทั่วไป,1,4500,4500,Facebook,3.9,สำเร็จ
+ENR00107,2024-06-16,Office,PowerPoint Design,E-Learning,องค์กร,10,2560,23040,Facebook,4.0,ไม่สำเร็จ
+ENR00133,2024-08-21,AI Tools,ChatGPT for Work,E-Learning,บุคคลทั่วไป,1,3120,3120,LINE OA,4.2,สำเร็จ
+ENR00559,2024-04-28,Power BI,DAX Formula,Onsite,บุคคลทั่วไป,1,5900,5900,TikTok,4.0,สำเร็จ
+ENR00777,2024-04-18,Python,Machine Learning,Onsite,บุคคลทั่วไป,1,8900,8900,Google Search,4.1,สำเร็จ
+ENR00267,2025-09-29,Power BI,Power BI Desktop,Online Live,บุคคลทั่วไป,3,5500,16500,Google Search,3.8,สำเร็จ
+ENR00374,2025-04-23,Excel,Excel Dashboard,E-Learning,บุคคลทั่วไป,1,3920,3920,Google Search,4.9,สำเร็จ
+ENR01286,2024-12-07,Office,PowerPoint Design,E-Learning,บุคคลทั่วไป,1,2560,2560,เพื่อนแนะนำ,4.1,สำเร็จ
