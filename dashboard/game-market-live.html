@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Market Live</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<!-- ข้อมูลเดโม่ (ถ้าเปิดไฟล์นี้จากในโปรเจค) -->
+<script src="../data/demo-data.js"></script>
+<style>
+  :root{
+    --bg:#f4f5f7; --surface:#fcfcfb; --surface-alt:#eef0f3; --ink:#0b0b0b; --ink-soft:#52514e;
+    --border:#e2e4e8; --accent:#2a78d6; --accent-soft:rgba(42,120,214,.12);
+    --good:#0ca30c; --danger:#d03b3b; --danger-soft:rgba(208,59,59,.12);
+    --grid:rgba(0,0,0,.06);
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --neg:#e34948; --other:#b4bac4;
+    --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace; --sans:'Sarabun',system-ui,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#111110; --surface:#1a1a19; --surface-alt:#242422; --ink:#ffffff; --ink-soft:#c3c2b7;
+      --border:#33332f; --accent:#3987e5; --accent-soft:rgba(57,135,229,.18); --grid:rgba(255,255,255,.08);
+      --s1:#3987e5; --s2:#d95926; --s3:#199e70; --neg:#e66767; --other:#6b6b66;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#111110; --surface:#1a1a19; --surface-alt:#242422; --ink:#ffffff; --ink-soft:#c3c2b7;
+    --border:#33332f; --accent:#3987e5; --accent-soft:rgba(57,135,229,.18); --grid:rgba(255,255,255,.08);
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --neg:#e66767; --other:#6b6b66;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;padding:24px 16px 60px;min-height:100vh;}
+  .app{max-width:1240px;margin:0 auto;}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--accent);font-weight:600;margin-bottom:4px;}
+  .topbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-bottom:16px;margin-bottom:18px;border-bottom:1px solid var(--border);}
+  .topbar h1{font-size:22px;margin:0;font-weight:700;}
+  .topRight{display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+  .status{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-soft);}
+  .dot{width:10px;height:10px;border-radius:50%;background:#9aa5b1;flex-shrink:0;transition:background .3s,box-shadow .3s;}
+  .dot.live{background:var(--good);box-shadow:0 0 0 4px rgba(12,163,12,.15);}
+  .dot.error{background:var(--danger);box-shadow:0 0 0 4px var(--danger-soft);}
+  .dot.pulse{animation:pulseAnim .6s ease-out;}
+  @keyframes pulseAnim{0%{box-shadow:0 0 0 0 rgba(12,163,12,.35);}100%{box-shadow:0 0 0 9px rgba(12,163,12,0);}}
+  .sync{font-family:var(--mono);font-size:12px;color:var(--ink-soft);white-space:nowrap;}
+  .iconBtn{background:transparent;border:1px solid var(--border);color:var(--ink);border-radius:7px;padding:5px 9px;cursor:pointer;font:inherit;}
+
+  .panel{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 18px;}
+  .panelHead{font-weight:600;font-size:14.5px;margin-bottom:4px;}
+  .panelSub{font-size:12.5px;color:var(--ink-soft);margin-bottom:10px;}
+  .formGrid{display:grid;grid-template-columns:1.2fr 2fr 1.2fr .8fr;gap:12px;margin:12px 0 14px;}
+  label{display:flex;flex-direction:column;gap:5px;font-size:12.5px;color:var(--ink-soft);}
+  input,select{font-family:var(--sans);font-size:14px;padding:8px 10px;border:1px solid var(--border);border-radius:7px;background:var(--surface-alt);color:var(--ink);outline:none;max-width:100%;}
+  input:focus,select:focus{border-color:var(--accent);}
+  .steps{font-size:13px;color:var(--ink-soft);margin:0 0 14px;padding-left:18px;line-height:1.75;}
+  .steps b,.steps code{color:var(--ink);}
+  .steps code{font-family:var(--mono);font-size:12px;background:var(--surface-alt);padding:1px 5px;border-radius:4px;}
+  .actions{display:flex;gap:10px;flex-wrap:wrap;}
+  .btn{font-family:var(--sans);font-size:14px;font-weight:600;padding:9px 16px;border-radius:7px;border:1px solid transparent;cursor:pointer;}
+  .btn.primary{background:var(--accent);color:#fff;}
+  .btn.ghost{background:transparent;border-color:var(--border);color:var(--ink);}
+  .btn.small{padding:6px 12px;font-size:13px;}
+  .errorBox{margin-top:14px;background:var(--danger-soft);border:1px solid rgba(208,59,59,.3);color:var(--ink);padding:12px 14px;border-radius:8px;font-size:13px;line-height:1.7;}
+
+  .connected{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13.5px;margin-bottom:14px;}
+  .filters{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;margin-bottom:14px;}
+  .filters label{flex-direction:row;align-items:center;gap:6px;}
+
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:14px;}
+  .kpi{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 16px;}
+  .kpiLabel{font-size:12.5px;color:var(--ink-soft);}
+  .kpiValue{font-family:var(--mono);font-size:26px;font-weight:600;font-variant-numeric:tabular-nums;line-height:1.2;margin-top:2px;}
+  .kpiSub{font-size:12px;color:var(--ink-soft);margin-top:2px;}
+  .kpi.flash{animation:flashIn 1.8s ease-out;}
+
+  .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;}
+  .c4{grid-column:span 4;} .c5{grid-column:span 5;} .c6{grid-column:span 6;} .c7{grid-column:span 7;} .c8{grid-column:span 8;} .c12{grid-column:span 12;}
+  .chartBox{position:relative;height:280px;}
+  .chartBox.tall{height:360px;}
+  @media (max-width:900px){ .c4,.c5,.c6,.c7,.c8{grid-column:span 12;} .formGrid{grid-template-columns:1fr;} }
+
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  th,td{padding:7px 6px;border-bottom:1px solid var(--border);text-align:left;white-space:nowrap;}
+  th{color:var(--ink-soft);font-weight:600;font-size:12px;}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--mono);font-size:12.5px;}
+  .tableWrap{overflow-x:auto;}
+  .badge{display:inline-block;font-size:11px;padding:1px 7px;border-radius:99px;background:var(--accent-soft);color:var(--ink);}
+
+  .feed{max-height:360px;overflow-y:auto;}
+  .feedRow{display:flex;gap:10px;padding:9px 2px;border-bottom:1px solid var(--border);font-size:13px;align-items:baseline;}
+  .feedRow:last-child{border-bottom:none;}
+  .feedTime{font-family:var(--mono);font-size:11.5px;color:var(--accent);white-space:nowrap;}
+  .feedText{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .feedText b{font-weight:600;}
+  .feedRow.flash{animation:flashIn 1.8s ease-out;}
+  @keyframes flashIn{from{background:var(--accent-soft);}to{background:transparent;}}
+  .empty{color:var(--ink-soft);font-size:13px;padding:20px 4px;text-align:center;}
+  .note{font-size:12px;color:var(--ink-soft);margin-top:18px;line-height:1.6;}
+  .hidden{display:none !important;}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <div class="topbar">
+    <div>
+      <div class="eyebrow">LIVE · STEAM GAME MARKET</div>
+      <h1>🎮 แดชบอร์ดตลาดเกม (Live)</h1>
+    </div>
+    <div class="topRight">
+      <div class="status"><span class="dot" id="statusDot"></span><span id="statusText">ยังไม่เชื่อมต่อ</span></div>
+      <div class="sync" id="syncText">—</div>
+      <button class="iconBtn" id="themeBtn" title="สลับธีม">🌓</button>
+    </div>
+  </div>
+
+  <!-- ===== ตั้งค่าการเชื่อมต่อ ===== -->
+  <div class="panel" id="configPanel">
+    <div class="panelHead">เชื่อมต่อแหล่งข้อมูล</div>
+    <div class="formGrid">
+      <label>แหล่งข้อมูล
+        <select id="sourceType">
+          <option value="sheet">Google Sheet</option>
+          <option value="csv">ลิงก์ไฟล์ CSV (เช่น GitHub raw)</option>
+        </select>
+      </label>
+      <label id="urlLabel">ลิงก์ Google Sheet หรือ Sheet ID
+        <input id="sheetInput" type="text" placeholder="https://docs.google.com/spreadsheets/d/...">
+      </label>
+      <label id="tabLabel">ชื่อแท็บ (เว้นว่างได้)
+        <input id="tabInput" type="text" placeholder="เช่น games">
+      </label>
+      <label>รีเฟรชทุก (วินาที)
+        <input id="intervalInput" type="number" min="5" value="30">
+      </label>
+    </div>
+    <ol class="steps" id="sheetSteps">
+      <li>สร้าง Google Sheet ใหม่ → <b>ไฟล์ → นำเข้า</b> → อัปโหลด <code>data/games.csv</code> (หรือ <code>steam_real.csv</code>)</li>
+      <li>กด <b>แชร์</b> → ตั้งเป็น <b>"ทุกคนที่มีลิงก์ - ผู้มีสิทธิ์อ่าน"</b> (ไม่ต้อง Publish to web)</li>
+      <li>คัดลอกลิงก์มาวางด้านบน แล้วกด "เชื่อมต่อ" — เพิ่ม/แก้แถวใน Sheet แล้วแดชบอร์ดจะอัปเดตเองตามรอบเวลา</li>
+      <li>คอลัมน์ที่ต้องมี: <code>name</code> <code>primary_genre</code> <code>release_date</code> <code>owners_estimate</code> <code>review_pct</code> <code>success</code> (คอลัมน์อื่นมีหรือไม่มีก็ได้ กราฟที่ขาดข้อมูลจะซ่อนเอง)</li>
+    </ol>
+    <ol class="steps hidden" id="csvSteps">
+      <li>อัปโหลด CSV ขึ้น GitHub แล้วกดปุ่ม <b>Raw</b> คัดลอกลิงก์ (<code>https://raw.githubusercontent.com/...</code>)</li>
+      <li>ทุกครั้งที่ commit ไฟล์ใหม่ แดชบอร์ดจะดึงข้อมูลล่าสุดเองตามรอบเวลา (GitHub อาจแคชไว้ ~5 นาที)</li>
+    </ol>
+    <div class="actions">
+      <button class="btn primary" id="connectBtn">เชื่อมต่อ</button>
+      <button class="btn ghost" id="demoBtn">ดูตัวอย่างด้วยข้อมูลเดโม่ (จำลองเกมใหม่เข้ามา)</button>
+    </div>
+    <div class="errorBox hidden" id="errorBox"></div>
+  </div>
+
+  <!-- ===== แดชบอร์ด ===== -->
+  <div id="dash" class="hidden">
+    <div class="panel connected">
+      <div>เชื่อมต่อกับ <b id="connectedName">—</b> · <span id="rowInfo"></span></div>
+      <button class="btn ghost small" id="disconnectBtn">ยกเลิกการเชื่อมต่อ</button>
+    </div>
+
+    <div class="filters" id="filters"></div>
+
+    <div class="kpis">
+      <div class="kpi" id="kpiGamesBox"><div class="kpiLabel">จำนวนเกม</div><div class="kpiValue" id="kpiGames">—</div><div class="kpiSub" id="kpiGamesSub"></div></div>
+      <div class="kpi"><div class="kpiLabel">อัตราเกมฮิต</div><div class="kpiValue" id="kpiHit">—</div><div class="kpiSub">รีวิว ≥ 80% และผู้เล่น ≥ 100k</div></div>
+      <div class="kpi"><div class="kpiLabel">มัธยฐานผู้เล่นต่อเกม</div><div class="kpiValue" id="kpiOwners">—</div><div class="kpiSub">ใช้มัธยฐานเพราะข้อมูลเบ้มาก</div></div>
+      <div class="kpi"><div class="kpiLabel">มัธยฐานรายได้ประมาณการ</div><div class="kpiValue" id="kpiRevenue">—</div><div class="kpiSub" id="kpiRevenueSub">USD ต่อเกม</div></div>
+      <div class="kpi"><div class="kpiLabel">รีวิวบวกเฉลี่ย</div><div class="kpiValue" id="kpiReview">—</div><div class="kpiSub" id="kpiTop10"></div></div>
+      <div class="kpi" id="kpiNewBox"><div class="kpiLabel">เกมใหม่ตั้งแต่เชื่อมต่อ</div><div class="kpiValue" id="kpiNew">0</div><div class="kpiSub" id="kpiNewSub">รออัปเดตรอบถัดไป</div></div>
+    </div>
+
+    <div class="grid">
+      <div class="panel c7" data-need="primary_genre,success">
+        <div class="panelHead">Opportunity matrix: แนวเกมไหนน่าลงทุน?</div>
+        <div class="panelSub">แกน X = จำนวนเกม (การแข่งขัน) · แกน Y = อัตราฮิต · ขนาดวง = มัธยฐานผู้เล่น — มุมซ้ายบนคือโอกาส</div>
+        <div class="chartBox tall"><canvas id="cBubble"></canvas></div>
+      </div>
+      <div class="panel c5">
+        <div class="panelHead">เกมที่เพิ่มเข้ามาล่าสุด</div>
+        <div class="panelSub">แถวใหม่ที่ถูกเพิ่มในแหล่งข้อมูลจะไฮไลต์</div>
+        <div class="feed" id="feedList"><div class="empty">ยังไม่มีข้อมูล</div></div>
+      </div>
+
+      <div class="panel c6" data-need="release_date">
+        <div class="panelHead">จำนวนเกมใหม่ต่อปี</div>
+        <div class="panelSub">การแข่งขันในตลาดเพิ่มขึ้นแค่ไหน</div>
+        <div class="chartBox"><canvas id="cYear"></canvas></div>
+      </div>
+      <div class="panel c6" data-need="price_range,success">
+        <div class="panelHead">อัตราฮิตตามช่วงราคา</div>
+        <div class="panelSub">ช่วยตัดสินใจตั้งราคา</div>
+        <div class="chartBox"><canvas id="cPrice"></canvas></div>
+      </div>
+
+      <div class="panel c7" data-need="success">
+        <div class="panelHead">ปัจจัยที่สัมพันธ์กับเกมฮิต</div>
+        <div class="panelSub">ส่วนต่างอัตราฮิตเทียบค่ารวม (จุด %) · เฉพาะกลุ่มที่มี ≥ 20 เกม · correlation ไม่ใช่ causation</div>
+        <div class="chartBox tall"><canvas id="cFactor"></canvas></div>
+      </div>
+      <div class="panel c5" data-need="developer_tier,estimated_revenue_usd">
+        <div class="panelHead">สัดส่วนจำนวนเกม vs รายได้ ตามระดับผู้พัฒนา</div>
+        <div class="panelSub">รายได้กระจุกตัวแค่ไหน</div>
+        <div class="chartBox tall"><canvas id="cTier"></canvas></div>
+      </div>
+
+      <div class="panel c12" data-need="estimated_revenue_usd">
+        <div class="panelHead">Top 10 เกมตามรายได้ประมาณการ</div>
+        <div class="tableWrap"><table id="topTable"></table></div>
+      </div>
+    </div>
+
+    <p class="note">ยอดผู้เล่นและรายได้เป็นค่าประมาณ · ข้อมูลเดโม่เป็นข้อมูลสังเคราะห์สำหรับฝึก · เชื่อมต่อแบบอ่านอย่างเดียวผ่านลิงก์สาธารณะ ห้ามใช้กับข้อมูลส่วนตัว/ข้อมูลลับ</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c]));
+  const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const isDarkNow = () => {
+    const t = document.documentElement.dataset.theme;
+    return t ? t === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+  };
+
+  // ---------- state ----------
+  let pollTimer = null, countdownInterval = null, countdownRemaining = 0, intervalSec = 30;
+  let source = { type: "sheet", id: "", tab: "", url: "" };
+  let isDemo = false, demoPool = [], demoRows = [], demoCounter = 0;
+  let rows = [], cols = new Set();
+  let prevRowCount = 0, newSinceConnect = 0, firstLoadDone = false, lastNewCount = 0;
+  let filters = {};
+  const charts = {};
+  let gvizCounter = 0;
+
+  // ---------- small utils ----------
+  const num = (v) => { if (v === null || v === undefined || v === "") return NaN; if (typeof v === "number") return v; return Number(String(v).replace(/[,$\s]/g, "")); };
+  const median = (arr) => { const a = arr.filter((x) => !Number.isNaN(x)).sort((x, y) => x - y); if (!a.length) return NaN; const m = a.length >> 1; return a.length % 2 ? a[m] : (a[m - 1] + a[m]) / 2; };
+  const mean = (arr) => { const a = arr.filter((x) => !Number.isNaN(x)); return a.length ? a.reduce((s, x) => s + x, 0) / a.length : NaN; };
+  const compact = (n) => {
+    if (Number.isNaN(n)) return "—";
+    const a = Math.abs(n);
+    if (a >= 1e9) return (n / 1e9).toFixed(2) + "B";
+    if (a >= 1e6) return (n / 1e6).toFixed(2) + "M";
+    if (a >= 1e3) return (n / 1e3).toFixed(1) + "k";
+    return Math.round(n).toLocaleString("en-US");
+  };
+  const pct = (x, d = 1) => (Number.isNaN(x) ? "—" : (x * 100).toFixed(d) + "%");
+  const isHit = (r) => /^(hit|yes|true|1|สำเร็จ)$/i.test(String(r.success ?? "").trim());
+  const year = (r) => { const m = String(r.release_date ?? "").match(/(\d{4})/); return m ? m[1] : null; };
+  const PRICE_ORDER = ["Free", "< $5", "$5-10", "$10-20", "$20-40", "$40+"];
+
+  // ---------- status + countdown ----------
+  function setStatus(state, text){ $("statusDot").className = "dot " + state; $("statusText").textContent = text; }
+  function startCountdown(sec){
+    countdownRemaining = sec;
+    clearInterval(countdownInterval);
+    $("syncText").textContent = "sync ใน " + countdownRemaining + "s";
+    countdownInterval = setInterval(() => {
+      countdownRemaining = Math.max(0, countdownRemaining - 1);
+      $("syncText").textContent = "sync ใน " + countdownRemaining + "s";
+    }, 1000);
+  }
+
+  // ---------- fetch: Google Sheet via gviz (script tag, no CORS) ----------
+  function extractSheetId(input){
+    input = (input || "").trim();
+    const m = input.match(/\/d\/([a-zA-Z0-9-_]+)/);
+    if (m) return m[1];
+    if (/^[a-zA-Z0-9-_]{20,}$/.test(input)) return input;
+    return null;
+  }
+  function fetchViaGviz(id, tab){
+    return new Promise((resolve, reject) => {
+      window.google = window.google || {};
+      window.google.visualization = window.google.visualization || {};
+      window.google.visualization.Query = window.google.visualization.Query || {};
+      let settled = false, script;
+      const timeout = setTimeout(() => { if (!settled){ settled = true; cleanup(); reject(new Error("timeout")); } }, 9000);
+      function cleanup(){ clearTimeout(timeout); if (script && script.parentNode) script.parentNode.removeChild(script); }
+      window.google.visualization.Query.setResponse = function(resp){
+        if (settled) return;
+        settled = true; cleanup();
+        if (resp && resp.status === "error"){
+          const detail = resp.errors && resp.errors[0] && resp.errors[0].detailed_message;
+          reject(new Error(detail || "sheet-error"));
+        } else resolve(resp.table);
+      };
+      let url = "https://docs.google.com/spreadsheets/d/" + id + "/gviz/tq?tqx=out:json&headers=1";
+      if (tab) url += "&sheet=" + encodeURIComponent(tab);
+      url += "&_=" + (gvizCounter++);
+      script = document.createElement("script");
+      script.src = url;
+      script.onerror = () => { if (!settled){ settled = true; cleanup(); reject(new Error("network")); } };
+      document.head.appendChild(script);
+    });
+  }
+  // gviz: ตัวเลขใช้ค่า v (ไม่ใช่ข้อความจัดรูปแบบ), วันที่ "Date(2024,0,5)" -> "2024-01-05"
+  function cellValue(cell){
+    if (!cell || cell.v === null || cell.v === undefined) return "";
+    const v = cell.v;
+    if (typeof v === "string"){
+      const m = v.match(/^Date\((\d+),(\d+),(\d+)/);
+      if (m) return `${m[1]}-${String(+m[2] + 1).padStart(2, "0")}-${String(+m[3]).padStart(2, "0")}`;
+    }
+    return v;
+  }
+  function parseGvizTable(table){
+    let headers = table.cols.map((c) => (c.label || "").trim());
+    let data = table.rows.map((r) => (r.c || []).map(cellValue));
+    // บางครั้ง gviz ไม่รู้ว่าแถวแรกคือหัวตาราง -> ใช้แถวแรกเป็นหัวตารางเอง
+    if (headers.every((h) => !h) && data.length){ headers = data[0].map((h) => String(h).trim()); data = data.slice(1); }
+    return toObjects(headers, data);
+  }
+  function toObjects(headers, data){
+    const keys = headers.map((h) => String(h).trim().toLowerCase().replace(/\s+/g, "_"));
+    return data.map((arr) => Object.fromEntries(keys.map((k, i) => [k, arr[i] ?? ""])));
+  }
+
+  // ---------- fetch: CSV URL ----------
+  async function fetchCsv(url){
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 9000);
+    try {
+      const res = await fetch(url + (url.includes("?") ? "&" : "?") + "_=" + Date.now(), { signal: ctrl.signal, cache: "no-store" });
+      if (!res.ok) throw new Error("http-" + res.status);
+      const text = await res.text();
+      const parsed = Papa.parse(text.replace(/^﻿/, ""), { header: true, skipEmptyLines: true, dynamicTyping: false });
+      return parsed.data.map((r) => Object.fromEntries(Object.entries(r).map(([k, v]) => [k.trim().toLowerCase().replace(/\s+/g, "_"), v])));
+    } catch (e){
+      throw e.name === "AbortError" ? new Error("timeout") : e;
+    } finally { clearTimeout(t); }
+  }
+
+  // ---------- demo: ใช้ชุดเดโม่จริง แล้วจำลองเกมใหม่ทยอยเข้ามา ----------
+  function initDemo(){
+    const ds = window.DEMO_DATASETS && window.DEMO_DATASETS.games;
+    if (!ds) return false;
+    demoPool = ds.rows.map((arr) => Object.fromEntries(ds.columns.map((c, i) => [c, arr[i]])));
+    // เริ่มจาก 85% ของข้อมูล (เรียงตามวันวางขาย) แล้วค่อย ๆ เพิ่มส่วนที่เหลือ = เกมที่ "เพิ่งวางขาย"
+    demoPool.sort((a, b) => String(a.release_date).localeCompare(String(b.release_date)));
+    const start = Math.floor(demoPool.length * 0.85);
+    demoRows = demoPool.slice(0, start);
+    demoCounter = start;
+    return true;
+  }
+  function demoStep(){
+    if (firstLoadDone && Math.random() < 0.6 && demoCounter < demoPool.length){
+      const n = 1 + Math.floor(Math.random() * 3);
+      demoRows = demoRows.concat(demoPool.slice(demoCounter, demoCounter + n));
+      demoCounter += n;
+    }
+    return demoRows.slice();
+  }
+
+  // ---------- polling loop ----------
+  async function pollOnce(){
+    $("statusDot").classList.add("pulse");
+    try {
+      let data;
+      if (isDemo) data = demoStep();
+      else if (source.type === "sheet") data = parseGvizTable(await fetchViaGviz(source.id, source.tab));
+      else data = await fetchCsv(source.url);
+
+      data = data.filter((r) => Object.values(r).some((v) => v !== "" && v !== null && v !== undefined));
+      // ตัดแถวซ้ำ (app_id เดียวกัน) — นับ "เกมใหม่" จากจำนวนเกมไม่ซ้ำ
+      if (data.length && "app_id" in data[0]){
+        const seen = new Set();
+        data = data.filter((r) => { const k = String(r.app_id); if (k === "" || !seen.has(k)){ seen.add(k); return true; } return false; });
+      }
+      if (!data.length) throw new Error("empty");
+      cols = new Set(Object.keys(data[0]));
+      if (!cols.has("primary_genre") && !cols.has("name")) throw new Error("columns");
+      rows = data;
+
+      const newCount = firstLoadDone ? Math.max(0, rows.length - prevRowCount) : 0;
+      newSinceConnect += newCount;
+      lastNewCount = newCount;
+      prevRowCount = rows.length;
+
+      if (!firstLoadDone) buildFilters();
+      renderAll(newCount);
+      firstLoadDone = true;
+
+      $("dash").classList.remove("hidden");
+      $("configPanel").classList.add("hidden");
+      $("errorBox").classList.add("hidden");
+      setStatus("live", "เชื่อมต่อแล้ว · อัปเดต " + new Date().toLocaleTimeString("th-TH"));
+    } catch (err){
+      setStatus("error", "เชื่อมต่อไม่สำเร็จ");
+      showError(err);
+    } finally {
+      setTimeout(() => $("statusDot").classList.remove("pulse"), 600);
+      startCountdown(intervalSec);
+    }
+  }
+  function showError(err){
+    const box = $("errorBox");
+    const m = err && err.message;
+    let why = "ไม่พบข้อมูล";
+    if (m === "timeout") why = "หมดเวลาเชื่อมต่อ (9 วินาที)";
+    else if (m === "empty") why = "แหล่งข้อมูลว่างเปล่า";
+    else if (m === "columns") why = "ไม่พบคอลัมน์ที่ต้องใช้ (เช่น name, primary_genre)";
+    else if (m && m.startsWith("http-")) why = "เซิร์ฟเวอร์ตอบกลับ " + m.slice(5);
+    else if (m && !["network", "sheet-error"].includes(m)) why = m;
+    const tips = source.type === "sheet" && !isDemo
+      ? "1) ลิงก์/Sheet ID ถูกต้อง 2) แชร์เป็น \"ทุกคนที่มีลิงก์ - ผู้มีสิทธิ์อ่าน\" 3) ชื่อแท็บ (ถ้าใส่) ตรงกับในชีตจริง"
+      : "1) ลิงก์เปิดได้และเป็นไฟล์ CSV ดิบ (raw) 2) เซิร์ฟเวอร์อนุญาต CORS (GitHub raw ใช้ได้) 3) แถวแรกเป็นชื่อคอลัมน์";
+    box.innerHTML = "เชื่อมต่อไม่สำเร็จ: " + esc(why) + "<br>ตรวจสอบว่า: " + tips;
+    box.classList.remove("hidden");
+    // ถ้าเคยเชื่อมต่อได้แล้ว ให้แสดงข้อมูลเดิมต่อ และแสดงข้อความผิดพลาดใต้แถบเชื่อมต่อ
+    if (firstLoadDone){ $("configPanel").classList.remove("hidden"); }
+  }
+  function startPolling(){
+    clearInterval(pollTimer);
+    pollOnce();
+    pollTimer = setInterval(pollOnce, intervalSec * 1000);
+  }
+  function stopPolling(){ clearInterval(pollTimer); clearInterval(countdownInterval); $("syncText").textContent = "—"; }
+  function resetState(){
+    rows = []; cols = new Set(); prevRowCount = 0; newSinceConnect = 0; firstLoadDone = false; filters = {};
+    Object.keys(charts).forEach((k) => { charts[k].destroy(); delete charts[k]; });
+  }
+
+  // ---------- filters ----------
+  const FILTER_COLS = [["primary_genre", "แนวเกม"], ["developer_tier", "ผู้พัฒนา"], ["price_range", "ช่วงราคา"], ["release_year", "ปีที่วางขาย"]];
+  function valuesOf(col){
+    const vals = new Set(rows.map((r) => (col === "release_year" ? year(r) : r[col])).filter((v) => v !== "" && v !== null && v !== undefined));
+    const arr = [...vals].map(String);
+    if (col === "price_range") return PRICE_ORDER.filter((p) => vals.has(p)).concat(arr.filter((p) => !PRICE_ORDER.includes(p)));
+    return arr.sort();
+  }
+  function buildFilters(){
+    const box = $("filters");
+    box.innerHTML = "";
+    FILTER_COLS.forEach(([col, label]) => {
+      if (col === "release_year" ? !cols.has("release_date") : !cols.has(col)) return;
+      const lab = document.createElement("label");
+      lab.textContent = label + " ";
+      const sel = document.createElement("select");
+      sel.dataset.col = col;
+      sel.innerHTML = '<option value="">ทั้งหมด</option>' + valuesOf(col).map((v) => `<option>${esc(v)}</option>`).join("");
+      sel.addEventListener("change", () => { filters[col] = sel.value; renderAll(0); });
+      lab.appendChild(sel);
+      box.appendChild(lab);
+    });
+    const reset = document.createElement("button");
+    reset.className = "btn ghost small";
+    reset.textContent = "ล้างตัวกรอง";
+    reset.addEventListener("click", () => { filters = {}; box.querySelectorAll("select").forEach((s) => (s.value = "")); renderAll(0); });
+    box.appendChild(reset);
+  }
+  function refreshFilterOptions(){
+    // เกมใหม่อาจมีแนว/ปีใหม่ -> เติมตัวเลือกโดยไม่ล้างค่าที่เลือกไว้
+    $("filters").querySelectorAll("select").forEach((sel) => {
+      const cur = sel.value;
+      sel.innerHTML = '<option value="">ทั้งหมด</option>' + valuesOf(sel.dataset.col).map((v) => `<option>${esc(v)}</option>`).join("");
+      sel.value = cur;
+    });
+  }
+  function filtered(){
+    return rows.filter((r) => Object.entries(filters).every(([c, v]) => !v || String(c === "release_year" ? year(r) : r[c]) === v));
+  }
+
+  // ---------- charts ----------
+  function chartDefaults(){
+    Chart.defaults.font.family = "Sarabun, system-ui, sans-serif";
+    Chart.defaults.color = cssVar("--ink-soft");
+    Chart.defaults.borderColor = cssVar("--grid");
+    Chart.defaults.maintainAspectRatio = false;
+    Chart.defaults.animation.duration = 400;
+    Chart.defaults.plugins.legend.labels.boxWidth = 12;
+  }
+  function upsert(key, canvasId, config){
+    if (charts[key]){
+      const ch = charts[key];
+      ch.data.labels = config.data.labels;
+      config.data.datasets.forEach((d, i) => {
+        if (ch.data.datasets[i]) Object.assign(ch.data.datasets[i], d);
+        else ch.data.datasets.push(d);
+      });
+      ch.data.datasets.length = config.data.datasets.length;
+      if (config.options && config.options.scales) Object.assign(ch.options.scales, config.options.scales);
+      ch.update();
+      return;
+    }
+    charts[key] = new Chart($(canvasId), config);
+  }
+  // ป้ายชื่อบนจุด bubble (ไม่ต้องพึ่งปลั๊กอินภายนอก)
+  const bubbleLabels = {
+    id: "bubbleLabels",
+    afterDatasetsDraw(chart){
+      const { ctx } = chart;
+      ctx.save();
+      ctx.font = "12px Sarabun, system-ui, sans-serif";
+      ctx.fillStyle = cssVar("--ink");
+      // วางป้ายขวา -> ซ้าย -> บน -> ล่าง เลือกตำแหน่งแรกที่ไม่ทับป้ายอื่น ถ้าทับหมดให้ข้าม (ดูชื่อได้จาก tooltip)
+      const placed = [];
+      const overlaps = (b) => placed.some((q) => b.x < q.x + q.w && b.x + b.w > q.x && b.y < q.y + q.h && b.y + b.h > q.y);
+      const meta = chart.getDatasetMeta(0).data;
+      const order = meta.map((pt, i) => i).sort((a, b) => meta[b].options.radius - meta[a].options.radius);
+      order.forEach((i) => {
+        const pt = meta[i], r = pt.options.radius, label = chart.data.datasets[0].data[i].label;
+        const w = ctx.measureText(label).width, h = 14;
+        const tries = [[pt.x + r + 4, pt.y - h / 2], [pt.x - r - 4 - w, pt.y - h / 2], [pt.x - w / 2, pt.y - r - h - 2], [pt.x - w / 2, pt.y + r + 2]];
+        const spot = tries.map(([x, y]) => ({ x, y, w, h })).find((b) => !overlaps(b) && b.x >= chart.chartArea.left - 30 && b.x + b.w <= chart.width);
+        if (!spot) return;
+        placed.push(spot);
+        ctx.fillText(label, spot.x, spot.y + h - 3);
+      });
+      ctx.restore();
+    },
+  };
+
+  function renderAll(newCount){
+    refreshFilterOptions();
+    const data = filtered();
+    const has = (c) => cols.has(c);
+    document.querySelectorAll("[data-need]").forEach((p) => {
+      p.classList.toggle("hidden", !p.dataset.need.split(",").every(has));
+    });
+    renderKPIs(data, newCount);
+    renderFeed(newCount);
+    if (has("primary_genre") && has("success")) renderBubble(data);
+    if (has("release_date")) renderYear(data);
+    if (has("price_range") && has("success")) renderPrice(data);
+    if (has("success")) renderFactors(data);
+    if (has("developer_tier") && has("estimated_revenue_usd")) renderTier(data);
+    if (has("estimated_revenue_usd")) renderTop(data);
+    $("rowInfo").textContent = `${rows.length.toLocaleString("th-TH")} แถว` + (data.length !== rows.length ? ` (กรองแล้ว ${data.length.toLocaleString("th-TH")})` : "");
+  }
+
+  function renderKPIs(data, newCount){
+    const hitRate = data.length ? data.filter(isHit).length / data.length : NaN;
+    $("kpiGames").textContent = data.length.toLocaleString("th-TH");
+    $("kpiGamesSub").textContent = data.length !== rows.length ? `จากทั้งหมด ${rows.length.toLocaleString("th-TH")}` : "ทั้งหมดในแหล่งข้อมูล";
+    $("kpiHit").textContent = cols.has("success") ? pct(hitRate) : "—";
+    $("kpiOwners").textContent = compact(median(data.map((r) => num(r.owners_estimate))));
+    const rev = data.map((r) => num(r.estimated_revenue_usd)).filter((x) => !Number.isNaN(x));
+    $("kpiRevenue").textContent = rev.length ? "$" + compact(median(rev)) : "—";
+    $("kpiReview").textContent = cols.has("review_pct") ? mean(data.map((r) => num(r.review_pct))).toFixed(1) + "%" : "—";
+    if (rev.length){
+      const sorted = rev.slice().sort((a, b) => b - a), total = sorted.reduce((s, x) => s + x, 0);
+      const top = sorted.slice(0, Math.max(1, Math.round(sorted.length * 0.1))).reduce((s, x) => s + x, 0);
+      $("kpiTop10").textContent = `เกม top 10% ครองรายได้ ${pct(top / total)}`;
+    }
+    $("kpiNew").textContent = newSinceConnect.toLocaleString("th-TH");
+    $("kpiNewSub").textContent = newCount ? `+${newCount} เกมในรอบล่าสุด` : "ไม่มีเกมใหม่ในรอบล่าสุด";
+    if (newCount){ ["kpiNewBox", "kpiGamesBox"].forEach((id) => { const b = $(id); b.classList.remove("flash"); void b.offsetWidth; b.classList.add("flash"); }); }
+  }
+
+  function renderFeed(newCount){
+    const box = $("feedList");
+    if (!rows.length){ box.innerHTML = '<div class="empty">ยังไม่มีข้อมูล</div>'; return; }
+    box.innerHTML = rows.slice(-10).reverse().map((r, i) => {
+      const price = num(r.price_usd);
+      const bits = [r.primary_genre, Number.isNaN(price) ? "" : price === 0 ? "Free" : "$" + price, r.review_pct !== "" && r.review_pct !== undefined ? "รีวิว " + num(r.review_pct) + "%" : ""].filter(Boolean);
+      return `<div class="feedRow${i < newCount ? " flash" : ""}"><div class="feedTime">${esc(r.release_date || "—")}</div>
+        <div class="feedText"><b>${esc(r.name || "(ไม่มีชื่อ)")}</b> · ${esc(bits.join(" · "))} ${isHit(r) ? '<span class="badge">Hit</span>' : ""}</div></div>`;
+    }).join("");
+  }
+
+  function renderBubble(data){
+    const g = new Map();
+    data.forEach((r) => {
+      const k = r.primary_genre || "(ว่าง)";
+      if (!g.has(k)) g.set(k, { n: 0, hit: 0, owners: [] });
+      const o = g.get(k); o.n++; if (isHit(r)) o.hit++; o.owners.push(num(r.owners_estimate));
+    });
+    const pts = [...g.entries()].map(([k, o]) => ({ label: k, x: o.n, y: (o.hit / o.n) * 100, med: median(o.owners) }));
+    const maxMed = Math.max(...pts.map((p) => p.med || 0), 1);
+    const [rMin, rMax] = window.innerWidth < 600 ? [3, 11] : [5, 20];
+    pts.forEach((p) => (p.r = rMin + rMax * Math.sqrt((p.med || 0) / maxMed)));
+    upsert("bubble", "cBubble", {
+      type: "bubble",
+      data: { datasets: [{ label: "แนวเกม", data: pts, backgroundColor: cssVar("--s1") + "99", borderColor: cssVar("--surface"), borderWidth: 2, hoverBorderColor: cssVar("--ink") }] },
+      options: {
+        layout: { padding: { right: 70 } },
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => { const d = c.raw; return `${d.label}: ${d.x} เกม · อัตราฮิต ${d.y.toFixed(1)}% · มัธยฐานผู้เล่น ${compact(d.med)}`; } } } },
+        scales: { x: { title: { display: true, text: "จำนวนเกม (การแข่งขัน)" }, beginAtZero: true }, y: { title: { display: true, text: "อัตราฮิต (%)" }, beginAtZero: true } },
+      },
+      plugins: [bubbleLabels],
+    });
+  }
+
+  function renderYear(data){
+    const m = new Map();
+    data.forEach((r) => { const y = year(r); if (y) m.set(y, (m.get(y) || 0) + 1); });
+    const ys = [...m.keys()].sort();
+    upsert("year", "cYear", {
+      type: "bar",
+      data: { labels: ys, datasets: [{ label: "จำนวนเกม", data: ys.map((y) => m.get(y)), backgroundColor: cssVar("--s1"), borderRadius: 4, maxBarThickness: 40 }] },
+      options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } } },
+    });
+  }
+
+  function renderPrice(data){
+    const m = new Map();
+    data.forEach((r) => { const k = r.price_range; if (!k) return; const o = m.get(k) || [0, 0]; o[0]++; if (isHit(r)) o[1]++; m.set(k, o); });
+    const labels = PRICE_ORDER.filter((p) => m.has(p)).concat([...m.keys()].filter((p) => !PRICE_ORDER.includes(p)));
+    upsert("price", "cPrice", {
+      type: "bar",
+      data: { labels, datasets: [{ label: "อัตราฮิต (%)", data: labels.map((l) => (m.get(l)[1] / m.get(l)[0]) * 100), backgroundColor: cssVar("--s1"), borderRadius: 4, maxBarThickness: 48 }] },
+      options: {
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `อัตราฮิต ${c.parsed.y.toFixed(1)}% (${m.get(c.label)[0]} เกม)` } } },
+        scales: { y: { beginAtZero: true, ticks: { callback: (v) => v + "%" } } },
+      },
+    });
+  }
+
+  function renderFactors(data){
+    const overall = data.length ? (data.filter(isHit).length / data.length) * 100 : 0;
+    const factorCols = [["multiplayer", "Multiplayer"], ["thai_language", "ภาษาไทย"], ["early_access", "Early Access"], ["steam_deck", "Steam Deck"], ["is_free", "F2P/ขายขาด"], ["developer_tier", "ผู้พัฒนา"]];
+    const items = [];
+    factorCols.forEach(([c, lab]) => {
+      if (!cols.has(c)) return;
+      const g = new Map();
+      data.forEach((r) => { const v = r[c]; if (v === "" || v === null || v === undefined) return; const o = g.get(v) || [0, 0]; o[0]++; if (isHit(r)) o[1]++; g.set(v, o); });
+      g.forEach(([n, h], v) => { if (n >= 20) items.push({ label: `${lab} = ${v}`, diff: (h / n) * 100 - overall, n }); });
+    });
+    items.sort((a, b) => b.diff - a.diff);
+    const pos = cssVar("--s1"), neg = cssVar("--neg");
+    upsert("factor", "cFactor", {
+      type: "bar",
+      data: { labels: items.map((i) => i.label), datasets: [{ label: "ส่วนต่าง (จุด %)", data: items.map((i) => i.diff), backgroundColor: items.map((i) => (i.diff >= 0 ? pos : neg)), borderRadius: 4, maxBarThickness: 22 }] },
+      options: {
+        indexAxis: "y",
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `${c.parsed.x >= 0 ? "+" : ""}${c.parsed.x.toFixed(1)} จุด % เทียบค่ารวม ${overall.toFixed(1)}% (${items[c.dataIndex].n} เกม)` } } },
+        scales: {
+          x: { ticks: { callback: (v) => (v > 0 ? "+" : "") + v } },
+          y: { ticks: { callback: function(v){ const t = this.getLabelForValue(v); return window.innerWidth < 600 && t.length > 16 ? t.slice(0, 15) + "…" : t; } } },
+        },
+      },
+    });
+  }
+
+  function renderTier(data){
+    const tiers = ["Indie", "AA", "AAA"].filter((t) => data.some((r) => r.developer_tier === t));
+    const cnt = tiers.map((t) => data.filter((r) => r.developer_tier === t).length);
+    const rev = tiers.map((t) => data.filter((r) => r.developer_tier === t).reduce((s, r) => s + (num(r.estimated_revenue_usd) || 0), 0));
+    const sc = cnt.reduce((a, b) => a + b, 0) || 1, sr = rev.reduce((a, b) => a + b, 0) || 1;
+    const colors = [cssVar("--s1"), cssVar("--s2"), cssVar("--s3")];
+    upsert("tier", "cTier", {
+      type: "bar",
+      data: {
+        labels: ["% ของจำนวนเกม", "% ของรายได้"],
+        datasets: tiers.map((t, i) => ({ label: t, data: [(cnt[i] / sc) * 100, (rev[i] / sr) * 100], backgroundColor: colors[i], borderColor: cssVar("--surface"), borderWidth: 2, maxBarThickness: 70 })),
+      },
+      options: {
+        plugins: { legend: { position: "bottom" }, tooltip: { callbacks: { label: (c) => `${c.dataset.label}: ${c.parsed.y.toFixed(1)}%` } } },
+        scales: { x: { stacked: true }, y: { stacked: true, max: 100, ticks: { callback: (v) => v + "%" } } },
+      },
+    });
+  }
+
+  function renderTop(data){
+    const top = data.filter((r) => !Number.isNaN(num(r.estimated_revenue_usd))).sort((a, b) => num(b.estimated_revenue_usd) - num(a.estimated_revenue_usd)).slice(0, 10);
+    const c = (k) => cols.has(k);
+    $("topTable").innerHTML = `<thead><tr><th>#</th><th>เกม</th>${c("primary_genre") ? "<th>แนว</th>" : ""}${c("developer_tier") ? "<th>ผู้พัฒนา</th>" : ""}
+      <th class="num">ราคา</th><th class="num">ผู้เล่น</th><th class="num">รีวิว</th><th class="num">รายได้ประมาณการ</th></tr></thead><tbody>` +
+      top.map((r, i) => `<tr><td>${i + 1}</td><td>${esc(r.name)} ${isHit(r) ? '<span class="badge">Hit</span>' : ""}</td>
+        ${c("primary_genre") ? `<td>${esc(r.primary_genre)}</td>` : ""}${c("developer_tier") ? `<td>${esc(r.developer_tier)}</td>` : ""}
+        <td class="num">${num(r.price_usd) === 0 ? "Free" : "$" + num(r.price_usd)}</td><td class="num">${compact(num(r.owners_estimate))}</td>
+        <td class="num">${Number.isNaN(num(r.review_pct)) ? "—" : num(r.review_pct) + "%"}</td><td class="num">$${compact(num(r.estimated_revenue_usd))}</td></tr>`).join("") + "</tbody>";
+  }
+
+  // ---------- events ----------
+  $("sourceType").addEventListener("change", (e) => {
+    const csv = e.target.value === "csv";
+    $("urlLabel").firstChild.textContent = csv ? "ลิงก์ไฟล์ CSV " : "ลิงก์ Google Sheet หรือ Sheet ID ";
+    $("sheetInput").placeholder = csv ? "https://raw.githubusercontent.com/<user>/<repo>/<branch>/data/games.csv" : "https://docs.google.com/spreadsheets/d/...";
+    $("tabLabel").classList.toggle("hidden", csv);
+    $("sheetSteps").classList.toggle("hidden", csv);
+    $("csvSteps").classList.toggle("hidden", !csv);
+  });
+
+  $("connectBtn").addEventListener("click", () => {
+    const type = $("sourceType").value, raw = $("sheetInput").value.trim();
+    const box = $("errorBox");
+    if (type === "sheet"){
+      const id = extractSheetId(raw);
+      if (!id){ box.textContent = "ใส่ลิงก์ Google Sheet หรือ Sheet ID ให้ถูกต้องก่อนนะ"; box.classList.remove("hidden"); return; }
+      source = { type, id, tab: $("tabInput").value.trim(), url: "" };
+      $("connectedName").textContent = source.tab || "Google Sheet " + id.slice(0, 8) + "…";
+    } else {
+      if (!/^https?:\/\//.test(raw)){ box.textContent = "ใส่ลิงก์ไฟล์ CSV ที่ขึ้นต้นด้วย https:// ก่อนนะ"; box.classList.remove("hidden"); return; }
+      source = { type, id: "", tab: "", url: raw };
+      $("connectedName").textContent = raw.split("/").pop();
+    }
+    isDemo = false;
+    intervalSec = Math.max(5, Number($("intervalInput").value) || 30);
+    resetState();
+    startPolling();
+  });
+
+  $("demoBtn").addEventListener("click", () => {
+    if (!initDemo()){
+      const box = $("errorBox");
+      box.innerHTML = "ไม่พบไฟล์ข้อมูลเดโม่ <code>../data/demo-data.js</code> — เปิดไฟล์นี้จากในโฟลเดอร์ <b>dashboard/</b> ของโปรเจค หรือเชื่อมต่อ Google Sheet แทน";
+      box.classList.remove("hidden");
+      return;
+    }
+    isDemo = true;
+    source = { type: "demo" };
+    intervalSec = 6;
+    $("connectedName").textContent = "ข้อมูลเดโม่ (จำลองเกมใหม่ทุก ~6 วินาที)";
+    resetState();
+    startPolling();
+  });
+
+  $("disconnectBtn").addEventListener("click", () => {
+    stopPolling();
+    resetState();
+    $("dash").classList.add("hidden");
+    $("configPanel").classList.remove("hidden");
+    $("errorBox").classList.add("hidden");
+    setStatus("", "ยังไม่เชื่อมต่อ");
+  });
+
+  $("themeBtn").addEventListener("click", () => {
+    const next = isDarkNow() ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem("gm-theme", next); } catch (e) { /* storage blocked */ }
+    chartDefaults();
+    Object.keys(charts).forEach((k) => { charts[k].destroy(); delete charts[k]; });
+    if (rows.length) renderAll(0);
+  });
+
+  // ---------- init ----------
+  try { const t = localStorage.getItem("gm-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) { /* storage blocked */ }
+  if (window.Chart) chartDefaults();
+  setStatus("", "ยังไม่เชื่อมต่อ");
+  // รองรับลิงก์แบบ ?sheet=<id>&tab=<name>&interval=30 หรือ ?csv=<url> หรือ ?demo=1 เพื่อแชร์แดชบอร์ดที่เชื่อมต่อไว้แล้ว
+  const q = new URLSearchParams(location.search);
+  if (q.get("interval")) $("intervalInput").value = q.get("interval");
+  if (q.get("demo")) $("demoBtn").click();
+  else if (q.get("sheet")){ $("sheetInput").value = q.get("sheet"); $("tabInput").value = q.get("tab") || ""; $("connectBtn").click(); }
+  else if (q.get("csv")){ $("sourceType").value = "csv"; $("sourceType").dispatchEvent(new Event("change")); $("sheetInput").value = q.get("csv"); $("connectBtn").click(); }
+})();
+</script>
+</body>
+</html>

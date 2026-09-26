@@ -60,6 +60,22 @@ python scripts/generate_demo_data.py
 | `analysis/output/*.csv` | ตารางสรุป + ข้อมูลที่ clean แล้ว สำหรับนำเข้า Power BI / Excel |
 | [`scripts/fetch_steam_data.py`](scripts/fetch_steam_data.py) | ดึง **ข้อมูลเกมจริง** จาก SteamSpy API → `data/steam_real.csv` (คอลัมน์เหมือนชุดเดโม่) |
 
+### 🔴 Live Dashboard (`dashboard/game-market-live.html`)
+
+แดชบอร์ดตลาดเกมที่ **อัปเดตตัวเองอัตโนมัติ** (ตั้งรอบได้ มีตัวนับถอยหลัง sync) ไม่ต้องมีเซิร์ฟเวอร์ เลือกแหล่งข้อมูลได้ 3 แบบ:
+
+| แหล่งข้อมูล | วิธีใช้ |
+|---|---|
+| **Google Sheet** | นำเข้า `data/games.csv` ลง Google Sheet → แชร์ "ทุกคนที่มีลิงก์ - ผู้มีสิทธิ์อ่าน" → วางลิงก์ เพิ่ม/แก้แถวใน Sheet แล้วแดชบอร์ดอัปเดตเอง |
+| **ลิงก์ CSV** | เช่น GitHub raw URL — commit ไฟล์ใหม่แล้วแดชบอร์ดดึงข้อมูลล่าสุดเอง |
+| **เดโม่** | กดปุ่มเดโม่ ระบบจำลองเกมใหม่ทยอยเข้ามาทุก ~6 วินาที |
+
+มี KPI (อัตราฮิต, มัธยฐานผู้เล่น/รายได้), Opportunity matrix, เกมใหม่ต่อปี, อัตราฮิตตามราคา, ปัจจัยเกมฮิต, สัดส่วนรายได้ Indie/AA/AAA, Top 10 และฟีดเกมที่เพิ่มเข้ามาล่าสุด พร้อมตัวกรอง ธีมมืด และรองรับมือถือ
+
+แชร์แดชบอร์ดที่เชื่อมต่อไว้แล้วด้วยพารามิเตอร์ URL: `?sheet=<ลิงก์หรือ ID>&tab=<ชื่อแท็บ>&interval=30` · `?csv=<URL>` · `?demo=1`
+
+> ⚠️ วิธีนี้อ่านข้อมูลผ่านลิงก์สาธารณะ — ใช้กับข้อมูลตลาดเกมได้ แต่ห้ามใช้กับข้อมูลส่วนตัว/ข้อมูลลับ
+
 ```bash
 pip install pandas matplotlib jupyter requests
 python scripts/fetch_steam_data.py --pages 1 --details 500 --release   # (ถ้าต้องการข้อมูลจริง ~15 นาที)
@@ -111,5 +127,6 @@ jupyter notebook analysis/game_market_analysis.ipynb                   # เป�
 ├── scripts/generate_demo_data.py   สคริปต์สร้างข้อมูลเดโม่
 ├── scripts/fetch_steam_data.py     ดึงข้อมูลเกมจริงจาก SteamSpy
 ├── analysis/                       notebook วิเคราะห์ตลาดเกม + กราฟ + ตารางสรุป
+├── dashboard/game-market-live.html แดชบอร์ดตลาดเกมแบบ Live
 └── docs/game-market-project.md     คู่มือโปรเจควิเคราะห์ตลาดเกม
 ```
